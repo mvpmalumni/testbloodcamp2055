@@ -1,83 +1,80 @@
 [
   {
     "name": "V.N. Lahoti Vidyarthi Bhavan",
-    "city": "Pune",
-    "area": "Shivajinagar",
-    "lat": 18.528871486042668,
-    "lng": 73.83967864304468,
-    "time": "14 Dec, 09:00-16:00",
-    "contact": "+91-90000-00101"
+    "lat": 18.5288714860426,
+    "lng": 73.8396786430446,
+    "dates": ["2025-12-14"]
   },
   {
-    "name": "MVPM Laxmi Boys Hostel (Mukund Nagar)",
-    "city": "Pune",
-    "area": "Mukund Nagar",
-    "lat": 18.49310519786457,
+    "name": "MVPM Laxmi Boys Hostel",
+    "lat": 18.4931051978645,
     "lng": 73.8613581711641,
-    "time": "14 Dec, 09:00-16:00",
-    "contact": "+91-90000-00102"
+    "dates": ["2025-12-14"]
   },
   {
     "name": "MVPM Baner Boys Hostel",
-    "city": "Pune",
-    "area": "Baner",
-    "lat": 18.568274536664084,
+    "lat": 18.568274536664,
     "lng": 73.7781918,
-    "time": "14 Dec, 09:00-16:00",
-    "contact": "+91-90000-00103"
+    "dates": ["2025-12-14"]
   },
   {
-    "name": "Mahesh Vidyalaya Kothrud",
-    "city": "Pune",
-    "area": "Kothrud",
+    "name": "Mahesh Vidyalaya",
     "lat": 18.5003417936853,
-    "lng": 73.80267753792258,
-    "time": "14 Dec, 09:00-16:00",
-    "contact": "+91-90000-00104"
+    "lng": 73.8026775379225,
+    "dates": ["2025-12-14"]
   },
   {
-    "name": "Dadar Blood Center",
-    "city": "Mumbai",
-    "area": "Dadar",
-    "lat": 19.017,
-    "lng": 72.843,
-    "time": "14 Dec, 09:00-15:00",
-    "contact": "+91-90000-00201"
+    "name": "Shri Laxmibai Dagdusheth Halwai Datta Mandir",
+    "lat": 18.526067476197493,
+    "lng": 73.8561434901767,
+    "dates": ["2025-12-03"]
   },
   {
-    "name": "Andheri Blood Bank",
-    "city": "Mumbai",
-    "area": "Andheri West",
-    "lat": 19.136,
-    "lng": 72.829,
-    "time": "14 Dec, 10:00-16:00",
-    "contact": "+91-90000-00202"
+    "name": "Bizsolindia Services Private Limited",
+    "lat": 18.562754200165553,
+    "lng": 73.78316044781928,
+    "dates": ["2025-12-13"]
   },
   {
-    "name": "Nagpur City Blood Center",
-    "city": "Nagpur",
-    "area": "Dharampeth",
-    "lat": 21.145,
-    "lng": 79.088,
-    "time": "14 Dec, 09:00-13:00",
-    "contact": "+91-90000-00301"
+    "name": "Prestige Point CA, CS, CMA",
+    "lat": 18.510030867596655,
+    "lng": 73.85476203710516,
+    "dates": ["2025-12-13"]
   },
   {
-    "name": "Nashik Central Blood Center",
-    "city": "Nashik",
-    "area": "Panchavati",
-    "lat": 20.011,
-    "lng": 73.791,
-    "time": "14 Dec, 09:00-14:00",
-    "contact": "+91-90000-00401"
+    "name": "Rathi Rathi and Co",
+    "lat": 18.498030163129254,
+    "lng": 73.8350446883134,
+    "dates": ["2025-12-13"]
   },
   {
-    "name": "Kolhapur Blood Donation Unit",
-    "city": "Kolhapur",
-    "area": "Shahupuri",
-    "lat": 16.695,
-    "lng": 74.233,
-    "time": "14 Dec, 09:00-13:00",
-    "contact": "+91-90000-00501"
+    "name": "Latur",
+    "lat": 18.59616485747221,
+    "lng": 76.53626148234731,
+    "dates": ["2025-12-12", "2025-12-14"]
+  },
+  {
+    "name": "Solapur",
+    "lat": 17.693951689968458,
+    "lng": 75.9031943548523,
+    "dates": ["2025-12-14"]
+  },
+  {
+    "name": "Beed",
+    "lat": 19.02829477085709,
+    "lng": 75.74300169762824,
+    "dates": ["2025-12-14"]
+  },
+  {
+    "name": "Ahilyanagar",
+    "lat": 19.09513601813925,
+    "lng": 74.74804718041068,
+    "dates": ["2025-12-14"]
+  },
+  {
+    "name": "Greenvissage",
+    "lat": 18.53694145469324,
+    "lng": 73.85124700908749,
+    "dates": ["2025-12-12"]
   }
 ]
