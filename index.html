@@ -99,7 +99,6 @@ function loadDates() {
 function filterCenters() {
   const selected = document.getElementById("dateSelect").value;
   filteredCenters = allCenters.filter(c => c.date === selected);
-
   refreshMarkers();
 }
 
@@ -162,8 +161,17 @@ document.getElementById("locBtn").onclick = function () {
       const lat = pos.coords.latitude;
       const lng = pos.coords.longitude;
 
+      // ADDING BLUE "YOU ARE HERE" MARKER
       if (!userMarker) {
-        userMarker = L.marker([lat, lng]).addTo(map);
+        userMarker = L.marker([lat, lng], {
+          icon: L.icon({
+            iconUrl: "https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png",
+            iconSize: [32, 32]
+          })
+        })
+        .addTo(map)
+        .bindPopup("You Are Here")
+        .openPopup();
       } else {
         userMarker.setLatLng([lat, lng]);
       }
