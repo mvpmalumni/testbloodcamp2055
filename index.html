@@ -194,11 +194,15 @@ document.getElementById("locBtn").onclick = function () {
             shadowSize: [41, 41]
           })
         }).addTo(map)
-          .bindPopup("<b>📍 You are here</b>")
+          .bindPopup("<b>📍 You are here</b>", {
+            closeButton: false,
+            autoClose: false,
+            closeOnClick: false
+          })
           .openPopup();
       } else {
         userMarker.setLatLng([lat, lng]);
-        userMarker.bindPopup("<b>📍 You are here</b>").openPopup();
+        userMarker.getPopup().openOn(map);
       }
 
       const place = await reverseGeo(lat, lng);
@@ -237,7 +241,11 @@ function showNearest(lat, lng, place) {
     fillOpacity: 0.8
   })
   .addTo(map)
-  .bindPopup(`<b style="color:red;">🎯 Nearest Location</b><br><b>${nearest.name}</b><br>${nearest.area}, ${nearest.city}`)
+  .bindPopup(`<b style="color:red;">🎯 Nearest Location</b><br><b>${nearest.name}</b><br>${nearest.area}, ${nearest.city}`, {
+    closeButton: false,
+    autoClose: false,
+    closeOnClick: false
+  })
   .openPopup();
 
   // Show popup on hover
