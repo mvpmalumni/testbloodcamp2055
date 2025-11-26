@@ -99,6 +99,7 @@ function loadDates() {
 function filterCenters() {
   const selected = document.getElementById("dateSelect").value;
   filteredCenters = allCenters.filter(c => c.date === selected);
+
   refreshMarkers();
 }
 
@@ -126,7 +127,7 @@ function initMap() {
     attribution: "© OpenStreetMap"
   }).addTo(map);
 
-  filterCenters(); // initial load
+  filterCenters();
 
   map.on("click", async e => {
     const place = await reverseGeo(e.latlng.lat, e.latlng.lng);
@@ -161,17 +162,8 @@ document.getElementById("locBtn").onclick = function () {
       const lat = pos.coords.latitude;
       const lng = pos.coords.longitude;
 
-      // ADDING BLUE "YOU ARE HERE" MARKER
       if (!userMarker) {
-        userMarker = L.marker([lat, lng], {
-          icon: L.icon({
-            iconUrl: "https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png",
-            iconSize: [32, 32]
-          })
-        })
-        .addTo(map)
-        .bindPopup("You Are Here")
-        .openPopup();
+        userMarker = L.marker([lat, lng]).addTo(map);
       } else {
         userMarker.setLatLng([lat, lng]);
       }
@@ -201,17 +193,26 @@ function showNearest(lat, lng, place) {
 
   if (!nearest) return;
 
+  // Remove old highlight marker
   if (nearestMarker) map.removeLayer(nearestMarker);
 
+  // Add new highlight marker
   nearestMarker = L.circleMarker([nearest.lat, nearest.lng], {
     radius: 12,
     color: "red",
     fillColor: "red",
     fillOpacity: 0.8
   })
-    .addTo(map)
-    .bindPopup("Nearest Location")
-    .openPopup();
+  .addTo(map)
+  .bindPopup(`<b>${nearest.name}</b> - Nearest Location`);
+
+  // SHOW POPUP ON HOVER
+  nearestMarker.on("mouseover", function () {
+    this.openPopup();
+  });
+  nearestMarker.on("mouseout", function () {
+    this.closePopup();
+  });
 
   map.setView([nearest.lat, nearest.lng], 13);
 
@@ -239,8 +240,8 @@ function distance(a, b, c, d) {
   const s =
     Math.sin(dLat / 2) ** 2 +
     Math.cos(a * Math.PI / 180) *
-      Math.cos(c * Math.PI / 180) *
-      Math.sin(dLon / 2) ** 2;
+    Math.cos(c * Math.PI / 180) *
+    Math.sin(dLon / 2) ** 2;
   return R * 2 * Math.atan2(Math.sqrt(s), Math.sqrt(1 - s));
 }
 </script>
