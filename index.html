@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Mega Blood Donation CAMP 2025</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<style>
+  body { margin:0; font-family: Arial, sans-serif; }
+  header {
+    background:#c62828; color:white; padding:14px;
+    text-align:center; font-size:18px; font-weight:bold;
+    position:relative;
+  }
+  #locBtn {
+    position:absolute; right:10px; top:10px;
+    background:white; color:#c62828; border:none;
+    padding:8px 10px; font-size:14px; border-radius:6px;
+    cursor:pointer; font-weight:bold;
+  }
+  #dateSelect {
+    width:100%; padding:10px; margin:5px 0;
+    font-size:16px; border-radius:5px;
+  }
+  #map { height:65vh; width:100%; }
+  #panel {
+    height:35vh; background:#fff; border-top:2px solid #ddd;
+    padding:12px; display:none;
+  }
+  .title { font-weight:bold; font-size:17px; margin-bottom:6px; }
+  .meta { color:#555; margin-bottom:6px; }
+  .dist { font-weight:bold; margin-bottom:10px; }
+  #navBtn {
+    background:#1565c0; color:white; padding:10px 12px;
+    border-radius:6px; text-decoration:none; font-weight:bold;
+    display:inline-block;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  Mega Blood Donation CAMP 2025<br>
+  MVPM Alumni Across Maharashtra
+  <button id="locBtn">Live Track</button>
+</header>
+
+<select id="dateSelect"></select>
+<div id="map"></div>
+
+<div id="panel">
+  <div class="title" id="cName"></div>
+  <div class="meta" id="cAddr"></div>
+  <div class="dist" id="cDist"></div>
+  <a id="navBtn" href="#" target="_blank">Navigate</a>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+let allCenters = [];
+let filteredCenters = [];
+let map, userMarker = null, nearestMarker = null;
+let watchID = null;
+
+// Load JSON
+fetch("centres.json").then(r=>r.json()).then(data=>{
+  allCenters = data;
+  loadDates();
+  initMap();
+});
+
+// Load dates into dropdown
+function loadDates(){
+  const dates = [...new Set(allCenters.map(c=>c.date))];
+  const select = document.getElementById("dateSelect");
+
+  dates.forEach(d=>{
+    const opt = document.createElement("option");
+    opt.value = d;
+    opt.textContent = "📅 " + d;
+    select.appendChild(opt);
+  });
+
+  select.onchange = filterCenters;
+  filterCenters();
+}
+
+// Filter locations by selected date
+function filterCenters(){
+  const selected = document.getElementById("dateSelect").value;
+
+  filteredCenters = allCenters.filter(c=>c.date === selected);
+
+  if(map) map.eachLayer(l=>{
+    if(l instanceof L.Marker && l !== userMarker) map.removeLayer(l);
+  });
+
+  filteredCenters.forEach(c=>{
+    L.marker([c.lat, c.lng]).addTo(map)
+     .bindPopup(`<b>${c.name}</b><br>${c.area}, ${c.city}`);
+  });
+}
+
+// Map Init
+function initMap(){
+  map = L.map('map').setView([19.75, 75.71], 6);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap"}).addTo(map);
+
+  filterCenters();
+
+  map.on("click", async e=>{
+    const place = await reverseGeo(e.latlng.lat, e.latlng.lng);
+    showNearest(e.latlng.lat, e.latlng.lng, place);
+  });
+}
+
+// Reverse Geo
+async function reverseGeo(lat, lng){
+  try{
+    let r = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}`);
+    let j = await r.json();
+    return j.display_name || "Unknown Location";
+  }catch{return "Unknown Location";}
+}
+
+// LIVE TRACK BUTTON
+document.getElementById("locBtn").onclick = function(){
+  if(watchID){ 
+    navigator.geolocation.clearWatch(watchID);
+    watchID = null;
+    alert("Live tracking stopped");
+    return;
+  }
+
+  watchID = navigator.geolocation.watchPosition(async pos=>{
+    const lat = pos.coords.latitude;
+    const lng = pos.coords.longitude;
+
+    if(!userMarker){
+      userMarker = L.marker([lat,lng],{color:"blue"}).addTo(map);
+    } else {
+      userMarker.setLatLng([lat,lng]);
+    }
+
+    const place = await reverseGeo(lat, lng);
+    showNearest(lat, lng, place);
+
+  }, err=>alert("GPS Error"), {enableHighAccuracy:true, maximumAge:0, timeout:5000});
+};
+
+// Find & Highlight Nearest Center
+function showNearest(lat, lng, place){
+  let minD = Infinity, nearest = null;
+
+  filteredCenters.forEach(c=>{
+    let d = distance(lat,lng,c.lat,c.lng);
+    if(d < minD){ minD = d; nearest = c; }
+  });
+
+  if(nearest){
+
+    if(nearestMarker) map.removeLayer(nearestMarker);
+
+    nearestMarker = L.circleMarker([nearest.lat, nearest.lng],{
+      radius:12, color:"red", fillColor:"red", fillOpacity:0.8
+    }).addTo(map).bindPopup("Nearest Location").openPopup();
+
+    map.setView([nearest.lat, nearest.lng], 13);
+
+    showPanel(nearest, minD, place);
+  }
+}
+
+function showPanel(center, dist, place){
+  document.getElementById("cName").textContent = center.name;
+  document.getElementById("cAddr").textContent = place;
+  document.getElementById("cDist").textContent = "Distance: " + dist.toFixed(2) + " km";
+  document.getElementById("navBtn").href = `https://www.google.com/maps/dir/?api=1&destination=${center.lat},${center.lng}`;
+  document.getElementById("panel").style.display = "block";
+}
+
+// Distance
+function distance(a,b,c,d){
+  const R = 6371;
+  const dLat = (c-a)*Math.PI/180;
+  const dLon = (d-b)*Math.PI/180;
+  const s = Math.sin(dLat/2)**2 + Math.cos(a*Math.PI/180)*Math.cos(c*Math.PI/180)*Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(s), Math.sqrt(1-s));
+}
+</script>
+
+</body>
+</html>
