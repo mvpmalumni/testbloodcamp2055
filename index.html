@@ -70,6 +70,7 @@ let allCenters = [];
 let filteredCenters = [];
 let map, userMarker = null, nearestMarker = null;
 let watchID = null;
+let centerMarkers = []; // Store all center markers
 
 // Load centres JSON
 fetch("centres.json")
@@ -107,19 +108,31 @@ function filterCenters() {
 function refreshMarkers() {
   if (!map) return;
 
-  map.eachLayer(l => {
-    if (l instanceof L.Marker && l !== userMarker) map.removeLayer(l);
-    if (l instanceof L.CircleMarker) map.removeLayer(l);
-  });
+  // Remove old center markers
+  centerMarkers.forEach(m => map.removeLayer(m));
+  centerMarkers = [];
 
+  // Remove old nearest marker
+  if (nearestMarker) {
+    map.removeLayer(nearestMarker);
+    nearestMarker = null;
+  }
+
+  // Add new markers for filtered centers
   filteredCenters.forEach(c => {
-    const m = L.marker([c.lat, c.lng])
+    const marker = L.marker([c.lat, c.lng])
       .addTo(map)
       .bindPopup(`<b>${c.name}</b><br>${c.area}, ${c.city}<br>${c.date}`);
+    
+    // FEATURE 3: Show popup on hover
+    marker.on("mouseover", function () {
+      this.openPopup();
+    });
+    marker.on("mouseout", function () {
+      this.closePopup();
+    });
 
-    // SHOW POPUP ON HOVER
-    m.on("mouseover", function () { this.openPopup(); });
-    m.on("mouseout", function () { this.closePopup(); });
+    centerMarkers.push(marker);
   });
 }
 
@@ -157,25 +170,36 @@ document.getElementById("locBtn").onclick = function () {
   if (watchID) {
     navigator.geolocation.clearWatch(watchID);
     watchID = null;
+    this.textContent = "Live Track";
     alert("Live tracking stopped");
     return;
   }
+
+  this.textContent = "Stop Track";
 
   watchID = navigator.geolocation.watchPosition(
     async pos => {
       const lat = pos.coords.latitude;
       const lng = pos.coords.longitude;
 
+      // FEATURE 2: Update user marker with "You are here" text
       if (!userMarker) {
         userMarker = L.marker([lat, lng], {
-        icon: L.icon({
-            iconUrl: "https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png",
-            iconSize: [32, 32]
-        })
-    }).addTo(map).bindPopup("<b>You Are Here</b>");
+          icon: L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+          })
+        }).addTo(map)
+          .bindPopup("<b>📍 You are here</b>")
+          .openPopup();
       } else {
-    userMarker.setLatLng([lat, lng]);
-}
+        userMarker.setLatLng([lat, lng]);
+        userMarker.bindPopup("<b>📍 You are here</b>").openPopup();
+      }
 
       const place = await reverseGeo(lat, lng);
       showNearest(lat, lng, place);
@@ -205,18 +229,18 @@ function showNearest(lat, lng, place) {
   // Remove old highlight marker
   if (nearestMarker) map.removeLayer(nearestMarker);
 
-  // Add new highlight marker
+  // FEATURE 1 & 2: Add red circle marker with "Nearest Location" text
   nearestMarker = L.circleMarker([nearest.lat, nearest.lng], {
-    radius: 14,
+    radius: 12,
     color: "red",
-    weight: 4,
     fillColor: "red",
-    fillOpacity: 0.9
-})
-.addTo(map)
-.bindPopup(`<b>${nearest.name}</b><br>(Nearest Location)`);
+    fillOpacity: 0.8
+  })
+  .addTo(map)
+  .bindPopup(`<b style="color:red;">🎯 Nearest Location</b><br><b>${nearest.name}</b><br>${nearest.area}, ${nearest.city}`)
+  .openPopup();
 
-  // SHOW POPUP ON HOVER
+  // Show popup on hover
   nearestMarker.on("mouseover", function () {
     this.openPopup();
   });
