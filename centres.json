@@ -1,0 +1,83 @@
+[
+  {
+    "name": "V.N. Lahoti Vidyarthi Bhavan",
+    "city": "Pune",
+    "area": "Shivajinagar",
+    "lat": 18.528871486042668,
+    "lng": 73.83967864304468,
+    "time": "14 Dec, 09:00-16:00",
+    "contact": "+91-90000-00101"
+  },
+  {
+    "name": "MVPM Laxmi Boys Hostel (Mukund Nagar)",
+    "city": "Pune",
+    "area": "Mukund Nagar",
+    "lat": 18.49310519786457,
+    "lng": 73.8613581711641,
+    "time": "14 Dec, 09:00-16:00",
+    "contact": "+91-90000-00102"
+  },
+  {
+    "name": "MVPM Baner Boys Hostel",
+    "city": "Pune",
+    "area": "Baner",
+    "lat": 18.568274536664084,
+    "lng": 73.7781918,
+    "time": "14 Dec, 09:00-16:00",
+    "contact": "+91-90000-00103"
+  },
+  {
+    "name": "Mahesh Vidyalaya Kothrud",
+    "city": "Pune",
+    "area": "Kothrud",
+    "lat": 18.5003417936853,
+    "lng": 73.80267753792258,
+    "time": "14 Dec, 09:00-16:00",
+    "contact": "+91-90000-00104"
+  },
+  {
+    "name": "Dadar Blood Center",
+    "city": "Mumbai",
+    "area": "Dadar",
+    "lat": 19.017,
+    "lng": 72.843,
+    "time": "14 Dec, 09:00-15:00",
+    "contact": "+91-90000-00201"
+  },
+  {
+    "name": "Andheri Blood Bank",
+    "city": "Mumbai",
+    "area": "Andheri West",
+    "lat": 19.136,
+    "lng": 72.829,
+    "time": "14 Dec, 10:00-16:00",
+    "contact": "+91-90000-00202"
+  },
+  {
+    "name": "Nagpur City Blood Center",
+    "city": "Nagpur",
+    "area": "Dharampeth",
+    "lat": 21.145,
+    "lng": 79.088,
+    "time": "14 Dec, 09:00-13:00",
+    "contact": "+91-90000-00301"
+  },
+  {
+    "name": "Nashik Central Blood Center",
+    "city": "Nashik",
+    "area": "Panchavati",
+    "lat": 20.011,
+    "lng": 73.791,
+    "time": "14 Dec, 09:00-14:00",
+    "contact": "+91-90000-00401"
+  },
+  {
+    "name": "Kolhapur Blood Donation Unit",
+    "city": "Kolhapur",
+    "area": "Shahupuri",
+    "lat": 16.695,
+    "lng": 74.233,
+    "time": "14 Dec, 09:00-13:00",
+    "contact": "+91-90000-00501"
+  }
+]

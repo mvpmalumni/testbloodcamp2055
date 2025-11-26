@@ -1,0 +1,9002 @@
+[
+  {
+    "area": "Baner",
+    "city": "Pune",
+    "lat": 18.5216,
+    "lng": 73.8578
+  },
+  {
+    "area": "Baner Road",
+    "city": "Pune",
+    "lat": 18.5189,
+    "lng": 73.85525
+  },
+  {
+    "area": "Baner East",
+    "city": "Pune",
+    "lat": 18.5222,
+    "lng": 73.8585
+  },
+  {
+    "area": "Baner West",
+    "city": "Pune",
+    "lat": 18.5183,
+    "lng": 73.85455
+  },
+  {
+    "area": "Baner Market",
+    "city": "Pune",
+    "lat": 18.5228,
+    "lng": 73.8592
+  },
+  {
+    "area": "Balewadi",
+    "city": "Pune",
+    "lat": 18.5228,
+    "lng": 73.8545
+  },
+  {
+    "area": "Balewadi Road",
+    "city": "Pune",
+    "lat": 18.5177,
+    "lng": 73.85925
+  },
+  {
+    "area": "Balewadi East",
+    "city": "Pune",
+    "lat": 18.5234,
+    "lng": 73.8538
+  },
+  {
+    "area": "Balewadi West",
+    "city": "Pune",
+    "lat": 18.5171,
+    "lng": 73.85995
+  },
+  {
+    "area": "Balewadi Market",
+    "city": "Pune",
+    "lat": 18.524,
+    "lng": 73.8531
+  },
+  {
+    "area": "Bavdhan",
+    "city": "Pune",
+    "lat": 18.524,
+    "lng": 73.86
+  },
+  {
+    "area": "Bavdhan Road",
+    "city": "Pune",
+    "lat": 18.5165,
+    "lng": 73.85305
+  },
+  {
+    "area": "Bavdhan East",
+    "city": "Pune",
+    "lat": 18.5246,
+    "lng": 73.8607
+  },
+  {
+    "area": "Bavdhan West",
+    "city": "Pune",
+    "lat": 18.5159,
+    "lng": 73.85235
+  },
+  {
+    "area": "Bavdhan Market",
+    "city": "Pune",
+    "lat": 18.5252,
+    "lng": 73.8614
+  },
+  {
+    "area": "Kothrud",
+    "city": "Pune",
+    "lat": 18.5252,
+    "lng": 73.8523
+  },
+  {
+    "area": "Kothrud Road",
+    "city": "Pune",
+    "lat": 18.5153,
+    "lng": 73.86145
+  },
+  {
+    "area": "Kothrud East",
+    "city": "Pune",
+    "lat": 18.5258,
+    "lng": 73.8516
+  },
+  {
+    "area": "Kothrud West",
+    "city": "Pune",
+    "lat": 18.5147,
+    "lng": 73.86215
+  },
+  {
+    "area": "Kothrud Market",
+    "city": "Pune",
+    "lat": 18.5264,
+    "lng": 73.8509
+  },
+  {
+    "area": "Aundh",
+    "city": "Pune",
+    "lat": 18.5264,
+    "lng": 73.8622
+  },
+  {
+    "area": "Aundh Road",
+    "city": "Pune",
+    "lat": 18.5141,
+    "lng": 73.85085
+  },
+  {
+    "area": "Aundh East",
+    "city": "Pune",
+    "lat": 18.527,
+    "lng": 73.8629
+  },
+  {
+    "area": "Aundh West",
+    "city": "Pune",
+    "lat": 18.5135,
+    "lng": 73.85015
+  },
+  {
+    "area": "Aundh Market",
+    "city": "Pune",
+    "lat": 18.5276,
+    "lng": 73.8636
+  },
+  {
+    "area": "Pimpri",
+    "city": "Pune",
+    "lat": 18.5276,
+    "lng": 73.8501
+  },
+  {
+    "area": "Pimpri Road",
+    "city": "Pune",
+    "lat": 18.5129,
+    "lng": 73.86365
+  },
+  {
+    "area": "Pimpri East",
+    "city": "Pune",
+    "lat": 18.5282,
+    "lng": 73.8494
+  },
+  {
+    "area": "Pimpri West",
+    "city": "Pune",
+    "lat": 18.5123,
+    "lng": 73.86435
+  },
+  {
+    "area": "Pimpri Market",
+    "city": "Pune",
+    "lat": 18.5288,
+    "lng": 73.8487
+  },
+  {
+    "area": "Chinchwad",
+    "city": "Pune",
+    "lat": 18.5288,
+    "lng": 73.8644
+  },
+  {
+    "area": "Chinchwad Road",
+    "city": "Pune",
+    "lat": 18.5117,
+    "lng": 73.84865
+  },
+  {
+    "area": "Chinchwad East",
+    "city": "Pune",
+    "lat": 18.5294,
+    "lng": 73.8651
+  },
+  {
+    "area": "Chinchwad West",
+    "city": "Pune",
+    "lat": 18.5111,
+    "lng": 73.84795
+  },
+  {
+    "area": "Chinchwad Market",
+    "city": "Pune",
+    "lat": 18.53,
+    "lng": 73.8658
+  },
+  {
+    "area": "Pimple Saudagar",
+    "city": "Pune",
+    "lat": 18.53,
+    "lng": 73.8479
+  },
+  {
+    "area": "Pimple Saudagar Road",
+    "city": "Pune",
+    "lat": 18.5105,
+    "lng": 73.86585
+  },
+  {
+    "area": "Pimple Saudagar East",
+    "city": "Pune",
+    "lat": 18.5306,
+    "lng": 73.8472
+  },
+  {
+    "area": "Pimple Saudagar West",
+    "city": "Pune",
+    "lat": 18.5099,
+    "lng": 73.86655
+  },
+  {
+    "area": "Pimple Saudagar Market",
+    "city": "Pune",
+    "lat": 18.5312,
+    "lng": 73.8465
+  },
+  {
+    "area": "Wakad",
+    "city": "Pune",
+    "lat": 18.5312,
+    "lng": 73.8666
+  },
+  {
+    "area": "Wakad Road",
+    "city": "Pune",
+    "lat": 18.5093,
+    "lng": 73.84645
+  },
+  {
+    "area": "Wakad East",
+    "city": "Pune",
+    "lat": 18.5318,
+    "lng": 73.8673
+  },
+  {
+    "area": "Wakad West",
+    "city": "Pune",
+    "lat": 18.5087,
+    "lng": 73.84575
+  },
+  {
+    "area": "Wakad Market",
+    "city": "Pune",
+    "lat": 18.5324,
+    "lng": 73.868
+  },
+  {
+    "area": "Kalyani Nagar",
+    "city": "Pune",
+    "lat": 18.5324,
+    "lng": 73.8457
+  },
+  {
+    "area": "Kalyani Nagar Road",
+    "city": "Pune",
+    "lat": 18.5081,
+    "lng": 73.86805
+  },
+  {
+    "area": "Kalyani Nagar East",
+    "city": "Pune",
+    "lat": 18.533,
+    "lng": 73.845
+  },
+  {
+    "area": "Kalyani Nagar West",
+    "city": "Pune",
+    "lat": 18.5075,
+    "lng": 73.86875
+  },
+  {
+    "area": "Kalyani Nagar Market",
+    "city": "Pune",
+    "lat": 18.5336,
+    "lng": 73.8443
+  },
+  {
+    "area": "Viman Nagar",
+    "city": "Pune",
+    "lat": 18.5336,
+    "lng": 73.8688
+  },
+  {
+    "area": "Viman Nagar Road",
+    "city": "Pune",
+    "lat": 18.5069,
+    "lng": 73.84425
+  },
+  {
+    "area": "Viman Nagar East",
+    "city": "Pune",
+    "lat": 18.5342,
+    "lng": 73.8695
+  },
+  {
+    "area": "Viman Nagar West",
+    "city": "Pune",
+    "lat": 18.5063,
+    "lng": 73.84355
+  },
+  {
+    "area": "Viman Nagar Market",
+    "city": "Pune",
+    "lat": 18.5348,
+    "lng": 73.8702
+  },
+  {
+    "area": "Hadapsar",
+    "city": "Pune",
+    "lat": 18.5348,
+    "lng": 73.8435
+  },
+  {
+    "area": "Hadapsar Road",
+    "city": "Pune",
+    "lat": 18.5057,
+    "lng": 73.87025
+  },
+  {
+    "area": "Hadapsar East",
+    "city": "Pune",
+    "lat": 18.5354,
+    "lng": 73.8428
+  },
+  {
+    "area": "Hadapsar West",
+    "city": "Pune",
+    "lat": 18.5051,
+    "lng": 73.87095
+  },
+  {
+    "area": "Hadapsar Market",
+    "city": "Pune",
+    "lat": 18.536,
+    "lng": 73.8421
+  },
+  {
+    "area": "Kharadi",
+    "city": "Pune",
+    "lat": 18.536,
+    "lng": 73.871
+  },
+  {
+    "area": "Kharadi Road",
+    "city": "Pune",
+    "lat": 18.5045,
+    "lng": 73.84205
+  },
+  {
+    "area": "Kharadi East",
+    "city": "Pune",
+    "lat": 18.5366,
+    "lng": 73.8717
+  },
+  {
+    "area": "Kharadi West",
+    "city": "Pune",
+    "lat": 18.5039,
+    "lng": 73.84135
+  },
+  {
+    "area": "Kharadi Market",
+    "city": "Pune",
+    "lat": 18.5372,
+    "lng": 73.8724
+  },
+  {
+    "area": "Wagholi",
+    "city": "Pune",
+    "lat": 18.5372,
+    "lng": 73.8413
+  },
+  {
+    "area": "Wagholi Road",
+    "city": "Pune",
+    "lat": 18.5033,
+    "lng": 73.87245
+  },
+  {
+    "area": "Wagholi East",
+    "city": "Pune",
+    "lat": 18.5378,
+    "lng": 73.8406
+  },
+  {
+    "area": "Wagholi West",
+    "city": "Pune",
+    "lat": 18.5027,
+    "lng": 73.87315
+  },
+  {
+    "area": "Wagholi Market",
+    "city": "Pune",
+    "lat": 18.5384,
+    "lng": 73.8399
+  },
+  {
+    "area": "Shivaji Nagar",
+    "city": "Pune",
+    "lat": 18.5384,
+    "lng": 73.8732
+  },
+  {
+    "area": "Shivaji Nagar Road",
+    "city": "Pune",
+    "lat": 18.5021,
+    "lng": 73.83985
+  },
+  {
+    "area": "Shivaji Nagar East",
+    "city": "Pune",
+    "lat": 18.539,
+    "lng": 73.8739
+  },
+  {
+    "area": "Shivaji Nagar West",
+    "city": "Pune",
+    "lat": 18.5015,
+    "lng": 73.83915
+  },
+  {
+    "area": "Shivaji Nagar Market",
+    "city": "Pune",
+    "lat": 18.5396,
+    "lng": 73.8746
+  },
+  {
+    "area": "Camp",
+    "city": "Pune",
+    "lat": 18.5396,
+    "lng": 73.8391
+  },
+  {
+    "area": "Camp Road",
+    "city": "Pune",
+    "lat": 18.5009,
+    "lng": 73.87465
+  },
+  {
+    "area": "Camp East",
+    "city": "Pune",
+    "lat": 18.5402,
+    "lng": 73.8384
+  },
+  {
+    "area": "Camp West",
+    "city": "Pune",
+    "lat": 18.5003,
+    "lng": 73.87535
+  },
+  {
+    "area": "Camp Market",
+    "city": "Pune",
+    "lat": 18.5408,
+    "lng": 73.8377
+  },
+  {
+    "area": "FC Road",
+    "city": "Pune",
+    "lat": 18.5408,
+    "lng": 73.8754
+  },
+  {
+    "area": "FC Road Road",
+    "city": "Pune",
+    "lat": 18.4997,
+    "lng": 73.83765
+  },
+  {
+    "area": "FC Road East",
+    "city": "Pune",
+    "lat": 18.5414,
+    "lng": 73.8761
+  },
+  {
+    "area": "FC Road West",
+    "city": "Pune",
+    "lat": 18.4991,
+    "lng": 73.83695
+  },
+  {
+    "area": "FC Road Market",
+    "city": "Pune",
+    "lat": 18.542,
+    "lng": 73.8768
+  },
+  {
+    "area": "Pashan",
+    "city": "Pune",
+    "lat": 18.542,
+    "lng": 73.8369
+  },
+  {
+    "area": "Pashan Road",
+    "city": "Pune",
+    "lat": 18.4985,
+    "lng": 73.87685
+  },
+  {
+    "area": "Pashan East",
+    "city": "Pune",
+    "lat": 18.5426,
+    "lng": 73.8362
+  },
+  {
+    "area": "Pashan West",
+    "city": "Pune",
+    "lat": 18.4979,
+    "lng": 73.87755
+  },
+  {
+    "area": "Pashan Market",
+    "city": "Pune",
+    "lat": 18.5432,
+    "lng": 73.8355
+  },
+  {
+    "area": "Koregaon Park",
+    "city": "Pune",
+    "lat": 18.5432,
+    "lng": 73.8776
+  },
+  {
+    "area": "Koregaon Park Road",
+    "city": "Pune",
+    "lat": 18.4973,
+    "lng": 73.83545
+  },
+  {
+    "area": "Koregaon Park East",
+    "city": "Pune",
+    "lat": 18.5438,
+    "lng": 73.8783
+  },
+  {
+    "area": "Koregaon Park West",
+    "city": "Pune",
+    "lat": 18.4967,
+    "lng": 73.83475
+  },
+  {
+    "area": "Koregaon Park Market",
+    "city": "Pune",
+    "lat": 18.5444,
+    "lng": 73.879
+  },
+  {
+    "area": "Kondhwa",
+    "city": "Pune",
+    "lat": 18.5444,
+    "lng": 73.8347
+  },
+  {
+    "area": "Kondhwa Road",
+    "city": "Pune",
+    "lat": 18.4961,
+    "lng": 73.87905
+  },
+  {
+    "area": "Kondhwa East",
+    "city": "Pune",
+    "lat": 18.545,
+    "lng": 73.834
+  },
+  {
+    "area": "Kondhwa West",
+    "city": "Pune",
+    "lat": 18.4955,
+    "lng": 73.87975
+  },
+  {
+    "area": "Kondhwa Market",
+    "city": "Pune",
+    "lat": 18.5456,
+    "lng": 73.8333
+  },
+  {
+    "area": "Yerawada",
+    "city": "Pune",
+    "lat": 18.5456,
+    "lng": 73.8798
+  },
+  {
+    "area": "Yerawada Road",
+    "city": "Pune",
+    "lat": 18.4949,
+    "lng": 73.83325
+  },
+  {
+    "area": "Yerawada East",
+    "city": "Pune",
+    "lat": 18.5462,
+    "lng": 73.8805
+  },
+  {
+    "area": "Yerawada West",
+    "city": "Pune",
+    "lat": 18.4943,
+    "lng": 73.83255
+  },
+  {
+    "area": "Yerawada Market",
+    "city": "Pune",
+    "lat": 18.5468,
+    "lng": 73.8812
+  },
+  {
+    "area": "Dhayari",
+    "city": "Pune",
+    "lat": 18.5468,
+    "lng": 73.8325
+  },
+  {
+    "area": "Dhayari Road",
+    "city": "Pune",
+    "lat": 18.4937,
+    "lng": 73.88125
+  },
+  {
+    "area": "Dhayari East",
+    "city": "Pune",
+    "lat": 18.5474,
+    "lng": 73.8318
+  },
+  {
+    "area": "Dhayari West",
+    "city": "Pune",
+    "lat": 18.4931,
+    "lng": 73.88195
+  },
+  {
+    "area": "Dhayari Market",
+    "city": "Pune",
+    "lat": 18.548,
+    "lng": 73.8311
+  },
+  {
+    "area": "Katraj",
+    "city": "Pune",
+    "lat": 18.548,
+    "lng": 73.882
+  },
+  {
+    "area": "Katraj Road",
+    "city": "Pune",
+    "lat": 18.4925,
+    "lng": 73.83105
+  },
+  {
+    "area": "Katraj East",
+    "city": "Pune",
+    "lat": 18.5486,
+    "lng": 73.8827
+  },
+  {
+    "area": "Katraj West",
+    "city": "Pune",
+    "lat": 18.4919,
+    "lng": 73.83035
+  },
+  {
+    "area": "Katraj Market",
+    "city": "Pune",
+    "lat": 18.5492,
+    "lng": 73.8834
+  },
+  {
+    "area": "Nigdi",
+    "city": "Pune",
+    "lat": 18.5492,
+    "lng": 73.8303
+  },
+  {
+    "area": "Nigdi Road",
+    "city": "Pune",
+    "lat": 18.4913,
+    "lng": 73.88345
+  },
+  {
+    "area": "Nigdi East",
+    "city": "Pune",
+    "lat": 18.5498,
+    "lng": 73.8296
+  },
+  {
+    "area": "Nigdi West",
+    "city": "Pune",
+    "lat": 18.4907,
+    "lng": 73.88415
+  },
+  {
+    "area": "Nigdi Market",
+    "city": "Pune",
+    "lat": 18.5504,
+    "lng": 73.8289
+  },
+  {
+    "area": "Bhosari",
+    "city": "Pune",
+    "lat": 18.5504,
+    "lng": 73.8842
+  },
+  {
+    "area": "Bhosari Road",
+    "city": "Pune",
+    "lat": 18.4901,
+    "lng": 73.82885
+  },
+  {
+    "area": "Bhosari East",
+    "city": "Pune",
+    "lat": 18.551,
+    "lng": 73.8849
+  },
+  {
+    "area": "Bhosari West",
+    "city": "Pune",
+    "lat": 18.4895,
+    "lng": 73.82815
+  },
+  {
+    "area": "Bhosari Market",
+    "city": "Pune",
+    "lat": 18.5516,
+    "lng": 73.8856
+  },
+  {
+    "area": "Ambegaon",
+    "city": "Pune",
+    "lat": 18.5516,
+    "lng": 73.8281
+  },
+  {
+    "area": "Ambegaon Road",
+    "city": "Pune",
+    "lat": 18.4889,
+    "lng": 73.88565
+  },
+  {
+    "area": "Ambegaon East",
+    "city": "Pune",
+    "lat": 18.5522,
+    "lng": 73.8274
+  },
+  {
+    "area": "Ambegaon West",
+    "city": "Pune",
+    "lat": 18.4883,
+    "lng": 73.88635
+  },
+  {
+    "area": "Ambegaon Market",
+    "city": "Pune",
+    "lat": 18.5528,
+    "lng": 73.8267
+  },
+  {
+    "area": "Manjari",
+    "city": "Pune",
+    "lat": 18.5528,
+    "lng": 73.8864
+  },
+  {
+    "area": "Manjari Road",
+    "city": "Pune",
+    "lat": 18.4877,
+    "lng": 73.82665
+  },
+  {
+    "area": "Manjari East",
+    "city": "Pune",
+    "lat": 18.5534,
+    "lng": 73.8871
+  },
+  {
+    "area": "Manjari West",
+    "city": "Pune",
+    "lat": 18.4871,
+    "lng": 73.82595
+  },
+  {
+    "area": "Manjari Market",
+    "city": "Pune",
+    "lat": 18.554,
+    "lng": 73.8878
+  },
+  {
+    "area": "Hinjawadi",
+    "city": "Pune",
+    "lat": 18.554,
+    "lng": 73.8259
+  },
+  {
+    "area": "Hinjawadi Road",
+    "city": "Pune",
+    "lat": 18.4865,
+    "lng": 73.88785
+  },
+  {
+    "area": "Hinjawadi East",
+    "city": "Pune",
+    "lat": 18.5546,
+    "lng": 73.8252
+  },
+  {
+    "area": "Hinjawadi West",
+    "city": "Pune",
+    "lat": 18.4859,
+    "lng": 73.88855
+  },
+  {
+    "area": "Hinjawadi Market",
+    "city": "Pune",
+    "lat": 18.5552,
+    "lng": 73.8245
+  },
+  {
+    "area": "Sus",
+    "city": "Pune",
+    "lat": 18.5552,
+    "lng": 73.8886
+  },
+  {
+    "area": "Sus Road",
+    "city": "Pune",
+    "lat": 18.4853,
+    "lng": 73.82445
+  },
+  {
+    "area": "Sus East",
+    "city": "Pune",
+    "lat": 18.5558,
+    "lng": 73.8893
+  },
+  {
+    "area": "Sus West",
+    "city": "Pune",
+    "lat": 18.4847,
+    "lng": 73.82375
+  },
+  {
+    "area": "Sus Market",
+    "city": "Pune",
+    "lat": 18.5564,
+    "lng": 73.89
+  },
+  {
+    "area": "Narhe",
+    "city": "Pune",
+    "lat": 18.5564,
+    "lng": 73.8237
+  },
+  {
+    "area": "Narhe Road",
+    "city": "Pune",
+    "lat": 18.4841,
+    "lng": 73.89005
+  },
+  {
+    "area": "Narhe East",
+    "city": "Pune",
+    "lat": 18.557,
+    "lng": 73.823
+  },
+  {
+    "area": "Narhe West",
+    "city": "Pune",
+    "lat": 18.4835,
+    "lng": 73.89075
+  },
+  {
+    "area": "Narhe Market",
+    "city": "Pune",
+    "lat": 18.5576,
+    "lng": 73.8223
+  },
+  {
+    "area": "Fursungi",
+    "city": "Pune",
+    "lat": 18.5576,
+    "lng": 73.8908
+  },
+  {
+    "area": "Fursungi Road",
+    "city": "Pune",
+    "lat": 18.4829,
+    "lng": 73.82225
+  },
+  {
+    "area": "Fursungi East",
+    "city": "Pune",
+    "lat": 18.5582,
+    "lng": 73.8915
+  },
+  {
+    "area": "Fursungi West",
+    "city": "Pune",
+    "lat": 18.4823,
+    "lng": 73.82155
+  },
+  {
+    "area": "Fursungi Market",
+    "city": "Pune",
+    "lat": 18.5588,
+    "lng": 73.8922
+  },
+  {
+    "area": "Magarpatta",
+    "city": "Pune",
+    "lat": 18.5588,
+    "lng": 73.8215
+  },
+  {
+    "area": "Magarpatta Road",
+    "city": "Pune",
+    "lat": 18.4817,
+    "lng": 73.89225
+  },
+  {
+    "area": "Magarpatta East",
+    "city": "Pune",
+    "lat": 18.5594,
+    "lng": 73.8208
+  },
+  {
+    "area": "Magarpatta West",
+    "city": "Pune",
+    "lat": 18.4811,
+    "lng": 73.89295
+  },
+  {
+    "area": "Magarpatta Market",
+    "city": "Pune",
+    "lat": 18.56,
+    "lng": 73.8201
+  },
+  {
+    "area": "Kasba Peth",
+    "city": "Pune",
+    "lat": 18.56,
+    "lng": 73.893
+  },
+  {
+    "area": "Kasba Peth Road",
+    "city": "Pune",
+    "lat": 18.4805,
+    "lng": 73.82005
+  },
+  {
+    "area": "Kasba Peth East",
+    "city": "Pune",
+    "lat": 18.5606,
+    "lng": 73.8937
+  },
+  {
+    "area": "Kasba Peth West",
+    "city": "Pune",
+    "lat": 18.4799,
+    "lng": 73.81935
+  },
+  {
+    "area": "Kasba Peth Market",
+    "city": "Pune",
+    "lat": 18.5612,
+    "lng": 73.8944
+  },
+  {
+    "area": "Undri",
+    "city": "Pune",
+    "lat": 18.5612,
+    "lng": 73.8193
+  },
+  {
+    "area": "Undri Road",
+    "city": "Pune",
+    "lat": 18.4793,
+    "lng": 73.89445
+  },
+  {
+    "area": "Undri East",
+    "city": "Pune",
+    "lat": 18.5618,
+    "lng": 73.8186
+  },
+  {
+    "area": "Undri West",
+    "city": "Pune",
+    "lat": 18.4787,
+    "lng": 73.89515
+  },
+  {
+    "area": "Undri Market",
+    "city": "Pune",
+    "lat": 18.5624,
+    "lng": 73.8179
+  },
+  {
+    "area": "Wanowrie",
+    "city": "Pune",
+    "lat": 18.5624,
+    "lng": 73.8952
+  },
+  {
+    "area": "Wanowrie Road",
+    "city": "Pune",
+    "lat": 18.4781,
+    "lng": 73.81785
+  },
+  {
+    "area": "Wanowrie East",
+    "city": "Pune",
+    "lat": 18.563,
+    "lng": 73.8959
+  },
+  {
+    "area": "Wanowrie West",
+    "city": "Pune",
+    "lat": 18.4775,
+    "lng": 73.81715
+  },
+  {
+    "area": "Wanowrie Market",
+    "city": "Pune",
+    "lat": 18.5636,
+    "lng": 73.8966
+  },
+  {
+    "area": "Lohegaon",
+    "city": "Pune",
+    "lat": 18.5636,
+    "lng": 73.8171
+  },
+  {
+    "area": "Lohegaon Road",
+    "city": "Pune",
+    "lat": 18.4769,
+    "lng": 73.89665
+  },
+  {
+    "area": "Lohegaon East",
+    "city": "Pune",
+    "lat": 18.5642,
+    "lng": 73.8164
+  },
+  {
+    "area": "Lohegaon West",
+    "city": "Pune",
+    "lat": 18.4763,
+    "lng": 73.89735
+  },
+  {
+    "area": "Lohegaon Market",
+    "city": "Pune",
+    "lat": 18.5648,
+    "lng": 73.8157
+  },
+  {
+    "area": "Akurdi",
+    "city": "Pune",
+    "lat": 18.5648,
+    "lng": 73.8974
+  },
+  {
+    "area": "Akurdi Road",
+    "city": "Pune",
+    "lat": 18.4757,
+    "lng": 73.81565
+  },
+  {
+    "area": "Akurdi East",
+    "city": "Pune",
+    "lat": 18.5654,
+    "lng": 73.8981
+  },
+  {
+    "area": "Akurdi West",
+    "city": "Pune",
+    "lat": 18.4751,
+    "lng": 73.81495
+  },
+  {
+    "area": "Akurdi Market",
+    "city": "Pune",
+    "lat": 18.566,
+    "lng": 73.8988
+  },
+  {
+    "area": "Akole",
+    "city": "Pune",
+    "lat": 18.566,
+    "lng": 73.8149
+  },
+  {
+    "area": "Akole Road",
+    "city": "Pune",
+    "lat": 18.4745,
+    "lng": 73.89885
+  },
+  {
+    "area": "Akole East",
+    "city": "Pune",
+    "lat": 18.5666,
+    "lng": 73.8142
+  },
+  {
+    "area": "Akole West",
+    "city": "Pune",
+    "lat": 18.4739,
+    "lng": 73.89955
+  },
+  {
+    "area": "Akole Market",
+    "city": "Pune",
+    "lat": 18.5672,
+    "lng": 73.8135
+  },
+  {
+    "area": "Andheri West",
+    "city": "Mumbai",
+    "lat": 19.0772,
+    "lng": 72.8788
+  },
+  {
+    "area": "Andheri West Road",
+    "city": "Mumbai",
+    "lat": 19.0745,
+    "lng": 72.87625
+  },
+  {
+    "area": "Andheri West East",
+    "city": "Mumbai",
+    "lat": 19.0778,
+    "lng": 72.8795
+  },
+  {
+    "area": "Andheri West West",
+    "city": "Mumbai",
+    "lat": 19.0739,
+    "lng": 72.87555
+  },
+  {
+    "area": "Andheri West Market",
+    "city": "Mumbai",
+    "lat": 19.0784,
+    "lng": 72.8802
+  },
+  {
+    "area": "Andheri East",
+    "city": "Mumbai",
+    "lat": 19.0784,
+    "lng": 72.8755
+  },
+  {
+    "area": "Andheri East Road",
+    "city": "Mumbai",
+    "lat": 19.0733,
+    "lng": 72.88025
+  },
+  {
+    "area": "Andheri East East",
+    "city": "Mumbai",
+    "lat": 19.079,
+    "lng": 72.8748
+  },
+  {
+    "area": "Andheri East West",
+    "city": "Mumbai",
+    "lat": 19.0727,
+    "lng": 72.88095
+  },
+  {
+    "area": "Andheri East Market",
+    "city": "Mumbai",
+    "lat": 19.0796,
+    "lng": 72.8741
+  },
+  {
+    "area": "Bandra",
+    "city": "Mumbai",
+    "lat": 19.0796,
+    "lng": 72.881
+  },
+  {
+    "area": "Bandra Road",
+    "city": "Mumbai",
+    "lat": 19.0721,
+    "lng": 72.87405
+  },
+  {
+    "area": "Bandra East",
+    "city": "Mumbai",
+    "lat": 19.0802,
+    "lng": 72.8817
+  },
+  {
+    "area": "Bandra West",
+    "city": "Mumbai",
+    "lat": 19.0715,
+    "lng": 72.87335
+  },
+  {
+    "area": "Bandra Market",
+    "city": "Mumbai",
+    "lat": 19.0808,
+    "lng": 72.8824
+  },
+  {
+    "area": "Bandra Kurla Complex",
+    "city": "Mumbai",
+    "lat": 19.0808,
+    "lng": 72.8733
+  },
+  {
+    "area": "Bandra Kurla Complex Road",
+    "city": "Mumbai",
+    "lat": 19.0709,
+    "lng": 72.88245
+  },
+  {
+    "area": "Bandra Kurla Complex East",
+    "city": "Mumbai",
+    "lat": 19.0814,
+    "lng": 72.8726
+  },
+  {
+    "area": "Bandra Kurla Complex West",
+    "city": "Mumbai",
+    "lat": 19.0703,
+    "lng": 72.88315
+  },
+  {
+    "area": "Bandra Kurla Complex Market",
+    "city": "Mumbai",
+    "lat": 19.082,
+    "lng": 72.8719
+  },
+  {
+    "area": "Bandra West Road",
+    "city": "Mumbai",
+    "lat": 19.0697,
+    "lng": 72.87185
+  },
+  {
+    "area": "Bandra West East",
+    "city": "Mumbai",
+    "lat": 19.0826,
+    "lng": 72.8839
+  },
+  {
+    "area": "Bandra West West",
+    "city": "Mumbai",
+    "lat": 19.0691,
+    "lng": 72.87115
+  },
+  {
+    "area": "Bandra West Market",
+    "city": "Mumbai",
+    "lat": 19.0832,
+    "lng": 72.8846
+  },
+  {
+    "area": "Bandra East Road",
+    "city": "Mumbai",
+    "lat": 19.0685,
+    "lng": 72.88465
+  },
+  {
+    "area": "Bandra East East",
+    "city": "Mumbai",
+    "lat": 19.0838,
+    "lng": 72.8704
+  },
+  {
+    "area": "Bandra East West",
+    "city": "Mumbai",
+    "lat": 19.0679,
+    "lng": 72.88535
+  },
+  {
+    "area": "Bandra East Market",
+    "city": "Mumbai",
+    "lat": 19.0844,
+    "lng": 72.8697
+  },
+  {
+    "area": "Borivali",
+    "city": "Mumbai",
+    "lat": 19.0844,
+    "lng": 72.8854
+  },
+  {
+    "area": "Borivali Road",
+    "city": "Mumbai",
+    "lat": 19.0673,
+    "lng": 72.86965
+  },
+  {
+    "area": "Borivali East",
+    "city": "Mumbai",
+    "lat": 19.085,
+    "lng": 72.8861
+  },
+  {
+    "area": "Borivali West",
+    "city": "Mumbai",
+    "lat": 19.0667,
+    "lng": 72.86895
+  },
+  {
+    "area": "Borivali Market",
+    "city": "Mumbai",
+    "lat": 19.0856,
+    "lng": 72.8868
+  },
+  {
+    "area": "Dadar",
+    "city": "Mumbai",
+    "lat": 19.0856,
+    "lng": 72.8689
+  },
+  {
+    "area": "Dadar Road",
+    "city": "Mumbai",
+    "lat": 19.0661,
+    "lng": 72.88685
+  },
+  {
+    "area": "Dadar East",
+    "city": "Mumbai",
+    "lat": 19.0862,
+    "lng": 72.8682
+  },
+  {
+    "area": "Dadar West",
+    "city": "Mumbai",
+    "lat": 19.0655,
+    "lng": 72.88755
+  },
+  {
+    "area": "Dadar Market",
+    "city": "Mumbai",
+    "lat": 19.0868,
+    "lng": 72.8675
+  },
+  {
+    "area": "Lower Parel",
+    "city": "Mumbai",
+    "lat": 19.0868,
+    "lng": 72.8876
+  },
+  {
+    "area": "Lower Parel Road",
+    "city": "Mumbai",
+    "lat": 19.0649,
+    "lng": 72.86745
+  },
+  {
+    "area": "Lower Parel East",
+    "city": "Mumbai",
+    "lat": 19.0874,
+    "lng": 72.8883
+  },
+  {
+    "area": "Lower Parel West",
+    "city": "Mumbai",
+    "lat": 19.0643,
+    "lng": 72.86675
+  },
+  {
+    "area": "Lower Parel Market",
+    "city": "Mumbai",
+    "lat": 19.088,
+    "lng": 72.889
+  },
+  {
+    "area": "Worli",
+    "city": "Mumbai",
+    "lat": 19.088,
+    "lng": 72.8667
+  },
+  {
+    "area": "Worli Road",
+    "city": "Mumbai",
+    "lat": 19.0637,
+    "lng": 72.88905
+  },
+  {
+    "area": "Worli East",
+    "city": "Mumbai",
+    "lat": 19.0886,
+    "lng": 72.866
+  },
+  {
+    "area": "Worli West",
+    "city": "Mumbai",
+    "lat": 19.0631,
+    "lng": 72.88975
+  },
+  {
+    "area": "Worli Market",
+    "city": "Mumbai",
+    "lat": 19.0892,
+    "lng": 72.8653
+  },
+  {
+    "area": "Kurla",
+    "city": "Mumbai",
+    "lat": 19.0892,
+    "lng": 72.8898
+  },
+  {
+    "area": "Kurla Road",
+    "city": "Mumbai",
+    "lat": 19.0625,
+    "lng": 72.86525
+  },
+  {
+    "area": "Kurla East",
+    "city": "Mumbai",
+    "lat": 19.0898,
+    "lng": 72.8905
+  },
+  {
+    "area": "Kurla West",
+    "city": "Mumbai",
+    "lat": 19.0619,
+    "lng": 72.86455
+  },
+  {
+    "area": "Kurla Market",
+    "city": "Mumbai",
+    "lat": 19.0904,
+    "lng": 72.8912
+  },
+  {
+    "area": "Ghatkopar",
+    "city": "Mumbai",
+    "lat": 19.0904,
+    "lng": 72.8645
+  },
+  {
+    "area": "Ghatkopar Road",
+    "city": "Mumbai",
+    "lat": 19.0613,
+    "lng": 72.89125
+  },
+  {
+    "area": "Ghatkopar East",
+    "city": "Mumbai",
+    "lat": 19.091,
+    "lng": 72.8638
+  },
+  {
+    "area": "Ghatkopar West",
+    "city": "Mumbai",
+    "lat": 19.0607,
+    "lng": 72.89195
+  },
+  {
+    "area": "Ghatkopar Market",
+    "city": "Mumbai",
+    "lat": 19.0916,
+    "lng": 72.8631
+  },
+  {
+    "area": "Vile Parle",
+    "city": "Mumbai",
+    "lat": 19.0916,
+    "lng": 72.892
+  },
+  {
+    "area": "Vile Parle Road",
+    "city": "Mumbai",
+    "lat": 19.0601,
+    "lng": 72.86305
+  },
+  {
+    "area": "Vile Parle East",
+    "city": "Mumbai",
+    "lat": 19.0922,
+    "lng": 72.8927
+  },
+  {
+    "area": "Vile Parle West",
+    "city": "Mumbai",
+    "lat": 19.0595,
+    "lng": 72.86235
+  },
+  {
+    "area": "Vile Parle Market",
+    "city": "Mumbai",
+    "lat": 19.0928,
+    "lng": 72.8934
+  },
+  {
+    "area": "Juhu",
+    "city": "Mumbai",
+    "lat": 19.0928,
+    "lng": 72.8623
+  },
+  {
+    "area": "Juhu Road",
+    "city": "Mumbai",
+    "lat": 19.0589,
+    "lng": 72.89345
+  },
+  {
+    "area": "Juhu East",
+    "city": "Mumbai",
+    "lat": 19.0934,
+    "lng": 72.8616
+  },
+  {
+    "area": "Juhu West",
+    "city": "Mumbai",
+    "lat": 19.0583,
+    "lng": 72.89415
+  },
+  {
+    "area": "Juhu Market",
+    "city": "Mumbai",
+    "lat": 19.094,
+    "lng": 72.8609
+  },
+  {
+    "area": "Chembur",
+    "city": "Mumbai",
+    "lat": 19.094,
+    "lng": 72.8942
+  },
+  {
+    "area": "Chembur Road",
+    "city": "Mumbai",
+    "lat": 19.0577,
+    "lng": 72.86085
+  },
+  {
+    "area": "Chembur East",
+    "city": "Mumbai",
+    "lat": 19.0946,
+    "lng": 72.8949
+  },
+  {
+    "area": "Chembur West",
+    "city": "Mumbai",
+    "lat": 19.0571,
+    "lng": 72.86015
+  },
+  {
+    "area": "Chembur Market",
+    "city": "Mumbai",
+    "lat": 19.0952,
+    "lng": 72.8956
+  },
+  {
+    "area": "Mulund",
+    "city": "Mumbai",
+    "lat": 19.0952,
+    "lng": 72.8601
+  },
+  {
+    "area": "Mulund Road",
+    "city": "Mumbai",
+    "lat": 19.0565,
+    "lng": 72.89565
+  },
+  {
+    "area": "Mulund East",
+    "city": "Mumbai",
+    "lat": 19.0958,
+    "lng": 72.8594
+  },
+  {
+    "area": "Mulund West",
+    "city": "Mumbai",
+    "lat": 19.0559,
+    "lng": 72.89635
+  },
+  {
+    "area": "Mulund Market",
+    "city": "Mumbai",
+    "lat": 19.0964,
+    "lng": 72.8587
+  },
+  {
+    "area": "Bhandup",
+    "city": "Mumbai",
+    "lat": 19.0964,
+    "lng": 72.8964
+  },
+  {
+    "area": "Bhandup Road",
+    "city": "Mumbai",
+    "lat": 19.0553,
+    "lng": 72.85865
+  },
+  {
+    "area": "Bhandup East",
+    "city": "Mumbai",
+    "lat": 19.097,
+    "lng": 72.8971
+  },
+  {
+    "area": "Bhandup West",
+    "city": "Mumbai",
+    "lat": 19.0547,
+    "lng": 72.85795
+  },
+  {
+    "area": "Bhandup Market",
+    "city": "Mumbai",
+    "lat": 19.0976,
+    "lng": 72.8978
+  },
+  {
+    "area": "Khar",
+    "city": "Mumbai",
+    "lat": 19.0976,
+    "lng": 72.8579
+  },
+  {
+    "area": "Khar Road",
+    "city": "Mumbai",
+    "lat": 19.0541,
+    "lng": 72.89785
+  },
+  {
+    "area": "Khar East",
+    "city": "Mumbai",
+    "lat": 19.0982,
+    "lng": 72.8572
+  },
+  {
+    "area": "Khar West",
+    "city": "Mumbai",
+    "lat": 19.0535,
+    "lng": 72.89855
+  },
+  {
+    "area": "Khar Market",
+    "city": "Mumbai",
+    "lat": 19.0988,
+    "lng": 72.8565
+  },
+  {
+    "area": "Cuffe Parade",
+    "city": "Mumbai",
+    "lat": 19.0988,
+    "lng": 72.8986
+  },
+  {
+    "area": "Cuffe Parade Road",
+    "city": "Mumbai",
+    "lat": 19.0529,
+    "lng": 72.85645
+  },
+  {
+    "area": "Cuffe Parade East",
+    "city": "Mumbai",
+    "lat": 19.0994,
+    "lng": 72.8993
+  },
+  {
+    "area": "Cuffe Parade West",
+    "city": "Mumbai",
+    "lat": 19.0523,
+    "lng": 72.85575
+  },
+  {
+    "area": "Cuffe Parade Market",
+    "city": "Mumbai",
+    "lat": 19.1,
+    "lng": 72.9
+  },
+  {
+    "area": "Colaba",
+    "city": "Mumbai",
+    "lat": 19.1,
+    "lng": 72.8557
+  },
+  {
+    "area": "Colaba Road",
+    "city": "Mumbai",
+    "lat": 19.0517,
+    "lng": 72.90005
+  },
+  {
+    "area": "Colaba East",
+    "city": "Mumbai",
+    "lat": 19.1006,
+    "lng": 72.855
+  },
+  {
+    "area": "Colaba West",
+    "city": "Mumbai",
+    "lat": 19.0511,
+    "lng": 72.90075
+  },
+  {
+    "area": "Colaba Market",
+    "city": "Mumbai",
+    "lat": 19.1012,
+    "lng": 72.8543
+  },
+  {
+    "area": "CST",
+    "city": "Mumbai",
+    "lat": 19.1012,
+    "lng": 72.9008
+  },
+  {
+    "area": "CST Road",
+    "city": "Mumbai",
+    "lat": 19.0505,
+    "lng": 72.85425
+  },
+  {
+    "area": "CST East",
+    "city": "Mumbai",
+    "lat": 19.1018,
+    "lng": 72.9015
+  },
+  {
+    "area": "CST West",
+    "city": "Mumbai",
+    "lat": 19.0499,
+    "lng": 72.85355
+  },
+  {
+    "area": "CST Market",
+    "city": "Mumbai",
+    "lat": 19.1024,
+    "lng": 72.9022
+  },
+  {
+    "area": "Byculla",
+    "city": "Mumbai",
+    "lat": 19.1024,
+    "lng": 72.8535
+  },
+  {
+    "area": "Byculla Road",
+    "city": "Mumbai",
+    "lat": 19.0493,
+    "lng": 72.90225
+  },
+  {
+    "area": "Byculla East",
+    "city": "Mumbai",
+    "lat": 19.103,
+    "lng": 72.8528
+  },
+  {
+    "area": "Byculla West",
+    "city": "Mumbai",
+    "lat": 19.0487,
+    "lng": 72.90295
+  },
+  {
+    "area": "Byculla Market",
+    "city": "Mumbai",
+    "lat": 19.1036,
+    "lng": 72.8521
+  },
+  {
+    "area": "Mahim",
+    "city": "Mumbai",
+    "lat": 19.1036,
+    "lng": 72.903
+  },
+  {
+    "area": "Mahim Road",
+    "city": "Mumbai",
+    "lat": 19.0481,
+    "lng": 72.85205
+  },
+  {
+    "area": "Mahim East",
+    "city": "Mumbai",
+    "lat": 19.1042,
+    "lng": 72.9037
+  },
+  {
+    "area": "Mahim West",
+    "city": "Mumbai",
+    "lat": 19.0475,
+    "lng": 72.85135
+  },
+  {
+    "area": "Mahim Market",
+    "city": "Mumbai",
+    "lat": 19.1048,
+    "lng": 72.9044
+  },
+  {
+    "area": "Malad",
+    "city": "Mumbai",
+    "lat": 19.1048,
+    "lng": 72.8513
+  },
+  {
+    "area": "Malad Road",
+    "city": "Mumbai",
+    "lat": 19.0469,
+    "lng": 72.90445
+  },
+  {
+    "area": "Malad East",
+    "city": "Mumbai",
+    "lat": 19.1054,
+    "lng": 72.8506
+  },
+  {
+    "area": "Malad West",
+    "city": "Mumbai",
+    "lat": 19.0463,
+    "lng": 72.90515
+  },
+  {
+    "area": "Malad Market",
+    "city": "Mumbai",
+    "lat": 19.106,
+    "lng": 72.8499
+  },
+  {
+    "area": "Matunga",
+    "city": "Mumbai",
+    "lat": 19.106,
+    "lng": 72.9052
+  },
+  {
+    "area": "Matunga Road",
+    "city": "Mumbai",
+    "lat": 19.0457,
+    "lng": 72.84985
+  },
+  {
+    "area": "Matunga East",
+    "city": "Mumbai",
+    "lat": 19.1066,
+    "lng": 72.9059
+  },
+  {
+    "area": "Matunga West",
+    "city": "Mumbai",
+    "lat": 19.0451,
+    "lng": 72.84915
+  },
+  {
+    "area": "Matunga Market",
+    "city": "Mumbai",
+    "lat": 19.1072,
+    "lng": 72.9066
+  },
+  {
+    "area": "Santacruz",
+    "city": "Mumbai",
+    "lat": 19.1072,
+    "lng": 72.8491
+  },
+  {
+    "area": "Santacruz Road",
+    "city": "Mumbai",
+    "lat": 19.0445,
+    "lng": 72.90665
+  },
+  {
+    "area": "Santacruz East",
+    "city": "Mumbai",
+    "lat": 19.1078,
+    "lng": 72.8484
+  },
+  {
+    "area": "Santacruz West",
+    "city": "Mumbai",
+    "lat": 19.0439,
+    "lng": 72.90735
+  },
+  {
+    "area": "Santacruz Market",
+    "city": "Mumbai",
+    "lat": 19.1084,
+    "lng": 72.8477
+  },
+  {
+    "area": "Sion",
+    "city": "Mumbai",
+    "lat": 19.1084,
+    "lng": 72.9074
+  },
+  {
+    "area": "Sion Road",
+    "city": "Mumbai",
+    "lat": 19.0433,
+    "lng": 72.84765
+  },
+  {
+    "area": "Sion East",
+    "city": "Mumbai",
+    "lat": 19.109,
+    "lng": 72.9081
+  },
+  {
+    "area": "Sion West",
+    "city": "Mumbai",
+    "lat": 19.0427,
+    "lng": 72.84695
+  },
+  {
+    "area": "Sion Market",
+    "city": "Mumbai",
+    "lat": 19.1096,
+    "lng": 72.9088
+  },
+  {
+    "area": "Panvel",
+    "city": "Mumbai",
+    "lat": 19.1096,
+    "lng": 72.8469
+  },
+  {
+    "area": "Panvel Road",
+    "city": "Mumbai",
+    "lat": 19.0421,
+    "lng": 72.90885
+  },
+  {
+    "area": "Panvel East",
+    "city": "Mumbai",
+    "lat": 19.1102,
+    "lng": 72.8462
+  },
+  {
+    "area": "Panvel West",
+    "city": "Mumbai",
+    "lat": 19.0415,
+    "lng": 72.90955
+  },
+  {
+    "area": "Panvel Market",
+    "city": "Mumbai",
+    "lat": 19.1108,
+    "lng": 72.8455
+  },
+  {
+    "area": "Nerul",
+    "city": "Mumbai",
+    "lat": 19.1108,
+    "lng": 72.9096
+  },
+  {
+    "area": "Nerul Road",
+    "city": "Mumbai",
+    "lat": 19.0409,
+    "lng": 72.84545
+  },
+  {
+    "area": "Nerul East",
+    "city": "Mumbai",
+    "lat": 19.1114,
+    "lng": 72.9103
+  },
+  {
+    "area": "Nerul West",
+    "city": "Mumbai",
+    "lat": 19.0403,
+    "lng": 72.84475
+  },
+  {
+    "area": "Nerul Market",
+    "city": "Mumbai",
+    "lat": 19.112,
+    "lng": 72.911
+  },
+  {
+    "area": "Vashi",
+    "city": "Mumbai",
+    "lat": 19.112,
+    "lng": 72.8447
+  },
+  {
+    "area": "Vashi Road",
+    "city": "Mumbai",
+    "lat": 19.0397,
+    "lng": 72.91105
+  },
+  {
+    "area": "Vashi East",
+    "city": "Mumbai",
+    "lat": 19.1126,
+    "lng": 72.844
+  },
+  {
+    "area": "Vashi West",
+    "city": "Mumbai",
+    "lat": 19.0391,
+    "lng": 72.91175
+  },
+  {
+    "area": "Vashi Market",
+    "city": "Mumbai",
+    "lat": 19.1132,
+    "lng": 72.8433
+  },
+  {
+    "area": "Kharghar",
+    "city": "Mumbai",
+    "lat": 19.1132,
+    "lng": 72.9118
+  },
+  {
+    "area": "Kharghar Road",
+    "city": "Mumbai",
+    "lat": 19.0385,
+    "lng": 72.84325
+  },
+  {
+    "area": "Kharghar East",
+    "city": "Mumbai",
+    "lat": 19.1138,
+    "lng": 72.9125
+  },
+  {
+    "area": "Kharghar West",
+    "city": "Mumbai",
+    "lat": 19.0379,
+    "lng": 72.84255
+  },
+  {
+    "area": "Kharghar Market",
+    "city": "Mumbai",
+    "lat": 19.1144,
+    "lng": 72.9132
+  },
+  {
+    "area": "Sitabuldi",
+    "city": "Nagpur",
+    "lat": 21.147,
+    "lng": 79.0893
+  },
+  {
+    "area": "Sitabuldi Road",
+    "city": "Nagpur",
+    "lat": 21.1443,
+    "lng": 79.08675
+  },
+  {
+    "area": "Sitabuldi East",
+    "city": "Nagpur",
+    "lat": 21.1476,
+    "lng": 79.09
+  },
+  {
+    "area": "Sitabuldi West",
+    "city": "Nagpur",
+    "lat": 21.1437,
+    "lng": 79.08605
+  },
+  {
+    "area": "Sitabuldi Market",
+    "city": "Nagpur",
+    "lat": 21.1482,
+    "lng": 79.0907
+  },
+  {
+    "area": "Dharampeth",
+    "city": "Nagpur",
+    "lat": 21.1482,
+    "lng": 79.086
+  },
+  {
+    "area": "Dharampeth Road",
+    "city": "Nagpur",
+    "lat": 21.1431,
+    "lng": 79.09075
+  },
+  {
+    "area": "Dharampeth East",
+    "city": "Nagpur",
+    "lat": 21.1488,
+    "lng": 79.0853
+  },
+  {
+    "area": "Dharampeth West",
+    "city": "Nagpur",
+    "lat": 21.1425,
+    "lng": 79.09145
+  },
+  {
+    "area": "Dharampeth Market",
+    "city": "Nagpur",
+    "lat": 21.1494,
+    "lng": 79.0846
+  },
+  {
+    "area": "Sadar",
+    "city": "Nagpur",
+    "lat": 21.1494,
+    "lng": 79.0915
+  },
+  {
+    "area": "Sadar Road",
+    "city": "Nagpur",
+    "lat": 21.1419,
+    "lng": 79.08455
+  },
+  {
+    "area": "Sadar East",
+    "city": "Nagpur",
+    "lat": 21.15,
+    "lng": 79.0922
+  },
+  {
+    "area": "Sadar West",
+    "city": "Nagpur",
+    "lat": 21.1413,
+    "lng": 79.08385
+  },
+  {
+    "area": "Sadar Market",
+    "city": "Nagpur",
+    "lat": 21.1506,
+    "lng": 79.0929
+  },
+  {
+    "area": "Civil Lines",
+    "city": "Nagpur",
+    "lat": 21.1506,
+    "lng": 79.0838
+  },
+  {
+    "area": "Civil Lines Road",
+    "city": "Nagpur",
+    "lat": 21.1407,
+    "lng": 79.09295
+  },
+  {
+    "area": "Civil Lines East",
+    "city": "Nagpur",
+    "lat": 21.1512,
+    "lng": 79.0831
+  },
+  {
+    "area": "Civil Lines West",
+    "city": "Nagpur",
+    "lat": 21.1401,
+    "lng": 79.09365
+  },
+  {
+    "area": "Civil Lines Market",
+    "city": "Nagpur",
+    "lat": 21.1518,
+    "lng": 79.0824
+  },
+  {
+    "area": "Mankapur",
+    "city": "Nagpur",
+    "lat": 21.1518,
+    "lng": 79.0937
+  },
+  {
+    "area": "Mankapur Road",
+    "city": "Nagpur",
+    "lat": 21.1395,
+    "lng": 79.08235
+  },
+  {
+    "area": "Mankapur East",
+    "city": "Nagpur",
+    "lat": 21.1524,
+    "lng": 79.0944
+  },
+  {
+    "area": "Mankapur West",
+    "city": "Nagpur",
+    "lat": 21.1389,
+    "lng": 79.08165
+  },
+  {
+    "area": "Mankapur Market",
+    "city": "Nagpur",
+    "lat": 21.153,
+    "lng": 79.0951
+  },
+  {
+    "area": "Itwari",
+    "city": "Nagpur",
+    "lat": 21.153,
+    "lng": 79.0816
+  },
+  {
+    "area": "Itwari Road",
+    "city": "Nagpur",
+    "lat": 21.1383,
+    "lng": 79.09515
+  },
+  {
+    "area": "Itwari East",
+    "city": "Nagpur",
+    "lat": 21.1536,
+    "lng": 79.0809
+  },
+  {
+    "area": "Itwari West",
+    "city": "Nagpur",
+    "lat": 21.1377,
+    "lng": 79.09585
+  },
+  {
+    "area": "Itwari Market",
+    "city": "Nagpur",
+    "lat": 21.1542,
+    "lng": 79.0802
+  },
+  {
+    "area": "Dharampeth Extension",
+    "city": "Nagpur",
+    "lat": 21.1542,
+    "lng": 79.0959
+  },
+  {
+    "area": "Dharampeth Extension Road",
+    "city": "Nagpur",
+    "lat": 21.1371,
+    "lng": 79.08015
+  },
+  {
+    "area": "Dharampeth Extension East",
+    "city": "Nagpur",
+    "lat": 21.1548,
+    "lng": 79.0966
+  },
+  {
+    "area": "Dharampeth Extension West",
+    "city": "Nagpur",
+    "lat": 21.1365,
+    "lng": 79.07945
+  },
+  {
+    "area": "Dharampeth Extension Market",
+    "city": "Nagpur",
+    "lat": 21.1554,
+    "lng": 79.0973
+  },
+  {
+    "area": "Wardhaman Nagar",
+    "city": "Nagpur",
+    "lat": 21.1554,
+    "lng": 79.0794
+  },
+  {
+    "area": "Wardhaman Nagar Road",
+    "city": "Nagpur",
+    "lat": 21.1359,
+    "lng": 79.09735
+  },
+  {
+    "area": "Wardhaman Nagar East",
+    "city": "Nagpur",
+    "lat": 21.156,
+    "lng": 79.0787
+  },
+  {
+    "area": "Wardhaman Nagar West",
+    "city": "Nagpur",
+    "lat": 21.1353,
+    "lng": 79.09805
+  },
+  {
+    "area": "Wardhaman Nagar Market",
+    "city": "Nagpur",
+    "lat": 21.1566,
+    "lng": 79.078
+  },
+  {
+    "area": "Trimurti Nagar",
+    "city": "Nagpur",
+    "lat": 21.1566,
+    "lng": 79.0981
+  },
+  {
+    "area": "Trimurti Nagar Road",
+    "city": "Nagpur",
+    "lat": 21.1347,
+    "lng": 79.07795
+  },
+  {
+    "area": "Trimurti Nagar East",
+    "city": "Nagpur",
+    "lat": 21.1572,
+    "lng": 79.0988
+  },
+  {
+    "area": "Trimurti Nagar West",
+    "city": "Nagpur",
+    "lat": 21.1341,
+    "lng": 79.07725
+  },
+  {
+    "area": "Trimurti Nagar Market",
+    "city": "Nagpur",
+    "lat": 21.1578,
+    "lng": 79.0995
+  },
+  {
+    "area": "Ajni",
+    "city": "Nagpur",
+    "lat": 21.1578,
+    "lng": 79.0772
+  },
+  {
+    "area": "Ajni Road",
+    "city": "Nagpur",
+    "lat": 21.1335,
+    "lng": 79.09955
+  },
+  {
+    "area": "Ajni East",
+    "city": "Nagpur",
+    "lat": 21.1584,
+    "lng": 79.0765
+  },
+  {
+    "area": "Ajni West",
+    "city": "Nagpur",
+    "lat": 21.1329,
+    "lng": 79.10025
+  },
+  {
+    "area": "Ajni Market",
+    "city": "Nagpur",
+    "lat": 21.159,
+    "lng": 79.0758
+  },
+  {
+    "area": "Panchavati",
+    "city": "Nashik",
+    "lat": 20.0122,
+    "lng": 73.7914
+  },
+  {
+    "area": "Panchavati Road",
+    "city": "Nashik",
+    "lat": 20.0095,
+    "lng": 73.78885
+  },
+  {
+    "area": "Panchavati East",
+    "city": "Nashik",
+    "lat": 20.0128,
+    "lng": 73.7921
+  },
+  {
+    "area": "Panchavati West",
+    "city": "Nashik",
+    "lat": 20.0089,
+    "lng": 73.78815
+  },
+  {
+    "area": "Panchavati Market",
+    "city": "Nashik",
+    "lat": 20.0134,
+    "lng": 73.7928
+  },
+  {
+    "area": "Gangapur Road",
+    "city": "Nashik",
+    "lat": 20.0134,
+    "lng": 73.7881
+  },
+  {
+    "area": "Gangapur Road Road",
+    "city": "Nashik",
+    "lat": 20.0083,
+    "lng": 73.79285
+  },
+  {
+    "area": "Gangapur Road East",
+    "city": "Nashik",
+    "lat": 20.014,
+    "lng": 73.7874
+  },
+  {
+    "area": "Gangapur Road West",
+    "city": "Nashik",
+    "lat": 20.0077,
+    "lng": 73.79355
+  },
+  {
+    "area": "Gangapur Road Market",
+    "city": "Nashik",
+    "lat": 20.0146,
+    "lng": 73.7867
+  },
+  {
+    "area": "College Road",
+    "city": "Nashik",
+    "lat": 20.0146,
+    "lng": 73.7936
+  },
+  {
+    "area": "College Road Road",
+    "city": "Nashik",
+    "lat": 20.0071,
+    "lng": 73.78665
+  },
+  {
+    "area": "College Road East",
+    "city": "Nashik",
+    "lat": 20.0152,
+    "lng": 73.7943
+  },
+  {
+    "area": "College Road West",
+    "city": "Nashik",
+    "lat": 20.0065,
+    "lng": 73.78595
+  },
+  {
+    "area": "College Road Market",
+    "city": "Nashik",
+    "lat": 20.0158,
+    "lng": 73.795
+  },
+  {
+    "area": "Old Nashik",
+    "city": "Nashik",
+    "lat": 20.0158,
+    "lng": 73.7859
+  },
+  {
+    "area": "Old Nashik Road",
+    "city": "Nashik",
+    "lat": 20.0059,
+    "lng": 73.79505
+  },
+  {
+    "area": "Old Nashik East",
+    "city": "Nashik",
+    "lat": 20.0164,
+    "lng": 73.7852
+  },
+  {
+    "area": "Old Nashik West",
+    "city": "Nashik",
+    "lat": 20.0053,
+    "lng": 73.79575
+  },
+  {
+    "area": "Old Nashik Market",
+    "city": "Nashik",
+    "lat": 20.017,
+    "lng": 73.7845
+  },
+  {
+    "area": "Satpur",
+    "city": "Nashik",
+    "lat": 20.017,
+    "lng": 73.7958
+  },
+  {
+    "area": "Satpur Road",
+    "city": "Nashik",
+    "lat": 20.0047,
+    "lng": 73.78445
+  },
+  {
+    "area": "Satpur East",
+    "city": "Nashik",
+    "lat": 20.0176,
+    "lng": 73.7965
+  },
+  {
+    "area": "Satpur West",
+    "city": "Nashik",
+    "lat": 20.0041,
+    "lng": 73.78375
+  },
+  {
+    "area": "Satpur Market",
+    "city": "Nashik",
+    "lat": 20.0182,
+    "lng": 73.7972
+  },
+  {
+    "area": "Sinnar",
+    "city": "Nashik",
+    "lat": 20.0182,
+    "lng": 73.7837
+  },
+  {
+    "area": "Sinnar Road",
+    "city": "Nashik",
+    "lat": 20.0035,
+    "lng": 73.79725
+  },
+  {
+    "area": "Sinnar East",
+    "city": "Nashik",
+    "lat": 20.0188,
+    "lng": 73.783
+  },
+  {
+    "area": "Sinnar West",
+    "city": "Nashik",
+    "lat": 20.0029,
+    "lng": 73.79795
+  },
+  {
+    "area": "Sinnar Market",
+    "city": "Nashik",
+    "lat": 20.0194,
+    "lng": 73.7823
+  },
+  {
+    "area": "Trimbak Road",
+    "city": "Nashik",
+    "lat": 20.0194,
+    "lng": 73.798
+  },
+  {
+    "area": "Trimbak Road Road",
+    "city": "Nashik",
+    "lat": 20.0023,
+    "lng": 73.78225
+  },
+  {
+    "area": "Trimbak Road East",
+    "city": "Nashik",
+    "lat": 20.02,
+    "lng": 73.7987
+  },
+  {
+    "area": "Trimbak Road West",
+    "city": "Nashik",
+    "lat": 20.0017,
+    "lng": 73.78155
+  },
+  {
+    "area": "Trimbak Road Market",
+    "city": "Nashik",
+    "lat": 20.0206,
+    "lng": 73.7994
+  },
+  {
+    "area": "Deolali",
+    "city": "Nashik",
+    "lat": 20.0206,
+    "lng": 73.7815
+  },
+  {
+    "area": "Deolali Road",
+    "city": "Nashik",
+    "lat": 20.0011,
+    "lng": 73.79945
+  },
+  {
+    "area": "Deolali East",
+    "city": "Nashik",
+    "lat": 20.0212,
+    "lng": 73.7808
+  },
+  {
+    "area": "Deolali West",
+    "city": "Nashik",
+    "lat": 20.0005,
+    "lng": 73.80015
+  },
+  {
+    "area": "Deolali Market",
+    "city": "Nashik",
+    "lat": 20.0218,
+    "lng": 73.7801
+  },
+  {
+    "area": "Nashik Road",
+    "city": "Nashik",
+    "lat": 20.0218,
+    "lng": 73.8002
+  },
+  {
+    "area": "Nashik Road Road",
+    "city": "Nashik",
+    "lat": 19.9999,
+    "lng": 73.78005
+  },
+  {
+    "area": "Nashik Road East",
+    "city": "Nashik",
+    "lat": 20.0224,
+    "lng": 73.8009
+  },
+  {
+    "area": "Nashik Road West",
+    "city": "Nashik",
+    "lat": 19.9993,
+    "lng": 73.77935
+  },
+  {
+    "area": "Nashik Road Market",
+    "city": "Nashik",
+    "lat": 20.023,
+    "lng": 73.8016
+  },
+  {
+    "area": "CIDCO",
+    "city": "Aurangabad",
+    "lat": 19.8774,
+    "lng": 75.3444
+  },
+  {
+    "area": "CIDCO Road",
+    "city": "Aurangabad",
+    "lat": 19.8747,
+    "lng": 75.34185
+  },
+  {
+    "area": "CIDCO East",
+    "city": "Aurangabad",
+    "lat": 19.878,
+    "lng": 75.3451
+  },
+  {
+    "area": "CIDCO West",
+    "city": "Aurangabad",
+    "lat": 19.8741,
+    "lng": 75.34115
+  },
+  {
+    "area": "CIDCO Market",
+    "city": "Aurangabad",
+    "lat": 19.8786,
+    "lng": 75.3458
+  },
+  {
+    "area": "Government Colony",
+    "city": "Aurangabad",
+    "lat": 19.8786,
+    "lng": 75.3411
+  },
+  {
+    "area": "Government Colony Road",
+    "city": "Aurangabad",
+    "lat": 19.8735,
+    "lng": 75.34585
+  },
+  {
+    "area": "Government Colony East",
+    "city": "Aurangabad",
+    "lat": 19.8792,
+    "lng": 75.3404
+  },
+  {
+    "area": "Government Colony West",
+    "city": "Aurangabad",
+    "lat": 19.8729,
+    "lng": 75.34655
+  },
+  {
+    "area": "Government Colony Market",
+    "city": "Aurangabad",
+    "lat": 19.8798,
+    "lng": 75.3397
+  },
+  {
+    "area": "CIDCO Phase 1",
+    "city": "Aurangabad",
+    "lat": 19.8798,
+    "lng": 75.3466
+  },
+  {
+    "area": "CIDCO Phase 1 Road",
+    "city": "Aurangabad",
+    "lat": 19.8723,
+    "lng": 75.33965
+  },
+  {
+    "area": "CIDCO Phase 1 East",
+    "city": "Aurangabad",
+    "lat": 19.8804,
+    "lng": 75.3473
+  },
+  {
+    "area": "CIDCO Phase 1 West",
+    "city": "Aurangabad",
+    "lat": 19.8717,
+    "lng": 75.33895
+  },
+  {
+    "area": "CIDCO Phase 1 Market",
+    "city": "Aurangabad",
+    "lat": 19.881,
+    "lng": 75.348
+  },
+  {
+    "area": "Chandrapur Road",
+    "city": "Aurangabad",
+    "lat": 19.881,
+    "lng": 75.3389
+  },
+  {
+    "area": "Chandrapur Road Road",
+    "city": "Aurangabad",
+    "lat": 19.8711,
+    "lng": 75.34805
+  },
+  {
+    "area": "Chandrapur Road East",
+    "city": "Aurangabad",
+    "lat": 19.8816,
+    "lng": 75.3382
+  },
+  {
+    "area": "Chandrapur Road West",
+    "city": "Aurangabad",
+    "lat": 19.8705,
+    "lng": 75.34875
+  },
+  {
+    "area": "Chandrapur Road Market",
+    "city": "Aurangabad",
+    "lat": 19.8822,
+    "lng": 75.3375
+  },
+  {
+    "area": "Waluj",
+    "city": "Aurangabad",
+    "lat": 19.8822,
+    "lng": 75.3488
+  },
+  {
+    "area": "Waluj Road",
+    "city": "Aurangabad",
+    "lat": 19.8699,
+    "lng": 75.33745
+  },
+  {
+    "area": "Waluj East",
+    "city": "Aurangabad",
+    "lat": 19.8828,
+    "lng": 75.3495
+  },
+  {
+    "area": "Waluj West",
+    "city": "Aurangabad",
+    "lat": 19.8693,
+    "lng": 75.33675
+  },
+  {
+    "area": "Waluj Market",
+    "city": "Aurangabad",
+    "lat": 19.8834,
+    "lng": 75.3502
+  },
+  {
+    "area": "Borough Road",
+    "city": "Aurangabad",
+    "lat": 19.8834,
+    "lng": 75.3367
+  },
+  {
+    "area": "Borough Road Road",
+    "city": "Aurangabad",
+    "lat": 19.8687,
+    "lng": 75.35025
+  },
+  {
+    "area": "Borough Road East",
+    "city": "Aurangabad",
+    "lat": 19.884,
+    "lng": 75.336
+  },
+  {
+    "area": "Borough Road West",
+    "city": "Aurangabad",
+    "lat": 19.8681,
+    "lng": 75.35095
+  },
+  {
+    "area": "Borough Road Market",
+    "city": "Aurangabad",
+    "lat": 19.8846,
+    "lng": 75.3353
+  },
+  {
+    "area": "Shahupuri",
+    "city": "Kolhapur",
+    "lat": 16.6958,
+    "lng": 74.2457
+  },
+  {
+    "area": "Shahupuri Road",
+    "city": "Kolhapur",
+    "lat": 16.6931,
+    "lng": 74.24315
+  },
+  {
+    "area": "Shahupuri East",
+    "city": "Kolhapur",
+    "lat": 16.6964,
+    "lng": 74.2464
+  },
+  {
+    "area": "Shahupuri West",
+    "city": "Kolhapur",
+    "lat": 16.6925,
+    "lng": 74.24245
+  },
+  {
+    "area": "Shahupuri Market",
+    "city": "Kolhapur",
+    "lat": 16.697,
+    "lng": 74.2471
+  },
+  {
+    "area": "Rajaram Road",
+    "city": "Kolhapur",
+    "lat": 16.697,
+    "lng": 74.2424
+  },
+  {
+    "area": "Rajaram Road Road",
+    "city": "Kolhapur",
+    "lat": 16.6919,
+    "lng": 74.24715
+  },
+  {
+    "area": "Rajaram Road East",
+    "city": "Kolhapur",
+    "lat": 16.6976,
+    "lng": 74.2417
+  },
+  {
+    "area": "Rajaram Road West",
+    "city": "Kolhapur",
+    "lat": 16.6913,
+    "lng": 74.24785
+  },
+  {
+    "area": "Rajaram Road Market",
+    "city": "Kolhapur",
+    "lat": 16.6982,
+    "lng": 74.241
+  },
+  {
+    "area": "Gandhinagar",
+    "city": "Kolhapur",
+    "lat": 16.6982,
+    "lng": 74.2479
+  },
+  {
+    "area": "Gandhinagar Road",
+    "city": "Kolhapur",
+    "lat": 16.6907,
+    "lng": 74.24095
+  },
+  {
+    "area": "Gandhinagar East",
+    "city": "Kolhapur",
+    "lat": 16.6988,
+    "lng": 74.2486
+  },
+  {
+    "area": "Gandhinagar West",
+    "city": "Kolhapur",
+    "lat": 16.6901,
+    "lng": 74.24025
+  },
+  {
+    "area": "Gandhinagar Market",
+    "city": "Kolhapur",
+    "lat": 16.6994,
+    "lng": 74.2493
+  },
+  {
+    "area": "Kadave Mala",
+    "city": "Kolhapur",
+    "lat": 16.6994,
+    "lng": 74.2402
+  },
+  {
+    "area": "Kadave Mala Road",
+    "city": "Kolhapur",
+    "lat": 16.6895,
+    "lng": 74.24935
+  },
+  {
+    "area": "Kadave Mala East",
+    "city": "Kolhapur",
+    "lat": 16.7,
+    "lng": 74.2395
+  },
+  {
+    "area": "Kadave Mala West",
+    "city": "Kolhapur",
+    "lat": 16.6889,
+    "lng": 74.25005
+  },
+  {
+    "area": "Kadave Mala Market",
+    "city": "Kolhapur",
+    "lat": 16.7006,
+    "lng": 74.2388
+  },
+  {
+    "area": "Shiroli",
+    "city": "Kolhapur",
+    "lat": 16.7006,
+    "lng": 74.2501
+  },
+  {
+    "area": "Shiroli Road",
+    "city": "Kolhapur",
+    "lat": 16.6883,
+    "lng": 74.23875
+  },
+  {
+    "area": "Shiroli East",
+    "city": "Kolhapur",
+    "lat": 16.7012,
+    "lng": 74.2508
+  },
+  {
+    "area": "Shiroli West",
+    "city": "Kolhapur",
+    "lat": 16.6877,
+    "lng": 74.23805
+  },
+  {
+    "area": "Shiroli Market",
+    "city": "Kolhapur",
+    "lat": 16.7018,
+    "lng": 74.2515
+  },
+  {
+    "area": "Bajarangwadi",
+    "city": "Kolhapur",
+    "lat": 16.7018,
+    "lng": 74.238
+  },
+  {
+    "area": "Bajarangwadi Road",
+    "city": "Kolhapur",
+    "lat": 16.6871,
+    "lng": 74.25155
+  },
+  {
+    "area": "Bajarangwadi East",
+    "city": "Kolhapur",
+    "lat": 16.7024,
+    "lng": 74.2373
+  },
+  {
+    "area": "Bajarangwadi West",
+    "city": "Kolhapur",
+    "lat": 16.6865,
+    "lng": 74.25225
+  },
+  {
+    "area": "Bajarangwadi Market",
+    "city": "Kolhapur",
+    "lat": 16.703,
+    "lng": 74.2366
+  },
+  {
+    "area": "Central Solapur",
+    "city": "Solapur",
+    "lat": 17.6611,
+    "lng": 75.9075
+  },
+  {
+    "area": "Central Solapur Road",
+    "city": "Solapur",
+    "lat": 17.6584,
+    "lng": 75.90495
+  },
+  {
+    "area": "Central Solapur East",
+    "city": "Solapur",
+    "lat": 17.6617,
+    "lng": 75.9082
+  },
+  {
+    "area": "Central Solapur West",
+    "city": "Solapur",
+    "lat": 17.6578,
+    "lng": 75.90425
+  },
+  {
+    "area": "Central Solapur Market",
+    "city": "Solapur",
+    "lat": 17.6623,
+    "lng": 75.9089
+  },
+  {
+    "area": "Shahupuri Solapur",
+    "city": "Solapur",
+    "lat": 17.6623,
+    "lng": 75.9042
+  },
+  {
+    "area": "Shahupuri Solapur Road",
+    "city": "Solapur",
+    "lat": 17.6572,
+    "lng": 75.90895
+  },
+  {
+    "area": "Shahupuri Solapur East",
+    "city": "Solapur",
+    "lat": 17.6629,
+    "lng": 75.9035
+  },
+  {
+    "area": "Shahupuri Solapur West",
+    "city": "Solapur",
+    "lat": 17.6566,
+    "lng": 75.90965
+  },
+  {
+    "area": "Shahupuri Solapur Market",
+    "city": "Solapur",
+    "lat": 17.6635,
+    "lng": 75.9028
+  },
+  {
+    "area": "Akkalkot Road",
+    "city": "Solapur",
+    "lat": 17.6635,
+    "lng": 75.9097
+  },
+  {
+    "area": "Akkalkot Road Road",
+    "city": "Solapur",
+    "lat": 17.656,
+    "lng": 75.90275
+  },
+  {
+    "area": "Akkalkot Road East",
+    "city": "Solapur",
+    "lat": 17.6641,
+    "lng": 75.9104
+  },
+  {
+    "area": "Akkalkot Road West",
+    "city": "Solapur",
+    "lat": 17.6554,
+    "lng": 75.90205
+  },
+  {
+    "area": "Akkalkot Road Market",
+    "city": "Solapur",
+    "lat": 17.6647,
+    "lng": 75.9111
+  },
+  {
+    "area": "Panchavati Solapur",
+    "city": "Solapur",
+    "lat": 17.6647,
+    "lng": 75.902
+  },
+  {
+    "area": "Panchavati Solapur Road",
+    "city": "Solapur",
+    "lat": 17.6548,
+    "lng": 75.91115
+  },
+  {
+    "area": "Panchavati Solapur East",
+    "city": "Solapur",
+    "lat": 17.6653,
+    "lng": 75.9013
+  },
+  {
+    "area": "Panchavati Solapur West",
+    "city": "Solapur",
+    "lat": 17.6542,
+    "lng": 75.91185
+  },
+  {
+    "area": "Panchavati Solapur Market",
+    "city": "Solapur",
+    "lat": 17.6659,
+    "lng": 75.9006
+  },
+  {
+    "area": "Miraj",
+    "city": "Sangli",
+    "lat": 16.8621,
+    "lng": 74.5667
+  },
+  {
+    "area": "Miraj Road",
+    "city": "Sangli",
+    "lat": 16.8594,
+    "lng": 74.56415
+  },
+  {
+    "area": "Miraj East",
+    "city": "Sangli",
+    "lat": 16.8627,
+    "lng": 74.5674
+  },
+  {
+    "area": "Miraj West",
+    "city": "Sangli",
+    "lat": 16.8588,
+    "lng": 74.56345
+  },
+  {
+    "area": "Miraj Market",
+    "city": "Sangli",
+    "lat": 16.8633,
+    "lng": 74.5681
+  },
+  {
+    "area": "Shivaji Nagar Sangli",
+    "city": "Sangli",
+    "lat": 16.8633,
+    "lng": 74.5634
+  },
+  {
+    "area": "Shivaji Nagar Sangli Road",
+    "city": "Sangli",
+    "lat": 16.8582,
+    "lng": 74.56815
+  },
+  {
+    "area": "Shivaji Nagar Sangli East",
+    "city": "Sangli",
+    "lat": 16.8639,
+    "lng": 74.5627
+  },
+  {
+    "area": "Shivaji Nagar Sangli West",
+    "city": "Sangli",
+    "lat": 16.8576,
+    "lng": 74.56885
+  },
+  {
+    "area": "Shivaji Nagar Sangli Market",
+    "city": "Sangli",
+    "lat": 16.8645,
+    "lng": 74.562
+  },
+  {
+    "area": "Uran Islampur",
+    "city": "Sangli",
+    "lat": 16.8645,
+    "lng": 74.5689
+  },
+  {
+    "area": "Uran Islampur Road",
+    "city": "Sangli",
+    "lat": 16.857,
+    "lng": 74.56195
+  },
+  {
+    "area": "Uran Islampur East",
+    "city": "Sangli",
+    "lat": 16.8651,
+    "lng": 74.5696
+  },
+  {
+    "area": "Uran Islampur West",
+    "city": "Sangli",
+    "lat": 16.8564,
+    "lng": 74.56125
+  },
+  {
+    "area": "Uran Islampur Market",
+    "city": "Sangli",
+    "lat": 16.8657,
+    "lng": 74.5703
+  },
+  {
+    "area": "Kavathe Mahankal",
+    "city": "Sangli",
+    "lat": 16.8657,
+    "lng": 74.5612
+  },
+  {
+    "area": "Kavathe Mahankal Road",
+    "city": "Sangli",
+    "lat": 16.8558,
+    "lng": 74.57035
+  },
+  {
+    "area": "Kavathe Mahankal East",
+    "city": "Sangli",
+    "lat": 16.8663,
+    "lng": 74.5605
+  },
+  {
+    "area": "Kavathe Mahankal West",
+    "city": "Sangli",
+    "lat": 16.8552,
+    "lng": 74.57105
+  },
+  {
+    "area": "Kavathe Mahankal Market",
+    "city": "Sangli",
+    "lat": 16.8669,
+    "lng": 74.5598
+  },
+  {
+    "area": "Satara City",
+    "city": "Satara",
+    "lat": 17.6818,
+    "lng": 73.9944
+  },
+  {
+    "area": "Satara City Road",
+    "city": "Satara",
+    "lat": 17.6791,
+    "lng": 73.99185
+  },
+  {
+    "area": "Satara City East",
+    "city": "Satara",
+    "lat": 17.6824,
+    "lng": 73.9951
+  },
+  {
+    "area": "Satara City West",
+    "city": "Satara",
+    "lat": 17.6785,
+    "lng": 73.99115
+  },
+  {
+    "area": "Satara City Market",
+    "city": "Satara",
+    "lat": 17.683,
+    "lng": 73.9958
+  },
+  {
+    "area": "Phaltan Road",
+    "city": "Satara",
+    "lat": 17.683,
+    "lng": 73.9911
+  },
+  {
+    "area": "Phaltan Road Road",
+    "city": "Satara",
+    "lat": 17.6779,
+    "lng": 73.99585
+  },
+  {
+    "area": "Phaltan Road East",
+    "city": "Satara",
+    "lat": 17.6836,
+    "lng": 73.9904
+  },
+  {
+    "area": "Phaltan Road West",
+    "city": "Satara",
+    "lat": 17.6773,
+    "lng": 73.99655
+  },
+  {
+    "area": "Phaltan Road Market",
+    "city": "Satara",
+    "lat": 17.6842,
+    "lng": 73.9897
+  },
+  {
+    "area": "Manjara",
+    "city": "Satara",
+    "lat": 17.6842,
+    "lng": 73.9966
+  },
+  {
+    "area": "Manjara Road",
+    "city": "Satara",
+    "lat": 17.6767,
+    "lng": 73.98965
+  },
+  {
+    "area": "Manjara East",
+    "city": "Satara",
+    "lat": 17.6848,
+    "lng": 73.9973
+  },
+  {
+    "area": "Manjara West",
+    "city": "Satara",
+    "lat": 17.6761,
+    "lng": 73.98895
+  },
+  {
+    "area": "Manjara Market",
+    "city": "Satara",
+    "lat": 17.6854,
+    "lng": 73.998
+  },
+  {
+    "area": "Wai Road",
+    "city": "Satara",
+    "lat": 17.6854,
+    "lng": 73.9889
+  },
+  {
+    "area": "Wai Road Road",
+    "city": "Satara",
+    "lat": 17.6755,
+    "lng": 73.99805
+  },
+  {
+    "area": "Wai Road East",
+    "city": "Satara",
+    "lat": 17.686,
+    "lng": 73.9882
+  },
+  {
+    "area": "Wai Road West",
+    "city": "Satara",
+    "lat": 17.6749,
+    "lng": 73.99875
+  },
+  {
+    "area": "Wai Road Market",
+    "city": "Satara",
+    "lat": 17.6866,
+    "lng": 73.9875
+  },
+  {
+    "area": "Jalgaon Central",
+    "city": "Jalgaon",
+    "lat": 21.0089,
+    "lng": 75.5637
+  },
+  {
+    "area": "Jalgaon Central Road",
+    "city": "Jalgaon",
+    "lat": 21.0062,
+    "lng": 75.56115
+  },
+  {
+    "area": "Jalgaon Central East",
+    "city": "Jalgaon",
+    "lat": 21.0095,
+    "lng": 75.5644
+  },
+  {
+    "area": "Jalgaon Central West",
+    "city": "Jalgaon",
+    "lat": 21.0056,
+    "lng": 75.56045
+  },
+  {
+    "area": "Jalgaon Central Market",
+    "city": "Jalgaon",
+    "lat": 21.0101,
+    "lng": 75.5651
+  },
+  {
+    "area": "Bhusawal Road",
+    "city": "Jalgaon",
+    "lat": 21.0101,
+    "lng": 75.5604
+  },
+  {
+    "area": "Bhusawal Road Road",
+    "city": "Jalgaon",
+    "lat": 21.005,
+    "lng": 75.56515
+  },
+  {
+    "area": "Bhusawal Road East",
+    "city": "Jalgaon",
+    "lat": 21.0107,
+    "lng": 75.5597
+  },
+  {
+    "area": "Bhusawal Road West",
+    "city": "Jalgaon",
+    "lat": 21.0044,
+    "lng": 75.56585
+  },
+  {
+    "area": "Bhusawal Road Market",
+    "city": "Jalgaon",
+    "lat": 21.0113,
+    "lng": 75.559
+  },
+  {
+    "area": "Yawal",
+    "city": "Jalgaon",
+    "lat": 21.0113,
+    "lng": 75.5659
+  },
+  {
+    "area": "Yawal Road",
+    "city": "Jalgaon",
+    "lat": 21.0038,
+    "lng": 75.55895
+  },
+  {
+    "area": "Yawal East",
+    "city": "Jalgaon",
+    "lat": 21.0119,
+    "lng": 75.5666
+  },
+  {
+    "area": "Yawal West",
+    "city": "Jalgaon",
+    "lat": 21.0032,
+    "lng": 75.55825
+  },
+  {
+    "area": "Yawal Market",
+    "city": "Jalgaon",
+    "lat": 21.0125,
+    "lng": 75.5673
+  },
+  {
+    "area": "Pachora",
+    "city": "Jalgaon",
+    "lat": 21.0125,
+    "lng": 75.5582
+  },
+  {
+    "area": "Pachora Road",
+    "city": "Jalgaon",
+    "lat": 21.0026,
+    "lng": 75.56735
+  },
+  {
+    "area": "Pachora East",
+    "city": "Jalgaon",
+    "lat": 21.0131,
+    "lng": 75.5575
+  },
+  {
+    "area": "Pachora West",
+    "city": "Jalgaon",
+    "lat": 21.002,
+    "lng": 75.56805
+  },
+  {
+    "area": "Pachora Market",
+    "city": "Jalgaon",
+    "lat": 21.0137,
+    "lng": 75.5568
+  },
+  {
+    "area": "Amravati Central",
+    "city": "Amravati",
+    "lat": 20.9386,
+    "lng": 77.7802
+  },
+  {
+    "area": "Amravati Central Road",
+    "city": "Amravati",
+    "lat": 20.9359,
+    "lng": 77.77765
+  },
+  {
+    "area": "Amravati Central East",
+    "city": "Amravati",
+    "lat": 20.9392,
+    "lng": 77.7809
+  },
+  {
+    "area": "Amravati Central West",
+    "city": "Amravati",
+    "lat": 20.9353,
+    "lng": 77.77695
+  },
+  {
+    "area": "Amravati Central Market",
+    "city": "Amravati",
+    "lat": 20.9398,
+    "lng": 77.7816
+  },
+  {
+    "area": "Shivaji Chowk",
+    "city": "Amravati",
+    "lat": 20.9398,
+    "lng": 77.7769
+  },
+  {
+    "area": "Shivaji Chowk Road",
+    "city": "Amravati",
+    "lat": 20.9347,
+    "lng": 77.78165
+  },
+  {
+    "area": "Shivaji Chowk East",
+    "city": "Amravati",
+    "lat": 20.9404,
+    "lng": 77.7762
+  },
+  {
+    "area": "Shivaji Chowk West",
+    "city": "Amravati",
+    "lat": 20.9341,
+    "lng": 77.78235
+  },
+  {
+    "area": "Shivaji Chowk Market",
+    "city": "Amravati",
+    "lat": 20.941,
+    "lng": 77.7755
+  },
+  {
+    "area": "Kannamwar Nagar",
+    "city": "Amravati",
+    "lat": 20.941,
+    "lng": 77.7824
+  },
+  {
+    "area": "Kannamwar Nagar Road",
+    "city": "Amravati",
+    "lat": 20.9335,
+    "lng": 77.77545
+  },
+  {
+    "area": "Kannamwar Nagar East",
+    "city": "Amravati",
+    "lat": 20.9416,
+    "lng": 77.7831
+  },
+  {
+    "area": "Kannamwar Nagar West",
+    "city": "Amravati",
+    "lat": 20.9329,
+    "lng": 77.77475
+  },
+  {
+    "area": "Kannamwar Nagar Market",
+    "city": "Amravati",
+    "lat": 20.9422,
+    "lng": 77.7838
+  },
+  {
+    "area": "Pimpri",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.631,
+    "lng": 73.8008
+  },
+  {
+    "area": "Pimpri Road",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6283,
+    "lng": 73.79825
+  },
+  {
+    "area": "Pimpri East",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6316,
+    "lng": 73.8015
+  },
+  {
+    "area": "Pimpri West",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6277,
+    "lng": 73.79755
+  },
+  {
+    "area": "Pimpri Market",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6322,
+    "lng": 73.8022
+  },
+  {
+    "area": "Chinchwad",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6322,
+    "lng": 73.7975
+  },
+  {
+    "area": "Chinchwad Road",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6271,
+    "lng": 73.80225
+  },
+  {
+    "area": "Chinchwad East",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6328,
+    "lng": 73.7968
+  },
+  {
+    "area": "Chinchwad West",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6265,
+    "lng": 73.80295
+  },
+  {
+    "area": "Chinchwad Market",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6334,
+    "lng": 73.7961
+  },
+  {
+    "area": "Nigdi",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6334,
+    "lng": 73.803
+  },
+  {
+    "area": "Nigdi Road",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6259,
+    "lng": 73.79605
+  },
+  {
+    "area": "Nigdi East",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.634,
+    "lng": 73.8037
+  },
+  {
+    "area": "Nigdi West",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6253,
+    "lng": 73.79535
+  },
+  {
+    "area": "Nigdi Market",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6346,
+    "lng": 73.8044
+  },
+  {
+    "area": "Bhosari",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6346,
+    "lng": 73.7953
+  },
+  {
+    "area": "Bhosari Road",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6247,
+    "lng": 73.80445
+  },
+  {
+    "area": "Bhosari East",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6352,
+    "lng": 73.7946
+  },
+  {
+    "area": "Bhosari West",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6241,
+    "lng": 73.80515
+  },
+  {
+    "area": "Bhosari Market",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6358,
+    "lng": 73.7939
+  },
+  {
+    "area": "Talegaon",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6358,
+    "lng": 73.8052
+  },
+  {
+    "area": "Talegaon Road",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6235,
+    "lng": 73.79385
+  },
+  {
+    "area": "Talegaon East",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6364,
+    "lng": 73.8059
+  },
+  {
+    "area": "Talegaon West",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6229,
+    "lng": 73.79315
+  },
+  {
+    "area": "Talegaon Market",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.637,
+    "lng": 73.8066
+  },
+  {
+    "area": "Chikhali",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.637,
+    "lng": 73.7931
+  },
+  {
+    "area": "Chikhali Road",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6223,
+    "lng": 73.80665
+  },
+  {
+    "area": "Chikhali East",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6376,
+    "lng": 73.7924
+  },
+  {
+    "area": "Chikhali West",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6217,
+    "lng": 73.80735
+  },
+  {
+    "area": "Chikhali Market",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6382,
+    "lng": 73.7917
+  },
+  {
+    "area": "Thane West",
+    "city": "Thane",
+    "lat": 19.2195,
+    "lng": 72.9792
+  },
+  {
+    "area": "Thane West Road",
+    "city": "Thane",
+    "lat": 19.2168,
+    "lng": 72.97665
+  },
+  {
+    "area": "Thane West East",
+    "city": "Thane",
+    "lat": 19.2201,
+    "lng": 72.9799
+  },
+  {
+    "area": "Thane West West",
+    "city": "Thane",
+    "lat": 19.2162,
+    "lng": 72.97595
+  },
+  {
+    "area": "Thane West Market",
+    "city": "Thane",
+    "lat": 19.2207,
+    "lng": 72.9806
+  },
+  {
+    "area": "Thane East",
+    "city": "Thane",
+    "lat": 19.2207,
+    "lng": 72.9759
+  },
+  {
+    "area": "Thane East Road",
+    "city": "Thane",
+    "lat": 19.2156,
+    "lng": 72.98065
+  },
+  {
+    "area": "Thane East East",
+    "city": "Thane",
+    "lat": 19.2213,
+    "lng": 72.9752
+  },
+  {
+    "area": "Thane East West",
+    "city": "Thane",
+    "lat": 19.215,
+    "lng": 72.98135
+  },
+  {
+    "area": "Thane East Market",
+    "city": "Thane",
+    "lat": 19.2219,
+    "lng": 72.9745
+  },
+  {
+    "area": "Mumbra",
+    "city": "Thane",
+    "lat": 19.2219,
+    "lng": 72.9814
+  },
+  {
+    "area": "Mumbra Road",
+    "city": "Thane",
+    "lat": 19.2144,
+    "lng": 72.97445
+  },
+  {
+    "area": "Mumbra East",
+    "city": "Thane",
+    "lat": 19.2225,
+    "lng": 72.9821
+  },
+  {
+    "area": "Mumbra West",
+    "city": "Thane",
+    "lat": 19.2138,
+    "lng": 72.97375
+  },
+  {
+    "area": "Mumbra Market",
+    "city": "Thane",
+    "lat": 19.2231,
+    "lng": 72.9828
+  },
+  {
+    "area": "Kalwa",
+    "city": "Thane",
+    "lat": 19.2231,
+    "lng": 72.9737
+  },
+  {
+    "area": "Kalwa Road",
+    "city": "Thane",
+    "lat": 19.2132,
+    "lng": 72.98285
+  },
+  {
+    "area": "Kalwa East",
+    "city": "Thane",
+    "lat": 19.2237,
+    "lng": 72.973
+  },
+  {
+    "area": "Kalwa West",
+    "city": "Thane",
+    "lat": 19.2126,
+    "lng": 72.98355
+  },
+  {
+    "area": "Kalwa Market",
+    "city": "Thane",
+    "lat": 19.2243,
+    "lng": 72.9723
+  },
+  {
+    "area": "Dombivli",
+    "city": "Thane",
+    "lat": 19.2243,
+    "lng": 72.9836
+  },
+  {
+    "area": "Dombivli Road",
+    "city": "Thane",
+    "lat": 19.212,
+    "lng": 72.97225
+  },
+  {
+    "area": "Dombivli East",
+    "city": "Thane",
+    "lat": 19.2249,
+    "lng": 72.9843
+  },
+  {
+    "area": "Dombivli West",
+    "city": "Thane",
+    "lat": 19.2114,
+    "lng": 72.97155
+  },
+  {
+    "area": "Dombivli Market",
+    "city": "Thane",
+    "lat": 19.2255,
+    "lng": 72.985
+  },
+  {
+    "area": "Kalyan",
+    "city": "Thane",
+    "lat": 19.2255,
+    "lng": 72.9715
+  },
+  {
+    "area": "Kalyan Road",
+    "city": "Thane",
+    "lat": 19.2108,
+    "lng": 72.98505
+  },
+  {
+    "area": "Kalyan East",
+    "city": "Thane",
+    "lat": 19.2261,
+    "lng": 72.9708
+  },
+  {
+    "area": "Kalyan West",
+    "city": "Thane",
+    "lat": 19.2102,
+    "lng": 72.98575
+  },
+  {
+    "area": "Kalyan Market",
+    "city": "Thane",
+    "lat": 19.2267,
+    "lng": 72.9701
+  },
+  {
+    "area": "Vashi",
+    "city": "Navi Mumbai",
+    "lat": 19.0342,
+    "lng": 73.0308
+  },
+  {
+    "area": "Vashi Road",
+    "city": "Navi Mumbai",
+    "lat": 19.0315,
+    "lng": 73.02825
+  },
+  {
+    "area": "Vashi East",
+    "city": "Navi Mumbai",
+    "lat": 19.0348,
+    "lng": 73.0315
+  },
+  {
+    "area": "Vashi West",
+    "city": "Navi Mumbai",
+    "lat": 19.0309,
+    "lng": 73.02755
+  },
+  {
+    "area": "Vashi Market",
+    "city": "Navi Mumbai",
+    "lat": 19.0354,
+    "lng": 73.0322
+  },
+  {
+    "area": "Nerul",
+    "city": "Navi Mumbai",
+    "lat": 19.0354,
+    "lng": 73.0275
+  },
+  {
+    "area": "Nerul Road",
+    "city": "Navi Mumbai",
+    "lat": 19.0303,
+    "lng": 73.03225
+  },
+  {
+    "area": "Nerul East",
+    "city": "Navi Mumbai",
+    "lat": 19.036,
+    "lng": 73.0268
+  },
+  {
+    "area": "Nerul West",
+    "city": "Navi Mumbai",
+    "lat": 19.0297,
+    "lng": 73.03295
+  },
+  {
+    "area": "Nerul Market",
+    "city": "Navi Mumbai",
+    "lat": 19.0366,
+    "lng": 73.0261
+  },
+  {
+    "area": "Kharghar",
+    "city": "Navi Mumbai",
+    "lat": 19.0366,
+    "lng": 73.033
+  },
+  {
+    "area": "Kharghar Road",
+    "city": "Navi Mumbai",
+    "lat": 19.0291,
+    "lng": 73.02605
+  },
+  {
+    "area": "Kharghar East",
+    "city": "Navi Mumbai",
+    "lat": 19.0372,
+    "lng": 73.0337
+  },
+  {
+    "area": "Kharghar West",
+    "city": "Navi Mumbai",
+    "lat": 19.0285,
+    "lng": 73.02535
+  },
+  {
+    "area": "Kharghar Market",
+    "city": "Navi Mumbai",
+    "lat": 19.0378,
+    "lng": 73.0344
+  },
+  {
+    "area": "Panvel",
+    "city": "Navi Mumbai",
+    "lat": 19.0378,
+    "lng": 73.0253
+  },
+  {
+    "area": "Panvel Road",
+    "city": "Navi Mumbai",
+    "lat": 19.0279,
+    "lng": 73.03445
+  },
+  {
+    "area": "Panvel East",
+    "city": "Navi Mumbai",
+    "lat": 19.0384,
+    "lng": 73.0246
+  },
+  {
+    "area": "Panvel West",
+    "city": "Navi Mumbai",
+    "lat": 19.0273,
+    "lng": 73.03515
+  },
+  {
+    "area": "Panvel Market",
+    "city": "Navi Mumbai",
+    "lat": 19.039,
+    "lng": 73.0239
+  },
+  {
+    "area": "Belapur",
+    "city": "Navi Mumbai",
+    "lat": 19.039,
+    "lng": 73.0352
+  },
+  {
+    "area": "Belapur Road",
+    "city": "Navi Mumbai",
+    "lat": 19.0267,
+    "lng": 73.02385
+  },
+  {
+    "area": "Belapur East",
+    "city": "Navi Mumbai",
+    "lat": 19.0396,
+    "lng": 73.0359
+  },
+  {
+    "area": "Belapur West",
+    "city": "Navi Mumbai",
+    "lat": 19.0261,
+    "lng": 73.02315
+  },
+  {
+    "area": "Belapur Market",
+    "city": "Navi Mumbai",
+    "lat": 19.0402,
+    "lng": 73.0366
+  },
+  {
+    "area": "Airoli",
+    "city": "Navi Mumbai",
+    "lat": 19.0402,
+    "lng": 73.0231
+  },
+  {
+    "area": "Airoli Road",
+    "city": "Navi Mumbai",
+    "lat": 19.0255,
+    "lng": 73.03665
+  },
+  {
+    "area": "Airoli East",
+    "city": "Navi Mumbai",
+    "lat": 19.0408,
+    "lng": 73.0224
+  },
+  {
+    "area": "Airoli West",
+    "city": "Navi Mumbai",
+    "lat": 19.0249,
+    "lng": 73.03735
+  },
+  {
+    "area": "Airoli Market",
+    "city": "Navi Mumbai",
+    "lat": 19.0414,
+    "lng": 73.0217
+  },
+  {
+    "area": "Akola Central",
+    "city": "Akola",
+    "lat": 20.7079,
+    "lng": 77.0073
+  },
+  {
+    "area": "Akola Central Road",
+    "city": "Akola",
+    "lat": 20.7052,
+    "lng": 77.00475
+  },
+  {
+    "area": "Akola Central East",
+    "city": "Akola",
+    "lat": 20.7085,
+    "lng": 77.008
+  },
+  {
+    "area": "Akola Central West",
+    "city": "Akola",
+    "lat": 20.7046,
+    "lng": 77.00405
+  },
+  {
+    "area": "Akola Central Market",
+    "city": "Akola",
+    "lat": 20.7091,
+    "lng": 77.0087
+  },
+  {
+    "area": "Nadgaon",
+    "city": "Akola",
+    "lat": 20.7091,
+    "lng": 77.004
+  },
+  {
+    "area": "Nadgaon Road",
+    "city": "Akola",
+    "lat": 20.704,
+    "lng": 77.00875
+  },
+  {
+    "area": "Nadgaon East",
+    "city": "Akola",
+    "lat": 20.7097,
+    "lng": 77.0033
+  },
+  {
+    "area": "Nadgaon West",
+    "city": "Akola",
+    "lat": 20.7034,
+    "lng": 77.00945
+  },
+  {
+    "area": "Nadgaon Market",
+    "city": "Akola",
+    "lat": 20.7103,
+    "lng": 77.0026
+  },
+  {
+    "area": "Murtizapur",
+    "city": "Akola",
+    "lat": 20.7103,
+    "lng": 77.0095
+  },
+  {
+    "area": "Murtizapur Road",
+    "city": "Akola",
+    "lat": 20.7028,
+    "lng": 77.00255
+  },
+  {
+    "area": "Murtizapur East",
+    "city": "Akola",
+    "lat": 20.7109,
+    "lng": 77.0102
+  },
+  {
+    "area": "Murtizapur West",
+    "city": "Akola",
+    "lat": 20.7022,
+    "lng": 77.00185
+  },
+  {
+    "area": "Murtizapur Market",
+    "city": "Akola",
+    "lat": 20.7115,
+    "lng": 77.0109
+  },
+  {
+    "area": "Amalner Town",
+    "city": "Amalner",
+    "lat": 21.1655,
+    "lng": 75.1765
+  },
+  {
+    "area": "Amalner Town Road",
+    "city": "Amalner",
+    "lat": 21.1628,
+    "lng": 75.17395
+  },
+  {
+    "area": "Amalner Town East",
+    "city": "Amalner",
+    "lat": 21.1661,
+    "lng": 75.1772
+  },
+  {
+    "area": "Amalner Town West",
+    "city": "Amalner",
+    "lat": 21.1622,
+    "lng": 75.17325
+  },
+  {
+    "area": "Amalner Town Market",
+    "city": "Amalner",
+    "lat": 21.1667,
+    "lng": 75.1779
+  },
+  {
+    "area": "Bhandara Area 1",
+    "city": "Bhandara",
+    "lat": 21.17,
+    "lng": 79.5375
+  },
+  {
+    "area": "Bhandara Area 2",
+    "city": "Bhandara",
+    "lat": 21.172,
+    "lng": 79.54
+  },
+  {
+    "area": "Bhandara Area 3",
+    "city": "Bhandara",
+    "lat": 21.174,
+    "lng": 79.5425
+  },
+  {
+    "area": "Bhandara Area 4",
+    "city": "Bhandara",
+    "lat": 21.176,
+    "lng": 79.545
+  },
+  {
+    "area": "Bhandara Area 5",
+    "city": "Bhandara",
+    "lat": 21.178,
+    "lng": 79.5475
+  },
+  {
+    "area": "Bhandara Area 6",
+    "city": "Bhandara",
+    "lat": 21.18,
+    "lng": 79.55
+  },
+  {
+    "area": "Bhandara Area 7",
+    "city": "Bhandara",
+    "lat": 21.182,
+    "lng": 79.5525
+  },
+  {
+    "area": "Bhandara Area 8",
+    "city": "Bhandara",
+    "lat": 21.184,
+    "lng": 79.555
+  },
+  {
+    "area": "Bhandara Area 9",
+    "city": "Bhandara",
+    "lat": 21.186,
+    "lng": 79.5575
+  },
+  {
+    "area": "Bhandara Area 10",
+    "city": "Bhandara",
+    "lat": 21.188,
+    "lng": 79.56
+  },
+  {
+    "area": "Gondia Area 1",
+    "city": "Gondia",
+    "lat": 21.4567,
+    "lng": 80.1708
+  },
+  {
+    "area": "Gondia Area 2",
+    "city": "Gondia",
+    "lat": 21.4587,
+    "lng": 80.1733
+  },
+  {
+    "area": "Gondia Area 3",
+    "city": "Gondia",
+    "lat": 21.4607,
+    "lng": 80.1758
+  },
+  {
+    "area": "Gondia Area 4",
+    "city": "Gondia",
+    "lat": 21.4627,
+    "lng": 80.1783
+  },
+  {
+    "area": "Gondia Area 5",
+    "city": "Gondia",
+    "lat": 21.4647,
+    "lng": 80.1808
+  },
+  {
+    "area": "Gondia Area 6",
+    "city": "Gondia",
+    "lat": 21.4667,
+    "lng": 80.1833
+  },
+  {
+    "area": "Gondia Area 7",
+    "city": "Gondia",
+    "lat": 21.4687,
+    "lng": 80.1858
+  },
+  {
+    "area": "Gondia Area 8",
+    "city": "Gondia",
+    "lat": 21.4707,
+    "lng": 80.1883
+  },
+  {
+    "area": "Gondia Area 9",
+    "city": "Gondia",
+    "lat": 21.4727,
+    "lng": 80.1908
+  },
+  {
+    "area": "Gondia Area 10",
+    "city": "Gondia",
+    "lat": 21.4747,
+    "lng": 80.1933
+  },
+  {
+    "area": "Yavatmal Area 1",
+    "city": "Yavatmal",
+    "lat": 20.384,
+    "lng": 78.1155
+  },
+  {
+    "area": "Yavatmal Area 2",
+    "city": "Yavatmal",
+    "lat": 20.386,
+    "lng": 78.118
+  },
+  {
+    "area": "Yavatmal Area 3",
+    "city": "Yavatmal",
+    "lat": 20.388,
+    "lng": 78.1205
+  },
+  {
+    "area": "Yavatmal Area 4",
+    "city": "Yavatmal",
+    "lat": 20.39,
+    "lng": 78.123
+  },
+  {
+    "area": "Yavatmal Area 5",
+    "city": "Yavatmal",
+    "lat": 20.392,
+    "lng": 78.1255
+  },
+  {
+    "area": "Yavatmal Area 6",
+    "city": "Yavatmal",
+    "lat": 20.394,
+    "lng": 78.128
+  },
+  {
+    "area": "Yavatmal Area 7",
+    "city": "Yavatmal",
+    "lat": 20.396,
+    "lng": 78.1305
+  },
+  {
+    "area": "Yavatmal Area 8",
+    "city": "Yavatmal",
+    "lat": 20.398,
+    "lng": 78.133
+  },
+  {
+    "area": "Yavatmal Area 9",
+    "city": "Yavatmal",
+    "lat": 20.4,
+    "lng": 78.1355
+  },
+  {
+    "area": "Yavatmal Area 10",
+    "city": "Yavatmal",
+    "lat": 20.402,
+    "lng": 78.138
+  },
+  {
+    "area": "Washim Area 1",
+    "city": "Washim",
+    "lat": 20.1139,
+    "lng": 76.0078
+  },
+  {
+    "area": "Washim Area 2",
+    "city": "Washim",
+    "lat": 20.1159,
+    "lng": 76.0103
+  },
+  {
+    "area": "Washim Area 3",
+    "city": "Washim",
+    "lat": 20.1179,
+    "lng": 76.0128
+  },
+  {
+    "area": "Washim Area 4",
+    "city": "Washim",
+    "lat": 20.1199,
+    "lng": 76.0153
+  },
+  {
+    "area": "Washim Area 5",
+    "city": "Washim",
+    "lat": 20.1219,
+    "lng": 76.0178
+  },
+  {
+    "area": "Washim Area 6",
+    "city": "Washim",
+    "lat": 20.1239,
+    "lng": 76.0203
+  },
+  {
+    "area": "Washim Area 7",
+    "city": "Washim",
+    "lat": 20.1259,
+    "lng": 76.0228
+  },
+  {
+    "area": "Washim Area 8",
+    "city": "Washim",
+    "lat": 20.1279,
+    "lng": 76.0253
+  },
+  {
+    "area": "Washim Area 9",
+    "city": "Washim",
+    "lat": 20.1299,
+    "lng": 76.0278
+  },
+  {
+    "area": "Washim Area 10",
+    "city": "Washim",
+    "lat": 20.1319,
+    "lng": 76.0303
+  },
+  {
+    "area": "Beed Area 1",
+    "city": "Beed",
+    "lat": 18.9744,
+    "lng": 75.7514
+  },
+  {
+    "area": "Beed Area 2",
+    "city": "Beed",
+    "lat": 18.9764,
+    "lng": 75.7539
+  },
+  {
+    "area": "Beed Area 3",
+    "city": "Beed",
+    "lat": 18.9784,
+    "lng": 75.7564
+  },
+  {
+    "area": "Beed Area 4",
+    "city": "Beed",
+    "lat": 18.9804,
+    "lng": 75.7589
+  },
+  {
+    "area": "Beed Area 5",
+    "city": "Beed",
+    "lat": 18.9824,
+    "lng": 75.7614
+  },
+  {
+    "area": "Beed Area 6",
+    "city": "Beed",
+    "lat": 18.9844,
+    "lng": 75.7639
+  },
+  {
+    "area": "Beed Area 7",
+    "city": "Beed",
+    "lat": 18.9864,
+    "lng": 75.7664
+  },
+  {
+    "area": "Beed Area 8",
+    "city": "Beed",
+    "lat": 18.9884,
+    "lng": 75.7689
+  },
+  {
+    "area": "Beed Area 9",
+    "city": "Beed",
+    "lat": 18.9904,
+    "lng": 75.7714
+  },
+  {
+    "area": "Beed Area 10",
+    "city": "Beed",
+    "lat": 18.9924,
+    "lng": 75.7739
+  },
+  {
+    "area": "Jalna Area 1",
+    "city": "Jalna",
+    "lat": 19.8314,
+    "lng": 75.8751
+  },
+  {
+    "area": "Jalna Area 2",
+    "city": "Jalna",
+    "lat": 19.8334,
+    "lng": 75.8776
+  },
+  {
+    "area": "Jalna Area 3",
+    "city": "Jalna",
+    "lat": 19.8354,
+    "lng": 75.8801
+  },
+  {
+    "area": "Jalna Area 4",
+    "city": "Jalna",
+    "lat": 19.8374,
+    "lng": 75.8826
+  },
+  {
+    "area": "Jalna Area 5",
+    "city": "Jalna",
+    "lat": 19.8394,
+    "lng": 75.8851
+  },
+  {
+    "area": "Jalna Area 6",
+    "city": "Jalna",
+    "lat": 19.8414,
+    "lng": 75.8876
+  },
+  {
+    "area": "Jalna Area 7",
+    "city": "Jalna",
+    "lat": 19.8434,
+    "lng": 75.8901
+  },
+  {
+    "area": "Jalna Area 8",
+    "city": "Jalna",
+    "lat": 19.8454,
+    "lng": 75.8926
+  },
+  {
+    "area": "Jalna Area 9",
+    "city": "Jalna",
+    "lat": 19.8474,
+    "lng": 75.8951
+  },
+  {
+    "area": "Jalna Area 10",
+    "city": "Jalna",
+    "lat": 19.8494,
+    "lng": 75.8976
+  },
+  {
+    "area": "Osmanabad Area 1",
+    "city": "Osmanabad",
+    "lat": 18.168,
+    "lng": 76.0294
+  },
+  {
+    "area": "Osmanabad Area 2",
+    "city": "Osmanabad",
+    "lat": 18.17,
+    "lng": 76.0319
+  },
+  {
+    "area": "Osmanabad Area 3",
+    "city": "Osmanabad",
+    "lat": 18.172,
+    "lng": 76.0344
+  },
+  {
+    "area": "Osmanabad Area 4",
+    "city": "Osmanabad",
+    "lat": 18.174,
+    "lng": 76.0369
+  },
+  {
+    "area": "Osmanabad Area 5",
+    "city": "Osmanabad",
+    "lat": 18.176,
+    "lng": 76.0394
+  },
+  {
+    "area": "Osmanabad Area 6",
+    "city": "Osmanabad",
+    "lat": 18.178,
+    "lng": 76.0419
+  },
+  {
+    "area": "Osmanabad Area 7",
+    "city": "Osmanabad",
+    "lat": 18.18,
+    "lng": 76.0444
+  },
+  {
+    "area": "Osmanabad Area 8",
+    "city": "Osmanabad",
+    "lat": 18.182,
+    "lng": 76.0469
+  },
+  {
+    "area": "Osmanabad Area 9",
+    "city": "Osmanabad",
+    "lat": 18.184,
+    "lng": 76.0494
+  },
+  {
+    "area": "Osmanabad Area 10",
+    "city": "Osmanabad",
+    "lat": 18.186,
+    "lng": 76.0519
+  },
+  {
+    "area": "Sangamner Area 1",
+    "city": "Sangamner",
+    "lat": 19.42,
+    "lng": 74.1775
+  },
+  {
+    "area": "Sangamner Area 2",
+    "city": "Sangamner",
+    "lat": 19.422,
+    "lng": 74.18
+  },
+  {
+    "area": "Sangamner Area 3",
+    "city": "Sangamner",
+    "lat": 19.424,
+    "lng": 74.1825
+  },
+  {
+    "area": "Sangamner Area 4",
+    "city": "Sangamner",
+    "lat": 19.426,
+    "lng": 74.185
+  },
+  {
+    "area": "Sangamner Area 5",
+    "city": "Sangamner",
+    "lat": 19.428,
+    "lng": 74.1875
+  },
+  {
+    "area": "Sangamner Area 6",
+    "city": "Sangamner",
+    "lat": 19.43,
+    "lng": 74.19
+  },
+  {
+    "area": "Sangamner Area 7",
+    "city": "Sangamner",
+    "lat": 19.432,
+    "lng": 74.1925
+  },
+  {
+    "area": "Sangamner Area 8",
+    "city": "Sangamner",
+    "lat": 19.434,
+    "lng": 74.195
+  },
+  {
+    "area": "Sangamner Area 9",
+    "city": "Sangamner",
+    "lat": 19.436,
+    "lng": 74.1975
+  },
+  {
+    "area": "Sangamner Area 10",
+    "city": "Sangamner",
+    "lat": 19.438,
+    "lng": 74.2
+  },
+  {
+    "area": "Nanded Area 1",
+    "city": "Nanded",
+    "lat": 19.1426,
+    "lng": 77.3051
+  },
+  {
+    "area": "Nanded Area 2",
+    "city": "Nanded",
+    "lat": 19.1446,
+    "lng": 77.3076
+  },
+  {
+    "area": "Nanded Area 3",
+    "city": "Nanded",
+    "lat": 19.1466,
+    "lng": 77.3101
+  },
+  {
+    "area": "Nanded Area 4",
+    "city": "Nanded",
+    "lat": 19.1486,
+    "lng": 77.3126
+  },
+  {
+    "area": "Nanded Area 5",
+    "city": "Nanded",
+    "lat": 19.1506,
+    "lng": 77.3151
+  },
+  {
+    "area": "Nanded Area 6",
+    "city": "Nanded",
+    "lat": 19.1526,
+    "lng": 77.3176
+  },
+  {
+    "area": "Nanded Area 7",
+    "city": "Nanded",
+    "lat": 19.1546,
+    "lng": 77.3201
+  },
+  {
+    "area": "Nanded Area 8",
+    "city": "Nanded",
+    "lat": 19.1566,
+    "lng": 77.3226
+  },
+  {
+    "area": "Nanded Area 9",
+    "city": "Nanded",
+    "lat": 19.1586,
+    "lng": 77.3251
+  },
+  {
+    "area": "Nanded Area 10",
+    "city": "Nanded",
+    "lat": 19.1606,
+    "lng": 77.3276
+  },
+  {
+    "area": "Latur Area 1",
+    "city": "Latur",
+    "lat": 18.3984,
+    "lng": 76.5573
+  },
+  {
+    "area": "Latur Area 2",
+    "city": "Latur",
+    "lat": 18.4004,
+    "lng": 76.5598
+  },
+  {
+    "area": "Latur Area 3",
+    "city": "Latur",
+    "lat": 18.4024,
+    "lng": 76.5623
+  },
+  {
+    "area": "Latur Area 4",
+    "city": "Latur",
+    "lat": 18.4044,
+    "lng": 76.5648
+  },
+  {
+    "area": "Latur Area 5",
+    "city": "Latur",
+    "lat": 18.4064,
+    "lng": 76.5673
+  },
+  {
+    "area": "Latur Area 6",
+    "city": "Latur",
+    "lat": 18.4084,
+    "lng": 76.5698
+  },
+  {
+    "area": "Latur Area 7",
+    "city": "Latur",
+    "lat": 18.4104,
+    "lng": 76.5723
+  },
+  {
+    "area": "Latur Area 8",
+    "city": "Latur",
+    "lat": 18.4124,
+    "lng": 76.5748
+  },
+  {
+    "area": "Latur Area 9",
+    "city": "Latur",
+    "lat": 18.4144,
+    "lng": 76.5773
+  },
+  {
+    "area": "Latur Area 10",
+    "city": "Latur",
+    "lat": 18.4164,
+    "lng": 76.5798
+  },
+  {
+    "area": "Parbhani Area 1",
+    "city": "Parbhani",
+    "lat": 19.2583,
+    "lng": 76.7583
+  },
+  {
+    "area": "Parbhani Area 2",
+    "city": "Parbhani",
+    "lat": 19.2603,
+    "lng": 76.7608
+  },
+  {
+    "area": "Parbhani Area 3",
+    "city": "Parbhani",
+    "lat": 19.2623,
+    "lng": 76.7633
+  },
+  {
+    "area": "Parbhani Area 4",
+    "city": "Parbhani",
+    "lat": 19.2643,
+    "lng": 76.7658
+  },
+  {
+    "area": "Parbhani Area 5",
+    "city": "Parbhani",
+    "lat": 19.2663,
+    "lng": 76.7683
+  },
+  {
+    "area": "Parbhani Area 6",
+    "city": "Parbhani",
+    "lat": 19.2683,
+    "lng": 76.7708
+  },
+  {
+    "area": "Parbhani Area 7",
+    "city": "Parbhani",
+    "lat": 19.2703,
+    "lng": 76.7733
+  },
+  {
+    "area": "Parbhani Area 8",
+    "city": "Parbhani",
+    "lat": 19.2723,
+    "lng": 76.7758
+  },
+  {
+    "area": "Parbhani Area 9",
+    "city": "Parbhani",
+    "lat": 19.2743,
+    "lng": 76.7783
+  },
+  {
+    "area": "Parbhani Area 10",
+    "city": "Parbhani",
+    "lat": 19.2763,
+    "lng": 76.7808
+  },
+  {
+    "area": "Hingoli Area 1",
+    "city": "Hingoli",
+    "lat": 19.7092,
+    "lng": 77.1311
+  },
+  {
+    "area": "Hingoli Area 2",
+    "city": "Hingoli",
+    "lat": 19.7112,
+    "lng": 77.1336
+  },
+  {
+    "area": "Hingoli Area 3",
+    "city": "Hingoli",
+    "lat": 19.7132,
+    "lng": 77.1361
+  },
+  {
+    "area": "Hingoli Area 4",
+    "city": "Hingoli",
+    "lat": 19.7152,
+    "lng": 77.1386
+  },
+  {
+    "area": "Hingoli Area 5",
+    "city": "Hingoli",
+    "lat": 19.7172,
+    "lng": 77.1411
+  },
+  {
+    "area": "Hingoli Area 6",
+    "city": "Hingoli",
+    "lat": 19.7192,
+    "lng": 77.1436
+  },
+  {
+    "area": "Hingoli Area 7",
+    "city": "Hingoli",
+    "lat": 19.7212,
+    "lng": 77.1461
+  },
+  {
+    "area": "Hingoli Area 8",
+    "city": "Hingoli",
+    "lat": 19.7232,
+    "lng": 77.1486
+  },
+  {
+    "area": "Hingoli Area 9",
+    "city": "Hingoli",
+    "lat": 19.7252,
+    "lng": 77.1511
+  },
+  {
+    "area": "Hingoli Area 10",
+    "city": "Hingoli",
+    "lat": 19.7272,
+    "lng": 77.1536
+  },
+  {
+    "area": "Baner Ext1",
+    "city": "Pune",
+    "lat": 18.5216,
+    "lng": 73.8578
+  },
+  {
+    "area": "Baner Road Ext1",
+    "city": "Pune",
+    "lat": 18.519,
+    "lng": 73.85535
+  },
+  {
+    "area": "Baner East Ext1",
+    "city": "Pune",
+    "lat": 18.5224,
+    "lng": 73.8587
+  },
+  {
+    "area": "Baner West Ext1",
+    "city": "Pune",
+    "lat": 18.5186,
+    "lng": 73.85485
+  },
+  {
+    "area": "Baner Market Ext1",
+    "city": "Pune",
+    "lat": 18.5232,
+    "lng": 73.8596
+  },
+  {
+    "area": "Balewadi Ext1",
+    "city": "Pune",
+    "lat": 18.5228,
+    "lng": 73.8545
+  },
+  {
+    "area": "Balewadi Road Ext1",
+    "city": "Pune",
+    "lat": 18.5178,
+    "lng": 73.85935
+  },
+  {
+    "area": "Balewadi East Ext1",
+    "city": "Pune",
+    "lat": 18.5236,
+    "lng": 73.854
+  },
+  {
+    "area": "Balewadi West Ext1",
+    "city": "Pune",
+    "lat": 18.5174,
+    "lng": 73.86025
+  },
+  {
+    "area": "Balewadi Market Ext1",
+    "city": "Pune",
+    "lat": 18.5244,
+    "lng": 73.8535
+  },
+  {
+    "area": "Bavdhan Ext1",
+    "city": "Pune",
+    "lat": 18.524,
+    "lng": 73.86
+  },
+  {
+    "area": "Bavdhan Road Ext1",
+    "city": "Pune",
+    "lat": 18.5166,
+    "lng": 73.85315
+  },
+  {
+    "area": "Bavdhan East Ext1",
+    "city": "Pune",
+    "lat": 18.5248,
+    "lng": 73.8609
+  },
+  {
+    "area": "Bavdhan West Ext1",
+    "city": "Pune",
+    "lat": 18.5162,
+    "lng": 73.85265
+  },
+  {
+    "area": "Bavdhan Market Ext1",
+    "city": "Pune",
+    "lat": 18.5256,
+    "lng": 73.8618
+  },
+  {
+    "area": "Kothrud Ext1",
+    "city": "Pune",
+    "lat": 18.5252,
+    "lng": 73.8523
+  },
+  {
+    "area": "Kothrud Road Ext1",
+    "city": "Pune",
+    "lat": 18.5154,
+    "lng": 73.86155
+  },
+  {
+    "area": "Kothrud East Ext1",
+    "city": "Pune",
+    "lat": 18.526,
+    "lng": 73.8518
+  },
+  {
+    "area": "Kothrud West Ext1",
+    "city": "Pune",
+    "lat": 18.515,
+    "lng": 73.86245
+  },
+  {
+    "area": "Kothrud Market Ext1",
+    "city": "Pune",
+    "lat": 18.5268,
+    "lng": 73.8513
+  },
+  {
+    "area": "Aundh Ext1",
+    "city": "Pune",
+    "lat": 18.5264,
+    "lng": 73.8622
+  },
+  {
+    "area": "Aundh Road Ext1",
+    "city": "Pune",
+    "lat": 18.5142,
+    "lng": 73.85095
+  },
+  {
+    "area": "Aundh East Ext1",
+    "city": "Pune",
+    "lat": 18.5272,
+    "lng": 73.8631
+  },
+  {
+    "area": "Aundh West Ext1",
+    "city": "Pune",
+    "lat": 18.5138,
+    "lng": 73.85045
+  },
+  {
+    "area": "Aundh Market Ext1",
+    "city": "Pune",
+    "lat": 18.528,
+    "lng": 73.864
+  },
+  {
+    "area": "Pimpri Ext1",
+    "city": "Pune",
+    "lat": 18.5276,
+    "lng": 73.8501
+  },
+  {
+    "area": "Pimpri Road Ext1",
+    "city": "Pune",
+    "lat": 18.513,
+    "lng": 73.86375
+  },
+  {
+    "area": "Pimpri East Ext1",
+    "city": "Pune",
+    "lat": 18.5284,
+    "lng": 73.8496
+  },
+  {
+    "area": "Pimpri West Ext1",
+    "city": "Pune",
+    "lat": 18.5126,
+    "lng": 73.86465
+  },
+  {
+    "area": "Pimpri Market Ext1",
+    "city": "Pune",
+    "lat": 18.5292,
+    "lng": 73.8491
+  },
+  {
+    "area": "Chinchwad Ext1",
+    "city": "Pune",
+    "lat": 18.5288,
+    "lng": 73.8644
+  },
+  {
+    "area": "Chinchwad Road Ext1",
+    "city": "Pune",
+    "lat": 18.5118,
+    "lng": 73.84875
+  },
+  {
+    "area": "Chinchwad East Ext1",
+    "city": "Pune",
+    "lat": 18.5296,
+    "lng": 73.8653
+  },
+  {
+    "area": "Chinchwad West Ext1",
+    "city": "Pune",
+    "lat": 18.5114,
+    "lng": 73.84825
+  },
+  {
+    "area": "Chinchwad Market Ext1",
+    "city": "Pune",
+    "lat": 18.5304,
+    "lng": 73.8662
+  },
+  {
+    "area": "Pimple Saudagar Ext1",
+    "city": "Pune",
+    "lat": 18.53,
+    "lng": 73.8479
+  },
+  {
+    "area": "Pimple Saudagar Road Ext1",
+    "city": "Pune",
+    "lat": 18.5106,
+    "lng": 73.86595
+  },
+  {
+    "area": "Pimple Saudagar East Ext1",
+    "city": "Pune",
+    "lat": 18.5308,
+    "lng": 73.8474
+  },
+  {
+    "area": "Pimple Saudagar West Ext1",
+    "city": "Pune",
+    "lat": 18.5102,
+    "lng": 73.86685
+  },
+  {
+    "area": "Pimple Saudagar Market Ext1",
+    "city": "Pune",
+    "lat": 18.5316,
+    "lng": 73.8469
+  },
+  {
+    "area": "Wakad Ext1",
+    "city": "Pune",
+    "lat": 18.5312,
+    "lng": 73.8666
+  },
+  {
+    "area": "Wakad Road Ext1",
+    "city": "Pune",
+    "lat": 18.5094,
+    "lng": 73.84655
+  },
+  {
+    "area": "Wakad East Ext1",
+    "city": "Pune",
+    "lat": 18.532,
+    "lng": 73.8675
+  },
+  {
+    "area": "Wakad West Ext1",
+    "city": "Pune",
+    "lat": 18.509,
+    "lng": 73.84605
+  },
+  {
+    "area": "Wakad Market Ext1",
+    "city": "Pune",
+    "lat": 18.5328,
+    "lng": 73.8684
+  },
+  {
+    "area": "Kalyani Nagar Ext1",
+    "city": "Pune",
+    "lat": 18.5324,
+    "lng": 73.8457
+  },
+  {
+    "area": "Kalyani Nagar Road Ext1",
+    "city": "Pune",
+    "lat": 18.5082,
+    "lng": 73.86815
+  },
+  {
+    "area": "Kalyani Nagar East Ext1",
+    "city": "Pune",
+    "lat": 18.5332,
+    "lng": 73.8452
+  },
+  {
+    "area": "Kalyani Nagar West Ext1",
+    "city": "Pune",
+    "lat": 18.5078,
+    "lng": 73.86905
+  },
+  {
+    "area": "Kalyani Nagar Market Ext1",
+    "city": "Pune",
+    "lat": 18.534,
+    "lng": 73.8447
+  },
+  {
+    "area": "Viman Nagar Ext1",
+    "city": "Pune",
+    "lat": 18.5336,
+    "lng": 73.8688
+  },
+  {
+    "area": "Viman Nagar Road Ext1",
+    "city": "Pune",
+    "lat": 18.507,
+    "lng": 73.84435
+  },
+  {
+    "area": "Viman Nagar East Ext1",
+    "city": "Pune",
+    "lat": 18.5344,
+    "lng": 73.8697
+  },
+  {
+    "area": "Viman Nagar West Ext1",
+    "city": "Pune",
+    "lat": 18.5066,
+    "lng": 73.84385
+  },
+  {
+    "area": "Viman Nagar Market Ext1",
+    "city": "Pune",
+    "lat": 18.5352,
+    "lng": 73.8706
+  },
+  {
+    "area": "Hadapsar Ext1",
+    "city": "Pune",
+    "lat": 18.5348,
+    "lng": 73.8435
+  },
+  {
+    "area": "Hadapsar Road Ext1",
+    "city": "Pune",
+    "lat": 18.5058,
+    "lng": 73.87035
+  },
+  {
+    "area": "Hadapsar East Ext1",
+    "city": "Pune",
+    "lat": 18.5356,
+    "lng": 73.843
+  },
+  {
+    "area": "Hadapsar West Ext1",
+    "city": "Pune",
+    "lat": 18.5054,
+    "lng": 73.87125
+  },
+  {
+    "area": "Hadapsar Market Ext1",
+    "city": "Pune",
+    "lat": 18.5364,
+    "lng": 73.8425
+  },
+  {
+    "area": "Kharadi Ext1",
+    "city": "Pune",
+    "lat": 18.536,
+    "lng": 73.871
+  },
+  {
+    "area": "Kharadi Road Ext1",
+    "city": "Pune",
+    "lat": 18.5046,
+    "lng": 73.84215
+  },
+  {
+    "area": "Kharadi East Ext1",
+    "city": "Pune",
+    "lat": 18.5368,
+    "lng": 73.8719
+  },
+  {
+    "area": "Kharadi West Ext1",
+    "city": "Pune",
+    "lat": 18.5042,
+    "lng": 73.84165
+  },
+  {
+    "area": "Kharadi Market Ext1",
+    "city": "Pune",
+    "lat": 18.5376,
+    "lng": 73.8728
+  },
+  {
+    "area": "Wagholi Ext1",
+    "city": "Pune",
+    "lat": 18.5372,
+    "lng": 73.8413
+  },
+  {
+    "area": "Wagholi Road Ext1",
+    "city": "Pune",
+    "lat": 18.5034,
+    "lng": 73.87255
+  },
+  {
+    "area": "Wagholi East Ext1",
+    "city": "Pune",
+    "lat": 18.538,
+    "lng": 73.8408
+  },
+  {
+    "area": "Wagholi West Ext1",
+    "city": "Pune",
+    "lat": 18.503,
+    "lng": 73.87345
+  },
+  {
+    "area": "Wagholi Market Ext1",
+    "city": "Pune",
+    "lat": 18.5388,
+    "lng": 73.8403
+  },
+  {
+    "area": "Shivaji Nagar Ext1",
+    "city": "Pune",
+    "lat": 18.5384,
+    "lng": 73.8732
+  },
+  {
+    "area": "Shivaji Nagar Road Ext1",
+    "city": "Pune",
+    "lat": 18.5022,
+    "lng": 73.83995
+  },
+  {
+    "area": "Shivaji Nagar East Ext1",
+    "city": "Pune",
+    "lat": 18.5392,
+    "lng": 73.8741
+  },
+  {
+    "area": "Shivaji Nagar West Ext1",
+    "city": "Pune",
+    "lat": 18.5018,
+    "lng": 73.83945
+  },
+  {
+    "area": "Shivaji Nagar Market Ext1",
+    "city": "Pune",
+    "lat": 18.54,
+    "lng": 73.875
+  },
+  {
+    "area": "Camp Ext1",
+    "city": "Pune",
+    "lat": 18.5396,
+    "lng": 73.8391
+  },
+  {
+    "area": "Camp Road Ext1",
+    "city": "Pune",
+    "lat": 18.501,
+    "lng": 73.87475
+  },
+  {
+    "area": "Camp East Ext1",
+    "city": "Pune",
+    "lat": 18.5404,
+    "lng": 73.8386
+  },
+  {
+    "area": "Camp West Ext1",
+    "city": "Pune",
+    "lat": 18.5006,
+    "lng": 73.87565
+  },
+  {
+    "area": "Camp Market Ext1",
+    "city": "Pune",
+    "lat": 18.5412,
+    "lng": 73.8381
+  },
+  {
+    "area": "FC Road Ext1",
+    "city": "Pune",
+    "lat": 18.5408,
+    "lng": 73.8754
+  },
+  {
+    "area": "FC Road Road Ext1",
+    "city": "Pune",
+    "lat": 18.4998,
+    "lng": 73.83775
+  },
+  {
+    "area": "FC Road East Ext1",
+    "city": "Pune",
+    "lat": 18.5416,
+    "lng": 73.8763
+  },
+  {
+    "area": "FC Road West Ext1",
+    "city": "Pune",
+    "lat": 18.4994,
+    "lng": 73.83725
+  },
+  {
+    "area": "FC Road Market Ext1",
+    "city": "Pune",
+    "lat": 18.5424,
+    "lng": 73.8772
+  },
+  {
+    "area": "Pashan Ext1",
+    "city": "Pune",
+    "lat": 18.542,
+    "lng": 73.8369
+  },
+  {
+    "area": "Pashan Road Ext1",
+    "city": "Pune",
+    "lat": 18.4986,
+    "lng": 73.87695
+  },
+  {
+    "area": "Pashan East Ext1",
+    "city": "Pune",
+    "lat": 18.5428,
+    "lng": 73.8364
+  },
+  {
+    "area": "Pashan West Ext1",
+    "city": "Pune",
+    "lat": 18.4982,
+    "lng": 73.87785
+  },
+  {
+    "area": "Pashan Market Ext1",
+    "city": "Pune",
+    "lat": 18.5436,
+    "lng": 73.8359
+  },
+  {
+    "area": "Koregaon Park Ext1",
+    "city": "Pune",
+    "lat": 18.5432,
+    "lng": 73.8776
+  },
+  {
+    "area": "Koregaon Park Road Ext1",
+    "city": "Pune",
+    "lat": 18.4974,
+    "lng": 73.83555
+  },
+  {
+    "area": "Koregaon Park East Ext1",
+    "city": "Pune",
+    "lat": 18.544,
+    "lng": 73.8785
+  },
+  {
+    "area": "Koregaon Park West Ext1",
+    "city": "Pune",
+    "lat": 18.497,
+    "lng": 73.83505
+  },
+  {
+    "area": "Koregaon Park Market Ext1",
+    "city": "Pune",
+    "lat": 18.5448,
+    "lng": 73.8794
+  },
+  {
+    "area": "Kondhwa Ext1",
+    "city": "Pune",
+    "lat": 18.5444,
+    "lng": 73.8347
+  },
+  {
+    "area": "Kondhwa Road Ext1",
+    "city": "Pune",
+    "lat": 18.4962,
+    "lng": 73.87915
+  },
+  {
+    "area": "Kondhwa East Ext1",
+    "city": "Pune",
+    "lat": 18.5452,
+    "lng": 73.8342
+  },
+  {
+    "area": "Kondhwa West Ext1",
+    "city": "Pune",
+    "lat": 18.4958,
+    "lng": 73.88005
+  },
+  {
+    "area": "Kondhwa Market Ext1",
+    "city": "Pune",
+    "lat": 18.546,
+    "lng": 73.8337
+  },
+  {
+    "area": "Yerawada Ext1",
+    "city": "Pune",
+    "lat": 18.5456,
+    "lng": 73.8798
+  },
+  {
+    "area": "Yerawada Road Ext1",
+    "city": "Pune",
+    "lat": 18.495,
+    "lng": 73.83335
+  },
+  {
+    "area": "Yerawada East Ext1",
+    "city": "Pune",
+    "lat": 18.5464,
+    "lng": 73.8807
+  },
+  {
+    "area": "Yerawada West Ext1",
+    "city": "Pune",
+    "lat": 18.4946,
+    "lng": 73.83285
+  },
+  {
+    "area": "Yerawada Market Ext1",
+    "city": "Pune",
+    "lat": 18.5472,
+    "lng": 73.8816
+  },
+  {
+    "area": "Dhayari Ext1",
+    "city": "Pune",
+    "lat": 18.5468,
+    "lng": 73.8325
+  },
+  {
+    "area": "Dhayari Road Ext1",
+    "city": "Pune",
+    "lat": 18.4938,
+    "lng": 73.88135
+  },
+  {
+    "area": "Dhayari East Ext1",
+    "city": "Pune",
+    "lat": 18.5476,
+    "lng": 73.832
+  },
+  {
+    "area": "Dhayari West Ext1",
+    "city": "Pune",
+    "lat": 18.4934,
+    "lng": 73.88225
+  },
+  {
+    "area": "Dhayari Market Ext1",
+    "city": "Pune",
+    "lat": 18.5484,
+    "lng": 73.8315
+  },
+  {
+    "area": "Katraj Ext1",
+    "city": "Pune",
+    "lat": 18.548,
+    "lng": 73.882
+  },
+  {
+    "area": "Katraj Road Ext1",
+    "city": "Pune",
+    "lat": 18.4926,
+    "lng": 73.83115
+  },
+  {
+    "area": "Katraj East Ext1",
+    "city": "Pune",
+    "lat": 18.5488,
+    "lng": 73.8829
+  },
+  {
+    "area": "Katraj West Ext1",
+    "city": "Pune",
+    "lat": 18.4922,
+    "lng": 73.83065
+  },
+  {
+    "area": "Katraj Market Ext1",
+    "city": "Pune",
+    "lat": 18.5496,
+    "lng": 73.8838
+  },
+  {
+    "area": "Nigdi Ext1",
+    "city": "Pune",
+    "lat": 18.5492,
+    "lng": 73.8303
+  },
+  {
+    "area": "Nigdi Road Ext1",
+    "city": "Pune",
+    "lat": 18.4914,
+    "lng": 73.88355
+  },
+  {
+    "area": "Nigdi East Ext1",
+    "city": "Pune",
+    "lat": 18.55,
+    "lng": 73.8298
+  },
+  {
+    "area": "Nigdi West Ext1",
+    "city": "Pune",
+    "lat": 18.491,
+    "lng": 73.88445
+  },
+  {
+    "area": "Nigdi Market Ext1",
+    "city": "Pune",
+    "lat": 18.5508,
+    "lng": 73.8293
+  },
+  {
+    "area": "Bhosari Ext1",
+    "city": "Pune",
+    "lat": 18.5504,
+    "lng": 73.8842
+  },
+  {
+    "area": "Bhosari Road Ext1",
+    "city": "Pune",
+    "lat": 18.4902,
+    "lng": 73.82895
+  },
+  {
+    "area": "Bhosari East Ext1",
+    "city": "Pune",
+    "lat": 18.5512,
+    "lng": 73.8851
+  },
+  {
+    "area": "Bhosari West Ext1",
+    "city": "Pune",
+    "lat": 18.4898,
+    "lng": 73.82845
+  },
+  {
+    "area": "Bhosari Market Ext1",
+    "city": "Pune",
+    "lat": 18.552,
+    "lng": 73.886
+  },
+  {
+    "area": "Ambegaon Ext1",
+    "city": "Pune",
+    "lat": 18.5516,
+    "lng": 73.8281
+  },
+  {
+    "area": "Ambegaon Road Ext1",
+    "city": "Pune",
+    "lat": 18.489,
+    "lng": 73.88575
+  },
+  {
+    "area": "Ambegaon East Ext1",
+    "city": "Pune",
+    "lat": 18.5524,
+    "lng": 73.8276
+  },
+  {
+    "area": "Ambegaon West Ext1",
+    "city": "Pune",
+    "lat": 18.4886,
+    "lng": 73.88665
+  },
+  {
+    "area": "Ambegaon Market Ext1",
+    "city": "Pune",
+    "lat": 18.5532,
+    "lng": 73.8271
+  },
+  {
+    "area": "Manjari Ext1",
+    "city": "Pune",
+    "lat": 18.5528,
+    "lng": 73.8864
+  },
+  {
+    "area": "Manjari Road Ext1",
+    "city": "Pune",
+    "lat": 18.4878,
+    "lng": 73.82675
+  },
+  {
+    "area": "Manjari East Ext1",
+    "city": "Pune",
+    "lat": 18.5536,
+    "lng": 73.8873
+  },
+  {
+    "area": "Manjari West Ext1",
+    "city": "Pune",
+    "lat": 18.4874,
+    "lng": 73.82625
+  },
+  {
+    "area": "Manjari Market Ext1",
+    "city": "Pune",
+    "lat": 18.5544,
+    "lng": 73.8882
+  },
+  {
+    "area": "Hinjawadi Ext1",
+    "city": "Pune",
+    "lat": 18.554,
+    "lng": 73.8259
+  },
+  {
+    "area": "Hinjawadi Road Ext1",
+    "city": "Pune",
+    "lat": 18.4866,
+    "lng": 73.88795
+  },
+  {
+    "area": "Hinjawadi East Ext1",
+    "city": "Pune",
+    "lat": 18.5548,
+    "lng": 73.8254
+  },
+  {
+    "area": "Hinjawadi West Ext1",
+    "city": "Pune",
+    "lat": 18.4862,
+    "lng": 73.88885
+  },
+  {
+    "area": "Hinjawadi Market Ext1",
+    "city": "Pune",
+    "lat": 18.5556,
+    "lng": 73.8249
+  },
+  {
+    "area": "Sus Ext1",
+    "city": "Pune",
+    "lat": 18.5552,
+    "lng": 73.8886
+  },
+  {
+    "area": "Sus Road Ext1",
+    "city": "Pune",
+    "lat": 18.4854,
+    "lng": 73.82455
+  },
+  {
+    "area": "Sus East Ext1",
+    "city": "Pune",
+    "lat": 18.556,
+    "lng": 73.8895
+  },
+  {
+    "area": "Sus West Ext1",
+    "city": "Pune",
+    "lat": 18.485,
+    "lng": 73.82405
+  },
+  {
+    "area": "Sus Market Ext1",
+    "city": "Pune",
+    "lat": 18.5568,
+    "lng": 73.8904
+  },
+  {
+    "area": "Narhe Ext1",
+    "city": "Pune",
+    "lat": 18.5564,
+    "lng": 73.8237
+  },
+  {
+    "area": "Narhe Road Ext1",
+    "city": "Pune",
+    "lat": 18.4842,
+    "lng": 73.89015
+  },
+  {
+    "area": "Narhe East Ext1",
+    "city": "Pune",
+    "lat": 18.5572,
+    "lng": 73.8232
+  },
+  {
+    "area": "Narhe West Ext1",
+    "city": "Pune",
+    "lat": 18.4838,
+    "lng": 73.89105
+  },
+  {
+    "area": "Narhe Market Ext1",
+    "city": "Pune",
+    "lat": 18.558,
+    "lng": 73.8227
+  },
+  {
+    "area": "Fursungi Ext1",
+    "city": "Pune",
+    "lat": 18.5576,
+    "lng": 73.8908
+  },
+  {
+    "area": "Fursungi Road Ext1",
+    "city": "Pune",
+    "lat": 18.483,
+    "lng": 73.82235
+  },
+  {
+    "area": "Fursungi East Ext1",
+    "city": "Pune",
+    "lat": 18.5584,
+    "lng": 73.8917
+  },
+  {
+    "area": "Fursungi West Ext1",
+    "city": "Pune",
+    "lat": 18.4826,
+    "lng": 73.82185
+  },
+  {
+    "area": "Fursungi Market Ext1",
+    "city": "Pune",
+    "lat": 18.5592,
+    "lng": 73.8926
+  },
+  {
+    "area": "Magarpatta Ext1",
+    "city": "Pune",
+    "lat": 18.5588,
+    "lng": 73.8215
+  },
+  {
+    "area": "Magarpatta Road Ext1",
+    "city": "Pune",
+    "lat": 18.4818,
+    "lng": 73.89235
+  },
+  {
+    "area": "Magarpatta East Ext1",
+    "city": "Pune",
+    "lat": 18.5596,
+    "lng": 73.821
+  },
+  {
+    "area": "Magarpatta West Ext1",
+    "city": "Pune",
+    "lat": 18.4814,
+    "lng": 73.89325
+  },
+  {
+    "area": "Magarpatta Market Ext1",
+    "city": "Pune",
+    "lat": 18.5604,
+    "lng": 73.8205
+  },
+  {
+    "area": "Kasba Peth Ext1",
+    "city": "Pune",
+    "lat": 18.56,
+    "lng": 73.893
+  },
+  {
+    "area": "Kasba Peth Road Ext1",
+    "city": "Pune",
+    "lat": 18.4806,
+    "lng": 73.82015
+  },
+  {
+    "area": "Kasba Peth East Ext1",
+    "city": "Pune",
+    "lat": 18.5608,
+    "lng": 73.8939
+  },
+  {
+    "area": "Kasba Peth West Ext1",
+    "city": "Pune",
+    "lat": 18.4802,
+    "lng": 73.81965
+  },
+  {
+    "area": "Kasba Peth Market Ext1",
+    "city": "Pune",
+    "lat": 18.5616,
+    "lng": 73.8948
+  },
+  {
+    "area": "Undri Ext1",
+    "city": "Pune",
+    "lat": 18.5612,
+    "lng": 73.8193
+  },
+  {
+    "area": "Undri Road Ext1",
+    "city": "Pune",
+    "lat": 18.4794,
+    "lng": 73.89455
+  },
+  {
+    "area": "Undri East Ext1",
+    "city": "Pune",
+    "lat": 18.562,
+    "lng": 73.8188
+  },
+  {
+    "area": "Undri West Ext1",
+    "city": "Pune",
+    "lat": 18.479,
+    "lng": 73.89545
+  },
+  {
+    "area": "Undri Market Ext1",
+    "city": "Pune",
+    "lat": 18.5628,
+    "lng": 73.8183
+  },
+  {
+    "area": "Wanowrie Ext1",
+    "city": "Pune",
+    "lat": 18.5624,
+    "lng": 73.8952
+  },
+  {
+    "area": "Wanowrie Road Ext1",
+    "city": "Pune",
+    "lat": 18.4782,
+    "lng": 73.81795
+  },
+  {
+    "area": "Wanowrie East Ext1",
+    "city": "Pune",
+    "lat": 18.5632,
+    "lng": 73.8961
+  },
+  {
+    "area": "Wanowrie West Ext1",
+    "city": "Pune",
+    "lat": 18.4778,
+    "lng": 73.81745
+  },
+  {
+    "area": "Wanowrie Market Ext1",
+    "city": "Pune",
+    "lat": 18.564,
+    "lng": 73.897
+  },
+  {
+    "area": "Lohegaon Ext1",
+    "city": "Pune",
+    "lat": 18.5636,
+    "lng": 73.8171
+  },
+  {
+    "area": "Lohegaon Road Ext1",
+    "city": "Pune",
+    "lat": 18.477,
+    "lng": 73.89675
+  },
+  {
+    "area": "Lohegaon East Ext1",
+    "city": "Pune",
+    "lat": 18.5644,
+    "lng": 73.8166
+  },
+  {
+    "area": "Lohegaon West Ext1",
+    "city": "Pune",
+    "lat": 18.4766,
+    "lng": 73.89765
+  },
+  {
+    "area": "Lohegaon Market Ext1",
+    "city": "Pune",
+    "lat": 18.5652,
+    "lng": 73.8161
+  },
+  {
+    "area": "Akurdi Ext1",
+    "city": "Pune",
+    "lat": 18.5648,
+    "lng": 73.8974
+  },
+  {
+    "area": "Akurdi Road Ext1",
+    "city": "Pune",
+    "lat": 18.4758,
+    "lng": 73.81575
+  },
+  {
+    "area": "Akurdi East Ext1",
+    "city": "Pune",
+    "lat": 18.5656,
+    "lng": 73.8983
+  },
+  {
+    "area": "Akurdi West Ext1",
+    "city": "Pune",
+    "lat": 18.4754,
+    "lng": 73.81525
+  },
+  {
+    "area": "Akurdi Market Ext1",
+    "city": "Pune",
+    "lat": 18.5664,
+    "lng": 73.8992
+  },
+  {
+    "area": "Akole Ext1",
+    "city": "Pune",
+    "lat": 18.566,
+    "lng": 73.8149
+  },
+  {
+    "area": "Akole Road Ext1",
+    "city": "Pune",
+    "lat": 18.4746,
+    "lng": 73.89895
+  },
+  {
+    "area": "Akole East Ext1",
+    "city": "Pune",
+    "lat": 18.5668,
+    "lng": 73.8144
+  },
+  {
+    "area": "Akole West Ext1",
+    "city": "Pune",
+    "lat": 18.4742,
+    "lng": 73.89985
+  },
+  {
+    "area": "Akole Market Ext1",
+    "city": "Pune",
+    "lat": 18.5676,
+    "lng": 73.8139
+  },
+  {
+    "area": "Andheri West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0772,
+    "lng": 72.8788
+  },
+  {
+    "area": "Andheri West Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0746,
+    "lng": 72.87635
+  },
+  {
+    "area": "Andheri West East Ext1",
+    "city": "Mumbai",
+    "lat": 19.078,
+    "lng": 72.8797
+  },
+  {
+    "area": "Andheri West West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0742,
+    "lng": 72.87585
+  },
+  {
+    "area": "Andheri West Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0788,
+    "lng": 72.8806
+  },
+  {
+    "area": "Andheri East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0784,
+    "lng": 72.8755
+  },
+  {
+    "area": "Andheri East Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0734,
+    "lng": 72.88035
+  },
+  {
+    "area": "Andheri East East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0792,
+    "lng": 72.875
+  },
+  {
+    "area": "Andheri East West Ext1",
+    "city": "Mumbai",
+    "lat": 19.073,
+    "lng": 72.88125
+  },
+  {
+    "area": "Andheri East Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.08,
+    "lng": 72.8745
+  },
+  {
+    "area": "Bandra Ext1",
+    "city": "Mumbai",
+    "lat": 19.0796,
+    "lng": 72.881
+  },
+  {
+    "area": "Bandra Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0722,
+    "lng": 72.87415
+  },
+  {
+    "area": "Bandra East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0804,
+    "lng": 72.8819
+  },
+  {
+    "area": "Bandra West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0718,
+    "lng": 72.87365
+  },
+  {
+    "area": "Bandra Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0812,
+    "lng": 72.8828
+  },
+  {
+    "area": "Bandra Kurla Complex Ext1",
+    "city": "Mumbai",
+    "lat": 19.0808,
+    "lng": 72.8733
+  },
+  {
+    "area": "Bandra Kurla Complex Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.071,
+    "lng": 72.88255
+  },
+  {
+    "area": "Bandra Kurla Complex East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0816,
+    "lng": 72.8728
+  },
+  {
+    "area": "Bandra Kurla Complex West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0706,
+    "lng": 72.88345
+  },
+  {
+    "area": "Bandra Kurla Complex Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0824,
+    "lng": 72.8723
+  },
+  {
+    "area": "Bandra West Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0697,
+    "lng": 72.87185
+  },
+  {
+    "area": "Bandra West East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0827,
+    "lng": 72.884
+  },
+  {
+    "area": "Bandra West West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0693,
+    "lng": 72.87135
+  },
+  {
+    "area": "Bandra West Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0835,
+    "lng": 72.8849
+  },
+  {
+    "area": "Bandra East Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0689,
+    "lng": 72.88505
+  },
+  {
+    "area": "Bandra East East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0838,
+    "lng": 72.8704
+  },
+  {
+    "area": "Bandra East West Ext1",
+    "city": "Mumbai",
+    "lat": 19.068,
+    "lng": 72.88545
+  },
+  {
+    "area": "Bandra East Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0846,
+    "lng": 72.8699
+  },
+  {
+    "area": "Borivali Ext1",
+    "city": "Mumbai",
+    "lat": 19.0847,
+    "lng": 72.8857
+  },
+  {
+    "area": "Borivali Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0677,
+    "lng": 72.87005
+  },
+  {
+    "area": "Borivali East Ext1",
+    "city": "Mumbai",
+    "lat": 19.085,
+    "lng": 72.8861
+  },
+  {
+    "area": "Borivali West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0668,
+    "lng": 72.86905
+  },
+  {
+    "area": "Borivali Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0858,
+    "lng": 72.887
+  },
+  {
+    "area": "Dadar Ext1",
+    "city": "Mumbai",
+    "lat": 19.0859,
+    "lng": 72.8692
+  },
+  {
+    "area": "Dadar Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0665,
+    "lng": 72.88725
+  },
+  {
+    "area": "Dadar East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0862,
+    "lng": 72.8682
+  },
+  {
+    "area": "Dadar West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0656,
+    "lng": 72.88765
+  },
+  {
+    "area": "Dadar Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.087,
+    "lng": 72.8677
+  },
+  {
+    "area": "Lower Parel Ext1",
+    "city": "Mumbai",
+    "lat": 19.0871,
+    "lng": 72.8879
+  },
+  {
+    "area": "Lower Parel Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0653,
+    "lng": 72.86785
+  },
+  {
+    "area": "Lower Parel East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0874,
+    "lng": 72.8883
+  },
+  {
+    "area": "Lower Parel West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0644,
+    "lng": 72.86685
+  },
+  {
+    "area": "Lower Parel Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0882,
+    "lng": 72.8892
+  },
+  {
+    "area": "Worli Ext1",
+    "city": "Mumbai",
+    "lat": 19.0883,
+    "lng": 72.867
+  },
+  {
+    "area": "Worli Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0641,
+    "lng": 72.88945
+  },
+  {
+    "area": "Worli East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0886,
+    "lng": 72.866
+  },
+  {
+    "area": "Worli West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0632,
+    "lng": 72.88985
+  },
+  {
+    "area": "Worli Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0894,
+    "lng": 72.8655
+  },
+  {
+    "area": "Kurla Ext1",
+    "city": "Mumbai",
+    "lat": 19.0895,
+    "lng": 72.8901
+  },
+  {
+    "area": "Kurla Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0629,
+    "lng": 72.86565
+  },
+  {
+    "area": "Kurla East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0898,
+    "lng": 72.8905
+  },
+  {
+    "area": "Kurla West Ext1",
+    "city": "Mumbai",
+    "lat": 19.062,
+    "lng": 72.86465
+  },
+  {
+    "area": "Kurla Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0906,
+    "lng": 72.8914
+  },
+  {
+    "area": "Ghatkopar Ext1",
+    "city": "Mumbai",
+    "lat": 19.0907,
+    "lng": 72.8648
+  },
+  {
+    "area": "Ghatkopar Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0617,
+    "lng": 72.89165
+  },
+  {
+    "area": "Ghatkopar East Ext1",
+    "city": "Mumbai",
+    "lat": 19.091,
+    "lng": 72.8638
+  },
+  {
+    "area": "Ghatkopar West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0608,
+    "lng": 72.89205
+  },
+  {
+    "area": "Ghatkopar Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0918,
+    "lng": 72.8633
+  },
+  {
+    "area": "Vile Parle Ext1",
+    "city": "Mumbai",
+    "lat": 19.0919,
+    "lng": 72.8923
+  },
+  {
+    "area": "Vile Parle Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0605,
+    "lng": 72.86345
+  },
+  {
+    "area": "Vile Parle East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0922,
+    "lng": 72.8927
+  },
+  {
+    "area": "Vile Parle West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0596,
+    "lng": 72.86245
+  },
+  {
+    "area": "Vile Parle Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.093,
+    "lng": 72.8936
+  },
+  {
+    "area": "Juhu Ext1",
+    "city": "Mumbai",
+    "lat": 19.0931,
+    "lng": 72.8626
+  },
+  {
+    "area": "Juhu Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0593,
+    "lng": 72.89385
+  },
+  {
+    "area": "Juhu East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0934,
+    "lng": 72.8616
+  },
+  {
+    "area": "Juhu West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0584,
+    "lng": 72.89425
+  },
+  {
+    "area": "Juhu Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0942,
+    "lng": 72.8611
+  },
+  {
+    "area": "Chembur Ext1",
+    "city": "Mumbai",
+    "lat": 19.0943,
+    "lng": 72.8945
+  },
+  {
+    "area": "Chembur Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0581,
+    "lng": 72.86125
+  },
+  {
+    "area": "Chembur East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0946,
+    "lng": 72.8949
+  },
+  {
+    "area": "Chembur West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0572,
+    "lng": 72.86025
+  },
+  {
+    "area": "Chembur Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0954,
+    "lng": 72.8958
+  },
+  {
+    "area": "Mulund Ext1",
+    "city": "Mumbai",
+    "lat": 19.0955,
+    "lng": 72.8604
+  },
+  {
+    "area": "Mulund Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0569,
+    "lng": 72.89605
+  },
+  {
+    "area": "Mulund East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0958,
+    "lng": 72.8594
+  },
+  {
+    "area": "Mulund West Ext1",
+    "city": "Mumbai",
+    "lat": 19.056,
+    "lng": 72.89645
+  },
+  {
+    "area": "Mulund Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0966,
+    "lng": 72.8589
+  },
+  {
+    "area": "Bhandup Ext1",
+    "city": "Mumbai",
+    "lat": 19.0967,
+    "lng": 72.8967
+  },
+  {
+    "area": "Bhandup Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0557,
+    "lng": 72.85905
+  },
+  {
+    "area": "Bhandup East Ext1",
+    "city": "Mumbai",
+    "lat": 19.097,
+    "lng": 72.8971
+  },
+  {
+    "area": "Bhandup West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0548,
+    "lng": 72.85805
+  },
+  {
+    "area": "Bhandup Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.0978,
+    "lng": 72.898
+  },
+  {
+    "area": "Khar Ext1",
+    "city": "Mumbai",
+    "lat": 19.0979,
+    "lng": 72.8582
+  },
+  {
+    "area": "Khar Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0545,
+    "lng": 72.89825
+  },
+  {
+    "area": "Khar East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0982,
+    "lng": 72.8572
+  },
+  {
+    "area": "Khar West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0536,
+    "lng": 72.89865
+  },
+  {
+    "area": "Khar Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.099,
+    "lng": 72.8567
+  },
+  {
+    "area": "Cuffe Parade Ext1",
+    "city": "Mumbai",
+    "lat": 19.0991,
+    "lng": 72.8989
+  },
+  {
+    "area": "Cuffe Parade Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0533,
+    "lng": 72.85685
+  },
+  {
+    "area": "Cuffe Parade East Ext1",
+    "city": "Mumbai",
+    "lat": 19.0994,
+    "lng": 72.8993
+  },
+  {
+    "area": "Cuffe Parade West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0524,
+    "lng": 72.85585
+  },
+  {
+    "area": "Cuffe Parade Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.1002,
+    "lng": 72.9002
+  },
+  {
+    "area": "Colaba Ext1",
+    "city": "Mumbai",
+    "lat": 19.1003,
+    "lng": 72.856
+  },
+  {
+    "area": "Colaba Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0521,
+    "lng": 72.90045
+  },
+  {
+    "area": "Colaba East Ext1",
+    "city": "Mumbai",
+    "lat": 19.1006,
+    "lng": 72.855
+  },
+  {
+    "area": "Colaba West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0512,
+    "lng": 72.90085
+  },
+  {
+    "area": "Colaba Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.1014,
+    "lng": 72.8545
+  },
+  {
+    "area": "CST Ext1",
+    "city": "Mumbai",
+    "lat": 19.1015,
+    "lng": 72.9011
+  },
+  {
+    "area": "CST Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0509,
+    "lng": 72.85465
+  },
+  {
+    "area": "CST East Ext1",
+    "city": "Mumbai",
+    "lat": 19.1018,
+    "lng": 72.9015
+  },
+  {
+    "area": "CST West Ext1",
+    "city": "Mumbai",
+    "lat": 19.05,
+    "lng": 72.85365
+  },
+  {
+    "area": "CST Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.1026,
+    "lng": 72.9024
+  },
+  {
+    "area": "Byculla Ext1",
+    "city": "Mumbai",
+    "lat": 19.1027,
+    "lng": 72.8538
+  },
+  {
+    "area": "Byculla Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0497,
+    "lng": 72.90265
+  },
+  {
+    "area": "Byculla East Ext1",
+    "city": "Mumbai",
+    "lat": 19.103,
+    "lng": 72.8528
+  },
+  {
+    "area": "Byculla West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0488,
+    "lng": 72.90305
+  },
+  {
+    "area": "Byculla Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.1038,
+    "lng": 72.8523
+  },
+  {
+    "area": "Mahim Ext1",
+    "city": "Mumbai",
+    "lat": 19.1039,
+    "lng": 72.9033
+  },
+  {
+    "area": "Mahim Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0485,
+    "lng": 72.85245
+  },
+  {
+    "area": "Mahim East Ext1",
+    "city": "Mumbai",
+    "lat": 19.1042,
+    "lng": 72.9037
+  },
+  {
+    "area": "Mahim West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0476,
+    "lng": 72.85145
+  },
+  {
+    "area": "Mahim Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.105,
+    "lng": 72.9046
+  },
+  {
+    "area": "Malad Ext1",
+    "city": "Mumbai",
+    "lat": 19.1051,
+    "lng": 72.8516
+  },
+  {
+    "area": "Malad Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0473,
+    "lng": 72.90485
+  },
+  {
+    "area": "Malad East Ext1",
+    "city": "Mumbai",
+    "lat": 19.1054,
+    "lng": 72.8506
+  },
+  {
+    "area": "Malad West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0464,
+    "lng": 72.90525
+  },
+  {
+    "area": "Malad Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.1062,
+    "lng": 72.8501
+  },
+  {
+    "area": "Matunga Ext1",
+    "city": "Mumbai",
+    "lat": 19.1063,
+    "lng": 72.9055
+  },
+  {
+    "area": "Matunga Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0461,
+    "lng": 72.85025
+  },
+  {
+    "area": "Matunga East Ext1",
+    "city": "Mumbai",
+    "lat": 19.1066,
+    "lng": 72.9059
+  },
+  {
+    "area": "Matunga West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0452,
+    "lng": 72.84925
+  },
+  {
+    "area": "Matunga Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.1074,
+    "lng": 72.9068
+  },
+  {
+    "area": "Santacruz Ext1",
+    "city": "Mumbai",
+    "lat": 19.1075,
+    "lng": 72.8494
+  },
+  {
+    "area": "Santacruz Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0449,
+    "lng": 72.90705
+  },
+  {
+    "area": "Santacruz East Ext1",
+    "city": "Mumbai",
+    "lat": 19.1078,
+    "lng": 72.8484
+  },
+  {
+    "area": "Santacruz West Ext1",
+    "city": "Mumbai",
+    "lat": 19.044,
+    "lng": 72.90745
+  },
+  {
+    "area": "Santacruz Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.1086,
+    "lng": 72.8479
+  },
+  {
+    "area": "Sion Ext1",
+    "city": "Mumbai",
+    "lat": 19.1087,
+    "lng": 72.9077
+  },
+  {
+    "area": "Sion Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0437,
+    "lng": 72.84805
+  },
+  {
+    "area": "Sion East Ext1",
+    "city": "Mumbai",
+    "lat": 19.109,
+    "lng": 72.9081
+  },
+  {
+    "area": "Sion West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0428,
+    "lng": 72.84705
+  },
+  {
+    "area": "Sion Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.1098,
+    "lng": 72.909
+  },
+  {
+    "area": "Panvel Ext1",
+    "city": "Mumbai",
+    "lat": 19.1099,
+    "lng": 72.8472
+  },
+  {
+    "area": "Panvel Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0425,
+    "lng": 72.90925
+  },
+  {
+    "area": "Panvel East Ext1",
+    "city": "Mumbai",
+    "lat": 19.1102,
+    "lng": 72.8462
+  },
+  {
+    "area": "Panvel West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0416,
+    "lng": 72.90965
+  },
+  {
+    "area": "Panvel Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.111,
+    "lng": 72.8457
+  },
+  {
+    "area": "Nerul Ext1",
+    "city": "Mumbai",
+    "lat": 19.1111,
+    "lng": 72.9099
+  },
+  {
+    "area": "Nerul Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0413,
+    "lng": 72.84585
+  },
+  {
+    "area": "Nerul East Ext1",
+    "city": "Mumbai",
+    "lat": 19.1114,
+    "lng": 72.9103
+  },
+  {
+    "area": "Nerul West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0404,
+    "lng": 72.84485
+  },
+  {
+    "area": "Nerul Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.1122,
+    "lng": 72.9112
+  },
+  {
+    "area": "Vashi Ext1",
+    "city": "Mumbai",
+    "lat": 19.1123,
+    "lng": 72.845
+  },
+  {
+    "area": "Vashi Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0401,
+    "lng": 72.91145
+  },
+  {
+    "area": "Vashi East Ext1",
+    "city": "Mumbai",
+    "lat": 19.1126,
+    "lng": 72.844
+  },
+  {
+    "area": "Vashi West Ext1",
+    "city": "Mumbai",
+    "lat": 19.0392,
+    "lng": 72.91185
+  },
+  {
+    "area": "Vashi Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.1134,
+    "lng": 72.8435
+  },
+  {
+    "area": "Kharghar Ext1",
+    "city": "Mumbai",
+    "lat": 19.1135,
+    "lng": 72.9121
+  },
+  {
+    "area": "Kharghar Road Ext1",
+    "city": "Mumbai",
+    "lat": 19.0389,
+    "lng": 72.84365
+  },
+  {
+    "area": "Kharghar East Ext1",
+    "city": "Mumbai",
+    "lat": 19.1138,
+    "lng": 72.9125
+  },
+  {
+    "area": "Kharghar West Ext1",
+    "city": "Mumbai",
+    "lat": 19.038,
+    "lng": 72.84265
+  },
+  {
+    "area": "Kharghar Market Ext1",
+    "city": "Mumbai",
+    "lat": 19.1146,
+    "lng": 72.9134
+  },
+  {
+    "area": "Sitabuldi Ext1",
+    "city": "Nagpur",
+    "lat": 21.1473,
+    "lng": 79.0896
+  },
+  {
+    "area": "Sitabuldi Road Ext1",
+    "city": "Nagpur",
+    "lat": 21.1447,
+    "lng": 79.08715
+  },
+  {
+    "area": "Sitabuldi East Ext1",
+    "city": "Nagpur",
+    "lat": 21.1476,
+    "lng": 79.09
+  },
+  {
+    "area": "Sitabuldi West Ext1",
+    "city": "Nagpur",
+    "lat": 21.1438,
+    "lng": 79.08615
+  },
+  {
+    "area": "Sitabuldi Market Ext1",
+    "city": "Nagpur",
+    "lat": 21.1484,
+    "lng": 79.0909
+  },
+  {
+    "area": "Dharampeth Ext1",
+    "city": "Nagpur",
+    "lat": 21.1485,
+    "lng": 79.0863
+  },
+  {
+    "area": "Dharampeth Road Ext1",
+    "city": "Nagpur",
+    "lat": 21.1435,
+    "lng": 79.09115
+  },
+  {
+    "area": "Dharampeth East Ext1",
+    "city": "Nagpur",
+    "lat": 21.1488,
+    "lng": 79.0853
+  },
+  {
+    "area": "Dharampeth West Ext1",
+    "city": "Nagpur",
+    "lat": 21.1426,
+    "lng": 79.09155
+  },
+  {
+    "area": "Dharampeth Market Ext1",
+    "city": "Nagpur",
+    "lat": 21.1496,
+    "lng": 79.0848
+  },
+  {
+    "area": "Sadar Ext1",
+    "city": "Nagpur",
+    "lat": 21.1497,
+    "lng": 79.0918
+  },
+  {
+    "area": "Sadar Road Ext1",
+    "city": "Nagpur",
+    "lat": 21.1423,
+    "lng": 79.08495
+  },
+  {
+    "area": "Sadar East Ext1",
+    "city": "Nagpur",
+    "lat": 21.15,
+    "lng": 79.0922
+  },
+  {
+    "area": "Sadar West Ext1",
+    "city": "Nagpur",
+    "lat": 21.1414,
+    "lng": 79.08395
+  },
+  {
+    "area": "Sadar Market Ext1",
+    "city": "Nagpur",
+    "lat": 21.1508,
+    "lng": 79.0931
+  },
+  {
+    "area": "Civil Lines Ext1",
+    "city": "Nagpur",
+    "lat": 21.1509,
+    "lng": 79.0841
+  },
+  {
+    "area": "Civil Lines Road Ext1",
+    "city": "Nagpur",
+    "lat": 21.1411,
+    "lng": 79.09335
+  },
+  {
+    "area": "Civil Lines East Ext1",
+    "city": "Nagpur",
+    "lat": 21.1512,
+    "lng": 79.0831
+  },
+  {
+    "area": "Civil Lines West Ext1",
+    "city": "Nagpur",
+    "lat": 21.1402,
+    "lng": 79.09375
+  },
+  {
+    "area": "Civil Lines Market Ext1",
+    "city": "Nagpur",
+    "lat": 21.152,
+    "lng": 79.0826
+  },
+  {
+    "area": "Mankapur Ext1",
+    "city": "Nagpur",
+    "lat": 21.1521,
+    "lng": 79.094
+  },
+  {
+    "area": "Mankapur Road Ext1",
+    "city": "Nagpur",
+    "lat": 21.1399,
+    "lng": 79.08275
+  },
+  {
+    "area": "Mankapur East Ext1",
+    "city": "Nagpur",
+    "lat": 21.1524,
+    "lng": 79.0944
+  },
+  {
+    "area": "Mankapur West Ext1",
+    "city": "Nagpur",
+    "lat": 21.139,
+    "lng": 79.08175
+  },
+  {
+    "area": "Mankapur Market Ext1",
+    "city": "Nagpur",
+    "lat": 21.1532,
+    "lng": 79.0953
+  },
+  {
+    "area": "Itwari Ext1",
+    "city": "Nagpur",
+    "lat": 21.1533,
+    "lng": 79.0819
+  },
+  {
+    "area": "Itwari Road Ext1",
+    "city": "Nagpur",
+    "lat": 21.1387,
+    "lng": 79.09555
+  },
+  {
+    "area": "Itwari East Ext1",
+    "city": "Nagpur",
+    "lat": 21.1536,
+    "lng": 79.0809
+  },
+  {
+    "area": "Itwari West Ext1",
+    "city": "Nagpur",
+    "lat": 21.1378,
+    "lng": 79.09595
+  },
+  {
+    "area": "Itwari Market Ext1",
+    "city": "Nagpur",
+    "lat": 21.1544,
+    "lng": 79.0804
+  },
+  {
+    "area": "Dharampeth Extension Ext1",
+    "city": "Nagpur",
+    "lat": 21.1545,
+    "lng": 79.0962
+  },
+  {
+    "area": "Dharampeth Extension Road Ext1",
+    "city": "Nagpur",
+    "lat": 21.1375,
+    "lng": 79.08055
+  },
+  {
+    "area": "Dharampeth Extension East Ext1",
+    "city": "Nagpur",
+    "lat": 21.1548,
+    "lng": 79.0966
+  },
+  {
+    "area": "Dharampeth Extension West Ext1",
+    "city": "Nagpur",
+    "lat": 21.1366,
+    "lng": 79.07955
+  },
+  {
+    "area": "Dharampeth Extension Market Ext1",
+    "city": "Nagpur",
+    "lat": 21.1556,
+    "lng": 79.0975
+  },
+  {
+    "area": "Wardhaman Nagar Ext1",
+    "city": "Nagpur",
+    "lat": 21.1557,
+    "lng": 79.0797
+  },
+  {
+    "area": "Wardhaman Nagar Road Ext1",
+    "city": "Nagpur",
+    "lat": 21.1363,
+    "lng": 79.09775
+  },
+  {
+    "area": "Wardhaman Nagar East Ext1",
+    "city": "Nagpur",
+    "lat": 21.156,
+    "lng": 79.0787
+  },
+  {
+    "area": "Wardhaman Nagar West Ext1",
+    "city": "Nagpur",
+    "lat": 21.1354,
+    "lng": 79.09815
+  },
+  {
+    "area": "Wardhaman Nagar Market Ext1",
+    "city": "Nagpur",
+    "lat": 21.1568,
+    "lng": 79.0782
+  },
+  {
+    "area": "Trimurti Nagar Ext1",
+    "city": "Nagpur",
+    "lat": 21.1569,
+    "lng": 79.0984
+  },
+  {
+    "area": "Trimurti Nagar Road Ext1",
+    "city": "Nagpur",
+    "lat": 21.1351,
+    "lng": 79.07835
+  },
+  {
+    "area": "Trimurti Nagar East Ext1",
+    "city": "Nagpur",
+    "lat": 21.1572,
+    "lng": 79.0988
+  },
+  {
+    "area": "Trimurti Nagar West Ext1",
+    "city": "Nagpur",
+    "lat": 21.1342,
+    "lng": 79.07735
+  },
+  {
+    "area": "Trimurti Nagar Market Ext1",
+    "city": "Nagpur",
+    "lat": 21.158,
+    "lng": 79.0997
+  },
+  {
+    "area": "Ajni Ext1",
+    "city": "Nagpur",
+    "lat": 21.1581,
+    "lng": 79.0775
+  },
+  {
+    "area": "Ajni Road Ext1",
+    "city": "Nagpur",
+    "lat": 21.1339,
+    "lng": 79.09995
+  },
+  {
+    "area": "Ajni East Ext1",
+    "city": "Nagpur",
+    "lat": 21.1584,
+    "lng": 79.0765
+  },
+  {
+    "area": "Ajni West Ext1",
+    "city": "Nagpur",
+    "lat": 21.133,
+    "lng": 79.10035
+  },
+  {
+    "area": "Ajni Market Ext1",
+    "city": "Nagpur",
+    "lat": 21.1592,
+    "lng": 79.076
+  },
+  {
+    "area": "Panchavati Ext1",
+    "city": "Nashik",
+    "lat": 20.0125,
+    "lng": 73.7917
+  },
+  {
+    "area": "Panchavati Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0099,
+    "lng": 73.78925
+  },
+  {
+    "area": "Panchavati East Ext1",
+    "city": "Nashik",
+    "lat": 20.0128,
+    "lng": 73.7921
+  },
+  {
+    "area": "Panchavati West Ext1",
+    "city": "Nashik",
+    "lat": 20.009,
+    "lng": 73.78825
+  },
+  {
+    "area": "Panchavati Market Ext1",
+    "city": "Nashik",
+    "lat": 20.0136,
+    "lng": 73.793
+  },
+  {
+    "area": "Gangapur Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0137,
+    "lng": 73.7884
+  },
+  {
+    "area": "Gangapur Road Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0087,
+    "lng": 73.79325
+  },
+  {
+    "area": "Gangapur Road East Ext1",
+    "city": "Nashik",
+    "lat": 20.014,
+    "lng": 73.7874
+  },
+  {
+    "area": "Gangapur Road West Ext1",
+    "city": "Nashik",
+    "lat": 20.0078,
+    "lng": 73.79365
+  },
+  {
+    "area": "Gangapur Road Market Ext1",
+    "city": "Nashik",
+    "lat": 20.0148,
+    "lng": 73.7869
+  },
+  {
+    "area": "College Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0149,
+    "lng": 73.7939
+  },
+  {
+    "area": "College Road Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0075,
+    "lng": 73.78705
+  },
+  {
+    "area": "College Road East Ext1",
+    "city": "Nashik",
+    "lat": 20.0152,
+    "lng": 73.7943
+  },
+  {
+    "area": "College Road West Ext1",
+    "city": "Nashik",
+    "lat": 20.0066,
+    "lng": 73.78605
+  },
+  {
+    "area": "College Road Market Ext1",
+    "city": "Nashik",
+    "lat": 20.016,
+    "lng": 73.7952
+  },
+  {
+    "area": "Old Nashik Ext1",
+    "city": "Nashik",
+    "lat": 20.0161,
+    "lng": 73.7862
+  },
+  {
+    "area": "Old Nashik Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0063,
+    "lng": 73.79545
+  },
+  {
+    "area": "Old Nashik East Ext1",
+    "city": "Nashik",
+    "lat": 20.0164,
+    "lng": 73.7852
+  },
+  {
+    "area": "Old Nashik West Ext1",
+    "city": "Nashik",
+    "lat": 20.0054,
+    "lng": 73.79585
+  },
+  {
+    "area": "Old Nashik Market Ext1",
+    "city": "Nashik",
+    "lat": 20.0172,
+    "lng": 73.7847
+  },
+  {
+    "area": "Satpur Ext1",
+    "city": "Nashik",
+    "lat": 20.0173,
+    "lng": 73.7961
+  },
+  {
+    "area": "Satpur Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0051,
+    "lng": 73.78485
+  },
+  {
+    "area": "Satpur East Ext1",
+    "city": "Nashik",
+    "lat": 20.0176,
+    "lng": 73.7965
+  },
+  {
+    "area": "Satpur West Ext1",
+    "city": "Nashik",
+    "lat": 20.0042,
+    "lng": 73.78385
+  },
+  {
+    "area": "Satpur Market Ext1",
+    "city": "Nashik",
+    "lat": 20.0184,
+    "lng": 73.7974
+  },
+  {
+    "area": "Sinnar Ext1",
+    "city": "Nashik",
+    "lat": 20.0185,
+    "lng": 73.784
+  },
+  {
+    "area": "Sinnar Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0039,
+    "lng": 73.79765
+  },
+  {
+    "area": "Sinnar East Ext1",
+    "city": "Nashik",
+    "lat": 20.0188,
+    "lng": 73.783
+  },
+  {
+    "area": "Sinnar West Ext1",
+    "city": "Nashik",
+    "lat": 20.003,
+    "lng": 73.79805
+  },
+  {
+    "area": "Sinnar Market Ext1",
+    "city": "Nashik",
+    "lat": 20.0196,
+    "lng": 73.7825
+  },
+  {
+    "area": "Trimbak Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0197,
+    "lng": 73.7983
+  },
+  {
+    "area": "Trimbak Road Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0027,
+    "lng": 73.78265
+  },
+  {
+    "area": "Trimbak Road East Ext1",
+    "city": "Nashik",
+    "lat": 20.02,
+    "lng": 73.7987
+  },
+  {
+    "area": "Trimbak Road West Ext1",
+    "city": "Nashik",
+    "lat": 20.0018,
+    "lng": 73.78165
+  },
+  {
+    "area": "Trimbak Road Market Ext1",
+    "city": "Nashik",
+    "lat": 20.0208,
+    "lng": 73.7996
+  },
+  {
+    "area": "Deolali Ext1",
+    "city": "Nashik",
+    "lat": 20.0209,
+    "lng": 73.7818
+  },
+  {
+    "area": "Deolali Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0015,
+    "lng": 73.79985
+  },
+  {
+    "area": "Deolali East Ext1",
+    "city": "Nashik",
+    "lat": 20.0212,
+    "lng": 73.7808
+  },
+  {
+    "area": "Deolali West Ext1",
+    "city": "Nashik",
+    "lat": 20.0006,
+    "lng": 73.80025
+  },
+  {
+    "area": "Deolali Market Ext1",
+    "city": "Nashik",
+    "lat": 20.022,
+    "lng": 73.7803
+  },
+  {
+    "area": "Nashik Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0221,
+    "lng": 73.8005
+  },
+  {
+    "area": "Nashik Road Road Ext1",
+    "city": "Nashik",
+    "lat": 20.0003,
+    "lng": 73.78045
+  },
+  {
+    "area": "Nashik Road East Ext1",
+    "city": "Nashik",
+    "lat": 20.0224,
+    "lng": 73.8009
+  },
+  {
+    "area": "Nashik Road West Ext1",
+    "city": "Nashik",
+    "lat": 19.9994,
+    "lng": 73.77945
+  },
+  {
+    "area": "Nashik Road Market Ext1",
+    "city": "Nashik",
+    "lat": 20.0232,
+    "lng": 73.8018
+  },
+  {
+    "area": "CIDCO Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8777,
+    "lng": 75.3447
+  },
+  {
+    "area": "CIDCO Road Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8751,
+    "lng": 75.34225
+  },
+  {
+    "area": "CIDCO East Ext1",
+    "city": "Aurangabad",
+    "lat": 19.878,
+    "lng": 75.3451
+  },
+  {
+    "area": "CIDCO West Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8742,
+    "lng": 75.34125
+  },
+  {
+    "area": "CIDCO Market Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8788,
+    "lng": 75.346
+  },
+  {
+    "area": "Government Colony Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8789,
+    "lng": 75.3414
+  },
+  {
+    "area": "Government Colony Road Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8739,
+    "lng": 75.34625
+  },
+  {
+    "area": "Government Colony East Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8792,
+    "lng": 75.3404
+  },
+  {
+    "area": "Government Colony West Ext1",
+    "city": "Aurangabad",
+    "lat": 19.873,
+    "lng": 75.34665
+  },
+  {
+    "area": "Government Colony Market Ext1",
+    "city": "Aurangabad",
+    "lat": 19.88,
+    "lng": 75.3399
+  },
+  {
+    "area": "CIDCO Phase 1 Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8801,
+    "lng": 75.3469
+  },
+  {
+    "area": "CIDCO Phase 1 Road Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8727,
+    "lng": 75.34005
+  },
+  {
+    "area": "CIDCO Phase 1 East Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8804,
+    "lng": 75.3473
+  },
+  {
+    "area": "CIDCO Phase 1 West Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8718,
+    "lng": 75.33905
+  },
+  {
+    "area": "CIDCO Phase 1 Market Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8812,
+    "lng": 75.3482
+  },
+  {
+    "area": "Chandrapur Road Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8813,
+    "lng": 75.3392
+  },
+  {
+    "area": "Chandrapur Road Road Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8715,
+    "lng": 75.34845
+  },
+  {
+    "area": "Chandrapur Road East Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8816,
+    "lng": 75.3382
+  },
+  {
+    "area": "Chandrapur Road West Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8706,
+    "lng": 75.34885
+  },
+  {
+    "area": "Chandrapur Road Market Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8824,
+    "lng": 75.3377
+  },
+  {
+    "area": "Waluj Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8825,
+    "lng": 75.3491
+  },
+  {
+    "area": "Waluj Road Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8703,
+    "lng": 75.33785
+  },
+  {
+    "area": "Waluj East Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8828,
+    "lng": 75.3495
+  },
+  {
+    "area": "Waluj West Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8694,
+    "lng": 75.33685
+  },
+  {
+    "area": "Waluj Market Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8836,
+    "lng": 75.3504
+  },
+  {
+    "area": "Borough Road Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8837,
+    "lng": 75.337
+  },
+  {
+    "area": "Borough Road Road Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8691,
+    "lng": 75.35065
+  },
+  {
+    "area": "Borough Road East Ext1",
+    "city": "Aurangabad",
+    "lat": 19.884,
+    "lng": 75.336
+  },
+  {
+    "area": "Borough Road West Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8682,
+    "lng": 75.35105
+  },
+  {
+    "area": "Borough Road Market Ext1",
+    "city": "Aurangabad",
+    "lat": 19.8848,
+    "lng": 75.3355
+  },
+  {
+    "area": "Shahupuri Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6961,
+    "lng": 74.246
+  },
+  {
+    "area": "Shahupuri Road Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6935,
+    "lng": 74.24355
+  },
+  {
+    "area": "Shahupuri East Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6964,
+    "lng": 74.2464
+  },
+  {
+    "area": "Shahupuri West Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6926,
+    "lng": 74.24255
+  },
+  {
+    "area": "Shahupuri Market Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6972,
+    "lng": 74.2473
+  },
+  {
+    "area": "Rajaram Road Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6973,
+    "lng": 74.2427
+  },
+  {
+    "area": "Rajaram Road Road Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6923,
+    "lng": 74.24755
+  },
+  {
+    "area": "Rajaram Road East Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6976,
+    "lng": 74.2417
+  },
+  {
+    "area": "Rajaram Road West Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6914,
+    "lng": 74.24795
+  },
+  {
+    "area": "Rajaram Road Market Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6984,
+    "lng": 74.2412
+  },
+  {
+    "area": "Gandhinagar Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6985,
+    "lng": 74.2482
+  },
+  {
+    "area": "Gandhinagar Road Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6911,
+    "lng": 74.24135
+  },
+  {
+    "area": "Gandhinagar East Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6988,
+    "lng": 74.2486
+  },
+  {
+    "area": "Gandhinagar West Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6902,
+    "lng": 74.24035
+  },
+  {
+    "area": "Gandhinagar Market Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6996,
+    "lng": 74.2495
+  },
+  {
+    "area": "Kadave Mala Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6997,
+    "lng": 74.2405
+  },
+  {
+    "area": "Kadave Mala Road Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6899,
+    "lng": 74.24975
+  },
+  {
+    "area": "Kadave Mala East Ext1",
+    "city": "Kolhapur",
+    "lat": 16.7,
+    "lng": 74.2395
+  },
+  {
+    "area": "Kadave Mala West Ext1",
+    "city": "Kolhapur",
+    "lat": 16.689,
+    "lng": 74.25015
+  },
+  {
+    "area": "Kadave Mala Market Ext1",
+    "city": "Kolhapur",
+    "lat": 16.7008,
+    "lng": 74.239
+  },
+  {
+    "area": "Shiroli Ext1",
+    "city": "Kolhapur",
+    "lat": 16.7009,
+    "lng": 74.2504
+  },
+  {
+    "area": "Shiroli Road Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6887,
+    "lng": 74.23915
+  },
+  {
+    "area": "Shiroli East Ext1",
+    "city": "Kolhapur",
+    "lat": 16.7012,
+    "lng": 74.2508
+  },
+  {
+    "area": "Shiroli West Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6878,
+    "lng": 74.23815
+  },
+  {
+    "area": "Shiroli Market Ext1",
+    "city": "Kolhapur",
+    "lat": 16.702,
+    "lng": 74.2517
+  },
+  {
+    "area": "Bajarangwadi Ext1",
+    "city": "Kolhapur",
+    "lat": 16.7021,
+    "lng": 74.2383
+  },
+  {
+    "area": "Bajarangwadi Road Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6875,
+    "lng": 74.25195
+  },
+  {
+    "area": "Bajarangwadi East Ext1",
+    "city": "Kolhapur",
+    "lat": 16.7024,
+    "lng": 74.2373
+  },
+  {
+    "area": "Bajarangwadi West Ext1",
+    "city": "Kolhapur",
+    "lat": 16.6866,
+    "lng": 74.25235
+  },
+  {
+    "area": "Bajarangwadi Market Ext1",
+    "city": "Kolhapur",
+    "lat": 16.7032,
+    "lng": 74.2368
+  },
+  {
+    "area": "Central Solapur Ext1",
+    "city": "Solapur",
+    "lat": 17.6614,
+    "lng": 75.9078
+  },
+  {
+    "area": "Central Solapur Road Ext1",
+    "city": "Solapur",
+    "lat": 17.6588,
+    "lng": 75.90535
+  },
+  {
+    "area": "Central Solapur East Ext1",
+    "city": "Solapur",
+    "lat": 17.6617,
+    "lng": 75.9082
+  },
+  {
+    "area": "Central Solapur West Ext1",
+    "city": "Solapur",
+    "lat": 17.6579,
+    "lng": 75.90435
+  },
+  {
+    "area": "Central Solapur Market Ext1",
+    "city": "Solapur",
+    "lat": 17.6625,
+    "lng": 75.9091
+  },
+  {
+    "area": "Shahupuri Solapur Ext1",
+    "city": "Solapur",
+    "lat": 17.6626,
+    "lng": 75.9045
+  },
+  {
+    "area": "Shahupuri Solapur Road Ext1",
+    "city": "Solapur",
+    "lat": 17.6576,
+    "lng": 75.90935
+  },
+  {
+    "area": "Shahupuri Solapur East Ext1",
+    "city": "Solapur",
+    "lat": 17.6629,
+    "lng": 75.9035
+  },
+  {
+    "area": "Shahupuri Solapur West Ext1",
+    "city": "Solapur",
+    "lat": 17.6567,
+    "lng": 75.90975
+  },
+  {
+    "area": "Shahupuri Solapur Market Ext1",
+    "city": "Solapur",
+    "lat": 17.6637,
+    "lng": 75.903
+  },
+  {
+    "area": "Akkalkot Road Ext1",
+    "city": "Solapur",
+    "lat": 17.6638,
+    "lng": 75.91
+  },
+  {
+    "area": "Akkalkot Road Road Ext1",
+    "city": "Solapur",
+    "lat": 17.6564,
+    "lng": 75.90315
+  },
+  {
+    "area": "Akkalkot Road East Ext1",
+    "city": "Solapur",
+    "lat": 17.6641,
+    "lng": 75.9104
+  },
+  {
+    "area": "Akkalkot Road West Ext1",
+    "city": "Solapur",
+    "lat": 17.6555,
+    "lng": 75.90215
+  },
+  {
+    "area": "Akkalkot Road Market Ext1",
+    "city": "Solapur",
+    "lat": 17.6649,
+    "lng": 75.9113
+  },
+  {
+    "area": "Panchavati Solapur Ext1",
+    "city": "Solapur",
+    "lat": 17.665,
+    "lng": 75.9023
+  },
+  {
+    "area": "Panchavati Solapur Road Ext1",
+    "city": "Solapur",
+    "lat": 17.6552,
+    "lng": 75.91155
+  },
+  {
+    "area": "Panchavati Solapur East Ext1",
+    "city": "Solapur",
+    "lat": 17.6653,
+    "lng": 75.9013
+  },
+  {
+    "area": "Panchavati Solapur West Ext1",
+    "city": "Solapur",
+    "lat": 17.6543,
+    "lng": 75.91195
+  },
+  {
+    "area": "Panchavati Solapur Market Ext1",
+    "city": "Solapur",
+    "lat": 17.6661,
+    "lng": 75.9008
+  },
+  {
+    "area": "Miraj Ext1",
+    "city": "Sangli",
+    "lat": 16.8624,
+    "lng": 74.567
+  },
+  {
+    "area": "Miraj Road Ext1",
+    "city": "Sangli",
+    "lat": 16.8598,
+    "lng": 74.56455
+  },
+  {
+    "area": "Miraj East Ext1",
+    "city": "Sangli",
+    "lat": 16.8627,
+    "lng": 74.5674
+  },
+  {
+    "area": "Miraj West Ext1",
+    "city": "Sangli",
+    "lat": 16.8589,
+    "lng": 74.56355
+  },
+  {
+    "area": "Miraj Market Ext1",
+    "city": "Sangli",
+    "lat": 16.8635,
+    "lng": 74.5683
+  },
+  {
+    "area": "Shivaji Nagar Sangli Ext1",
+    "city": "Sangli",
+    "lat": 16.8636,
+    "lng": 74.5637
+  },
+  {
+    "area": "Shivaji Nagar Sangli Road Ext1",
+    "city": "Sangli",
+    "lat": 16.8586,
+    "lng": 74.56855
+  },
+  {
+    "area": "Shivaji Nagar Sangli East Ext1",
+    "city": "Sangli",
+    "lat": 16.8639,
+    "lng": 74.5627
+  },
+  {
+    "area": "Shivaji Nagar Sangli West Ext1",
+    "city": "Sangli",
+    "lat": 16.8577,
+    "lng": 74.56895
+  },
+  {
+    "area": "Shivaji Nagar Sangli Market Ext1",
+    "city": "Sangli",
+    "lat": 16.8647,
+    "lng": 74.5622
+  },
+  {
+    "area": "Uran Islampur Ext1",
+    "city": "Sangli",
+    "lat": 16.8648,
+    "lng": 74.5692
+  },
+  {
+    "area": "Uran Islampur Road Ext1",
+    "city": "Sangli",
+    "lat": 16.8574,
+    "lng": 74.56235
+  },
+  {
+    "area": "Uran Islampur East Ext1",
+    "city": "Sangli",
+    "lat": 16.8651,
+    "lng": 74.5696
+  },
+  {
+    "area": "Uran Islampur West Ext1",
+    "city": "Sangli",
+    "lat": 16.8565,
+    "lng": 74.56135
+  },
+  {
+    "area": "Uran Islampur Market Ext1",
+    "city": "Sangli",
+    "lat": 16.8659,
+    "lng": 74.5705
+  },
+  {
+    "area": "Kavathe Mahankal Ext1",
+    "city": "Sangli",
+    "lat": 16.866,
+    "lng": 74.5615
+  },
+  {
+    "area": "Kavathe Mahankal Road Ext1",
+    "city": "Sangli",
+    "lat": 16.8562,
+    "lng": 74.57075
+  },
+  {
+    "area": "Kavathe Mahankal East Ext1",
+    "city": "Sangli",
+    "lat": 16.8663,
+    "lng": 74.5605
+  },
+  {
+    "area": "Kavathe Mahankal West Ext1",
+    "city": "Sangli",
+    "lat": 16.8553,
+    "lng": 74.57115
+  },
+  {
+    "area": "Kavathe Mahankal Market Ext1",
+    "city": "Sangli",
+    "lat": 16.8671,
+    "lng": 74.56
+  },
+  {
+    "area": "Satara City Ext1",
+    "city": "Satara",
+    "lat": 17.6821,
+    "lng": 73.9947
+  },
+  {
+    "area": "Satara City Road Ext1",
+    "city": "Satara",
+    "lat": 17.6795,
+    "lng": 73.99225
+  },
+  {
+    "area": "Satara City East Ext1",
+    "city": "Satara",
+    "lat": 17.6824,
+    "lng": 73.9951
+  },
+  {
+    "area": "Satara City West Ext1",
+    "city": "Satara",
+    "lat": 17.6786,
+    "lng": 73.99125
+  },
+  {
+    "area": "Satara City Market Ext1",
+    "city": "Satara",
+    "lat": 17.6832,
+    "lng": 73.996
+  },
+  {
+    "area": "Phaltan Road Ext1",
+    "city": "Satara",
+    "lat": 17.6833,
+    "lng": 73.9914
+  },
+  {
+    "area": "Phaltan Road Road Ext1",
+    "city": "Satara",
+    "lat": 17.6783,
+    "lng": 73.99625
+  },
+  {
+    "area": "Phaltan Road East Ext1",
+    "city": "Satara",
+    "lat": 17.6836,
+    "lng": 73.9904
+  },
+  {
+    "area": "Phaltan Road West Ext1",
+    "city": "Satara",
+    "lat": 17.6774,
+    "lng": 73.99665
+  },
+  {
+    "area": "Phaltan Road Market Ext1",
+    "city": "Satara",
+    "lat": 17.6844,
+    "lng": 73.9899
+  },
+  {
+    "area": "Manjara Ext1",
+    "city": "Satara",
+    "lat": 17.6845,
+    "lng": 73.9969
+  },
+  {
+    "area": "Manjara Road Ext1",
+    "city": "Satara",
+    "lat": 17.6771,
+    "lng": 73.99005
+  },
+  {
+    "area": "Manjara East Ext1",
+    "city": "Satara",
+    "lat": 17.6848,
+    "lng": 73.9973
+  },
+  {
+    "area": "Manjara West Ext1",
+    "city": "Satara",
+    "lat": 17.6762,
+    "lng": 73.98905
+  },
+  {
+    "area": "Manjara Market Ext1",
+    "city": "Satara",
+    "lat": 17.6856,
+    "lng": 73.9982
+  },
+  {
+    "area": "Wai Road Ext1",
+    "city": "Satara",
+    "lat": 17.6857,
+    "lng": 73.9892
+  },
+  {
+    "area": "Wai Road Road Ext1",
+    "city": "Satara",
+    "lat": 17.6759,
+    "lng": 73.99845
+  },
+  {
+    "area": "Wai Road East Ext1",
+    "city": "Satara",
+    "lat": 17.686,
+    "lng": 73.9882
+  },
+  {
+    "area": "Wai Road West Ext1",
+    "city": "Satara",
+    "lat": 17.675,
+    "lng": 73.99885
+  },
+  {
+    "area": "Wai Road Market Ext1",
+    "city": "Satara",
+    "lat": 17.6868,
+    "lng": 73.9877
+  },
+  {
+    "area": "Jalgaon Central Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0092,
+    "lng": 75.564
+  },
+  {
+    "area": "Jalgaon Central Road Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0066,
+    "lng": 75.56155
+  },
+  {
+    "area": "Jalgaon Central East Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0095,
+    "lng": 75.5644
+  },
+  {
+    "area": "Jalgaon Central West Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0057,
+    "lng": 75.56055
+  },
+  {
+    "area": "Jalgaon Central Market Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0103,
+    "lng": 75.5653
+  },
+  {
+    "area": "Bhusawal Road Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0104,
+    "lng": 75.5607
+  },
+  {
+    "area": "Bhusawal Road Road Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0054,
+    "lng": 75.56555
+  },
+  {
+    "area": "Bhusawal Road East Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0107,
+    "lng": 75.5597
+  },
+  {
+    "area": "Bhusawal Road West Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0045,
+    "lng": 75.56595
+  },
+  {
+    "area": "Bhusawal Road Market Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0115,
+    "lng": 75.5592
+  },
+  {
+    "area": "Yawal Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0116,
+    "lng": 75.5662
+  },
+  {
+    "area": "Yawal Road Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0042,
+    "lng": 75.55935
+  },
+  {
+    "area": "Yawal East Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0119,
+    "lng": 75.5666
+  },
+  {
+    "area": "Yawal West Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0033,
+    "lng": 75.55835
+  },
+  {
+    "area": "Yawal Market Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0127,
+    "lng": 75.5675
+  },
+  {
+    "area": "Pachora Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0128,
+    "lng": 75.5585
+  },
+  {
+    "area": "Pachora Road Ext1",
+    "city": "Jalgaon",
+    "lat": 21.003,
+    "lng": 75.56775
+  },
+  {
+    "area": "Pachora East Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0131,
+    "lng": 75.5575
+  },
+  {
+    "area": "Pachora West Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0021,
+    "lng": 75.56815
+  },
+  {
+    "area": "Pachora Market Ext1",
+    "city": "Jalgaon",
+    "lat": 21.0139,
+    "lng": 75.557
+  },
+  {
+    "area": "Amravati Central Ext1",
+    "city": "Amravati",
+    "lat": 20.9389,
+    "lng": 77.7805
+  },
+  {
+    "area": "Amravati Central Road Ext1",
+    "city": "Amravati",
+    "lat": 20.9363,
+    "lng": 77.77805
+  },
+  {
+    "area": "Amravati Central East Ext1",
+    "city": "Amravati",
+    "lat": 20.9392,
+    "lng": 77.7809
+  },
+  {
+    "area": "Amravati Central West Ext1",
+    "city": "Amravati",
+    "lat": 20.9354,
+    "lng": 77.77705
+  },
+  {
+    "area": "Amravati Central Market Ext1",
+    "city": "Amravati",
+    "lat": 20.94,
+    "lng": 77.7818
+  },
+  {
+    "area": "Shivaji Chowk Ext1",
+    "city": "Amravati",
+    "lat": 20.9401,
+    "lng": 77.7772
+  },
+  {
+    "area": "Shivaji Chowk Road Ext1",
+    "city": "Amravati",
+    "lat": 20.9351,
+    "lng": 77.78205
+  },
+  {
+    "area": "Shivaji Chowk East Ext1",
+    "city": "Amravati",
+    "lat": 20.9404,
+    "lng": 77.7762
+  },
+  {
+    "area": "Shivaji Chowk West Ext1",
+    "city": "Amravati",
+    "lat": 20.9342,
+    "lng": 77.78245
+  },
+  {
+    "area": "Shivaji Chowk Market Ext1",
+    "city": "Amravati",
+    "lat": 20.9412,
+    "lng": 77.7757
+  },
+  {
+    "area": "Kannamwar Nagar Ext1",
+    "city": "Amravati",
+    "lat": 20.9413,
+    "lng": 77.7827
+  },
+  {
+    "area": "Kannamwar Nagar Road Ext1",
+    "city": "Amravati",
+    "lat": 20.9339,
+    "lng": 77.77585
+  },
+  {
+    "area": "Kannamwar Nagar East Ext1",
+    "city": "Amravati",
+    "lat": 20.9416,
+    "lng": 77.7831
+  },
+  {
+    "area": "Kannamwar Nagar West Ext1",
+    "city": "Amravati",
+    "lat": 20.933,
+    "lng": 77.77485
+  },
+  {
+    "area": "Kannamwar Nagar Market Ext1",
+    "city": "Amravati",
+    "lat": 20.9424,
+    "lng": 77.784
+  },
+  {
+    "area": "Pimpri Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6313,
+    "lng": 73.8011
+  },
+  {
+    "area": "Pimpri Road Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6287,
+    "lng": 73.79865
+  },
+  {
+    "area": "Pimpri East Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6316,
+    "lng": 73.8015
+  },
+  {
+    "area": "Pimpri West Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6278,
+    "lng": 73.79765
+  },
+  {
+    "area": "Pimpri Market Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6324,
+    "lng": 73.8024
+  },
+  {
+    "area": "Chinchwad Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6325,
+    "lng": 73.7978
+  },
+  {
+    "area": "Chinchwad Road Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6275,
+    "lng": 73.80265
+  },
+  {
+    "area": "Chinchwad East Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6328,
+    "lng": 73.7968
+  },
+  {
+    "area": "Chinchwad West Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6266,
+    "lng": 73.80305
+  },
+  {
+    "area": "Chinchwad Market Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6336,
+    "lng": 73.7963
+  },
+  {
+    "area": "Nigdi Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6337,
+    "lng": 73.8033
+  },
+  {
+    "area": "Nigdi Road Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6263,
+    "lng": 73.79645
+  },
+  {
+    "area": "Nigdi East Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.634,
+    "lng": 73.8037
+  },
+  {
+    "area": "Nigdi West Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6254,
+    "lng": 73.79545
+  },
+  {
+    "area": "Nigdi Market Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6348,
+    "lng": 73.8046
+  },
+  {
+    "area": "Bhosari Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6349,
+    "lng": 73.7956
+  },
+  {
+    "area": "Bhosari Road Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6251,
+    "lng": 73.80485
+  },
+  {
+    "area": "Bhosari East Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6352,
+    "lng": 73.7946
+  },
+  {
+    "area": "Bhosari West Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6242,
+    "lng": 73.80525
+  },
+  {
+    "area": "Bhosari Market Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.636,
+    "lng": 73.7941
+  },
+  {
+    "area": "Talegaon Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6361,
+    "lng": 73.8055
+  },
+  {
+    "area": "Talegaon Road Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6239,
+    "lng": 73.79425
+  },
+  {
+    "area": "Talegaon East Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6364,
+    "lng": 73.8059
+  },
+  {
+    "area": "Talegaon West Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.623,
+    "lng": 73.79325
+  },
+  {
+    "area": "Talegaon Market Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6372,
+    "lng": 73.8068
+  },
+  {
+    "area": "Chikhali Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6373,
+    "lng": 73.7934
+  },
+  {
+    "area": "Chikhali Road Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6227,
+    "lng": 73.80705
+  },
+  {
+    "area": "Chikhali East Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6376,
+    "lng": 73.7924
+  },
+  {
+    "area": "Chikhali West Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6218,
+    "lng": 73.80745
+  },
+  {
+    "area": "Chikhali Market Ext1",
+    "city": "Pimpri-Chinchwad",
+    "lat": 18.6384,
+    "lng": 73.7919
+  },
+  {
+    "area": "Thane West Ext1",
+    "city": "Thane",
+    "lat": 19.2198,
+    "lng": 72.9795
+  },
+  {
+    "area": "Thane West Road Ext1",
+    "city": "Thane",
+    "lat": 19.2172,
+    "lng": 72.97705
+  },
+  {
+    "area": "Thane West East Ext1",
+    "city": "Thane",
+    "lat": 19.2201,
+    "lng": 72.9799
+  },
+  {
+    "area": "Thane West West Ext1",
+    "city": "Thane",
+    "lat": 19.2163,
+    "lng": 72.97605
+  },
+  {
+    "area": "Thane West Market Ext1",
+    "city": "Thane",
+    "lat": 19.2209,
+    "lng": 72.9808
+  },
+  {
+    "area": "Thane East Ext1",
+    "city": "Thane",
+    "lat": 19.221,
+    "lng": 72.9762
+  },
+  {
+    "area": "Thane East Road Ext1",
+    "city": "Thane",
+    "lat": 19.216,
+    "lng": 72.98105
+  },
+  {
+    "area": "Thane East East Ext1",
+    "city": "Thane",
+    "lat": 19.2213,
+    "lng": 72.9752
+  },
+  {
+    "area": "Thane East West Ext1",
+    "city": "Thane",
+    "lat": 19.2151,
+    "lng": 72.98145
+  },
+  {
+    "area": "Thane East Market Ext1",
+    "city": "Thane",
+    "lat": 19.2221,
+    "lng": 72.9747
+  },
+  {
+    "area": "Mumbra Ext1",
+    "city": "Thane",
+    "lat": 19.2222,
+    "lng": 72.9817
+  },
+  {
+    "area": "Mumbra Road Ext1",
+    "city": "Thane",
+    "lat": 19.2148,
+    "lng": 72.97485
+  },
+  {
+    "area": "Mumbra East Ext1",
+    "city": "Thane",
+    "lat": 19.2225,
+    "lng": 72.9821
+  },
+  {
+    "area": "Mumbra West Ext1",
+    "city": "Thane",
+    "lat": 19.2139,
+    "lng": 72.97385
+  },
+  {
+    "area": "Mumbra Market Ext1",
+    "city": "Thane",
+    "lat": 19.2233,
+    "lng": 72.983
+  },
+  {
+    "area": "Kalwa Ext1",
+    "city": "Thane",
+    "lat": 19.2234,
+    "lng": 72.974
+  },
+  {
+    "area": "Kalwa Road Ext1",
+    "city": "Thane",
+    "lat": 19.2136,
+    "lng": 72.98325
+  },
+  {
+    "area": "Kalwa East Ext1",
+    "city": "Thane",
+    "lat": 19.2237,
+    "lng": 72.973
+  },
+  {
+    "area": "Kalwa West Ext1",
+    "city": "Thane",
+    "lat": 19.2127,
+    "lng": 72.98365
+  },
+  {
+    "area": "Kalwa Market Ext1",
+    "city": "Thane",
+    "lat": 19.2245,
+    "lng": 72.9725
+  },
+  {
+    "area": "Dombivli Ext1",
+    "city": "Thane",
+    "lat": 19.2246,
+    "lng": 72.9839
+  },
+  {
+    "area": "Dombivli Road Ext1",
+    "city": "Thane",
+    "lat": 19.2124,
+    "lng": 72.97265
+  },
+  {
+    "area": "Dombivli East Ext1",
+    "city": "Thane",
+    "lat": 19.2249,
+    "lng": 72.9843
+  },
+  {
+    "area": "Dombivli West Ext1",
+    "city": "Thane",
+    "lat": 19.2115,
+    "lng": 72.97165
+  },
+  {
+    "area": "Dombivli Market Ext1",
+    "city": "Thane",
+    "lat": 19.2257,
+    "lng": 72.9852
+  },
+  {
+    "area": "Kalyan Ext1",
+    "city": "Thane",
+    "lat": 19.2258,
+    "lng": 72.9718
+  },
+  {
+    "area": "Kalyan Road Ext1",
+    "city": "Thane",
+    "lat": 19.2112,
+    "lng": 72.98545
+  },
+  {
+    "area": "Kalyan East Ext1",
+    "city": "Thane",
+    "lat": 19.2261,
+    "lng": 72.9708
+  },
+  {
+    "area": "Kalyan West Ext1",
+    "city": "Thane",
+    "lat": 19.2103,
+    "lng": 72.98585
+  },
+  {
+    "area": "Kalyan Market Ext1",
+    "city": "Thane",
+    "lat": 19.2269,
+    "lng": 72.9703
+  },
+  {
+    "area": "Vashi Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0345,
+    "lng": 73.0311
+  },
+  {
+    "area": "Vashi Road Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0319,
+    "lng": 73.02865
+  },
+  {
+    "area": "Vashi East Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0348,
+    "lng": 73.0315
+  },
+  {
+    "area": "Vashi West Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.031,
+    "lng": 73.02765
+  },
+  {
+    "area": "Vashi Market Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0356,
+    "lng": 73.0324
+  },
+  {
+    "area": "Nerul Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0357,
+    "lng": 73.0278
+  },
+  {
+    "area": "Nerul Road Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0307,
+    "lng": 73.03265
+  },
+  {
+    "area": "Nerul East Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.036,
+    "lng": 73.0268
+  },
+  {
+    "area": "Nerul West Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0298,
+    "lng": 73.03305
+  },
+  {
+    "area": "Nerul Market Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0368,
+    "lng": 73.0263
+  },
+  {
+    "area": "Kharghar Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0369,
+    "lng": 73.0333
+  },
+  {
+    "area": "Kharghar Road Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0295,
+    "lng": 73.02645
+  },
+  {
+    "area": "Kharghar East Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0372,
+    "lng": 73.0337
+  },
+  {
+    "area": "Kharghar West Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0286,
+    "lng": 73.02545
+  },
+  {
+    "area": "Kharghar Market Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.038,
+    "lng": 73.0346
+  },
+  {
+    "area": "Panvel Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0381,
+    "lng": 73.0256
+  },
+  {
+    "area": "Panvel Road Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0283,
+    "lng": 73.03485
+  },
+  {
+    "area": "Panvel East Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0384,
+    "lng": 73.0246
+  },
+  {
+    "area": "Panvel West Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0274,
+    "lng": 73.03525
+  },
+  {
+    "area": "Panvel Market Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0392,
+    "lng": 73.0241
+  },
+  {
+    "area": "Belapur Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0393,
+    "lng": 73.0355
+  },
+  {
+    "area": "Belapur Road Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0271,
+    "lng": 73.02425
+  },
+  {
+    "area": "Belapur East Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0396,
+    "lng": 73.0359
+  },
+  {
+    "area": "Belapur West Ext1",
+    "city": "Navi Mumbai",
+    "lat": 19.0262,
+    "lng": 73.02325
+  }
+]
