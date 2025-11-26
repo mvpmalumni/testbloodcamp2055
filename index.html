@@ -113,9 +113,13 @@ function refreshMarkers() {
   });
 
   filteredCenters.forEach(c => {
-    L.marker([c.lat, c.lng])
+    const m = L.marker([c.lat, c.lng])
       .addTo(map)
       .bindPopup(`<b>${c.name}</b><br>${c.area}, ${c.city}<br>${c.date}`);
+
+    // SHOW POPUP ON HOVER
+    m.on("mouseover", function () { this.openPopup(); });
+    m.on("mouseout", function () { this.closePopup(); });
   });
 }
 
@@ -163,10 +167,15 @@ document.getElementById("locBtn").onclick = function () {
       const lng = pos.coords.longitude;
 
       if (!userMarker) {
-        userMarker = L.marker([lat, lng]).addTo(map);
+        userMarker = L.marker([lat, lng], {
+        icon: L.icon({
+            iconUrl: "https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png",
+            iconSize: [32, 32]
+        })
+    }).addTo(map).bindPopup("<b>You Are Here</b>");
       } else {
-        userMarker.setLatLng([lat, lng]);
-      }
+    userMarker.setLatLng([lat, lng]);
+}
 
       const place = await reverseGeo(lat, lng);
       showNearest(lat, lng, place);
@@ -198,13 +207,14 @@ function showNearest(lat, lng, place) {
 
   // Add new highlight marker
   nearestMarker = L.circleMarker([nearest.lat, nearest.lng], {
-    radius: 12,
+    radius: 14,
     color: "red",
+    weight: 4,
     fillColor: "red",
-    fillOpacity: 0.8
-  })
-  .addTo(map)
-  .bindPopup(`<b>${nearest.name}</b> - Nearest Location`);
+    fillOpacity: 0.9
+})
+.addTo(map)
+.bindPopup(`<b>${nearest.name}</b><br>(Nearest Location)`);
 
   // SHOW POPUP ON HOVER
   nearestMarker.on("mouseover", function () {
