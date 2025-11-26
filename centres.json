@@ -3,9 +3,11 @@
     "name": "V.N. Lahoti Vidyarthi Bhavan",
     "lat": 18.5288714860426,
     "lng": 73.8396786430446,
-    "area": "V.N. Lahoti Vidyarthi Bhavan",
+    "area": "Model Colony",
     "city": "Pune",
-    "date": "14-Dec-25"
+    "date": "14-Dec-25",
+    "address" : "1099/a, Model Colony Rd, Model Colony, Shivajinagar, Pune, Maharashtra 411016",
+    "location" : "https://maps.app.goo.gl/Zx3oT19aB1PJ5iri9"
   },
   {
     "name": "MVPM Laxmi Boys Hostel",
@@ -14,6 +16,8 @@
     "area": "Laxmi Boys Hostel",
     "city": "Pune",
     "date": "14-Dec-25"
+    "address" : "FVV6+5GX Laxmi Boys Hostel, Pune Near Zambre Palace, Pune, Maharashtra 411037",
+    "location" : "https://maps.app.goo.gl/EECgWtjpRyLeD6ru8"
   },
   {
     "name": "MVPM Baner Boys Hostel",
@@ -22,14 +26,18 @@
     "area": "Baner",
     "city": "Pune",
     "date": "14-Dec-25"
+    "address" : "Balewadi Phata, Baner, Pune, Maharashtra 411045",
+    "location" : "https://maps.app.goo.gl/ahZkmXuX5v7V8dGs7"
   },
   {
-    "name": "Mahesh Vidyalaya",
+    "name": "Mahesh Vidyalaya Kothrud",
     "lat": 18.5003417936853,
     "lng": 73.8026775379225,
     "area": "Kothrud",
     "city": "Pune",
     "date": "14-Dec-25"
+    "address" : "Sangeetkar Shrikant Thakare Rd, Gananjay Society, Nalawade Baug, Kothrud, Pune, Maharashtra 411038",
+    "location" : "https://maps.app.goo.gl/xr1SnwDSP8WEFhpW7"
   },
   {
     "name": "Shri Laxmibai Dagdusheth Halwai Datta Mandir",
@@ -38,6 +46,8 @@
     "area": "Budhwar Peth",
     "city": "Pune",
     "date": "03-Dec-25"
+    "address" : "GV74+VM6, Abhay Khadilkar Rd, Mandai, Shukrawar Peth, Pune, Maharashtra 411002",
+    "location" : "https://maps.app.goo.gl/yqzR8miiTP9TebNt6"
   },
   {
     "name": "Bizsolindia Services Private Limited",
@@ -45,7 +55,9 @@
     "lng": 73.78351014417956,
     "area": "Baner",
     "city": "Pune",
-    "date": "13-Dec-25"
+    "date": "13-Dec-25",
+    "address" : "14-17, Suyash Commercial Mall, Survey No. 74 & 75, above Union Bank of India, Baner, Pune, Maharashtra 411069",
+    "location" : "https://maps.app.goo.gl/LTtcacJy4UMsFesdA"
   },
   {
     "name": "Prestige Point CA, CS, CMA",
@@ -53,7 +65,9 @@
     "lng": 73.85476203710516,
     "area": "Sadashiv Peth",
     "city": "Pune",
-    "date": "13-Dec-25"
+    "date": "13-Dec-25",
+    "address" : "28, Bajirao Rd, Natu Baag, Shukrawar Peth, Pune, Maharashtra 411002",
+    "location" : "https://maps.app.goo.gl/QgntQiBbShcrkCSC8"
   },
   {
     "name": "Rathi Rathi and Co",
@@ -61,7 +75,9 @@
     "lng": 73.8350446883134,
     "area": "Erandwane",
     "city": "Pune",
-    "date": "13-Dec-25"
+    "date": "13-Dec-25",
+    "address" : "Akshay Landmark, 501-504, Sinhgad Rd, opp. Pu La Deshpande Garden, Sarita Vihar Phase 2, Dattawadi, Pune, Maharashtra 411030",
+    "location" : "https://maps.app.goo.gl/SQtJ7kNgw2Qmomno8"
   },
   {
     "name": "Latur",
@@ -69,7 +85,9 @@
     "lng": 76.53626148234731,
     "area": "Latur City",
     "city": "Latur",
-    "date": "12-Dec-25"
+    "date": "12-Dec-25",
+     "address" : "Latur, Maharashtra 413512",
+    "location" : "https://maps.app.goo.gl/KVKBw6uHUF7TkguXA"
   },
   {
     "name": "Latur",
@@ -77,7 +95,9 @@
     "lng": 76.53626148234731,
     "area": "Latur City",
     "city": "Latur",
-    "date": "14-Dec-25"
+    "date": "14-Dec-25",
+    "address" : "Latur, Maharashtra 413512",
+    "location" : "https://maps.app.goo.gl/KVKBw6uHUF7TkguXA"
   },
 
   {
@@ -86,7 +106,9 @@
     "lng": 75.9031943548523,
     "area": "Solapur City",
     "city": "Solapur",
-    "date": "14-Dec-25"
+    "date": "14-Dec-25",
+    "address" : "Solapur, Maharashtra 413006",
+    "location" : "https://maps.app.goo.gl/sbPLvuuF3M9w3J9j8"
   },
   {
     "name": "Beed",
@@ -94,7 +116,9 @@
     "lng": 75.74300169762824,
     "area": "Beed City",
     "city": "Beed",
-    "date": "14-Dec-25"
+    "date": "14-Dec-25",
+    "address" : "Beed, Maharashtra 413522",
+    "location" : "https://maps.app.goo.gl/KgB8gDSahC1k4rv38"
   },
   {
     "name": "Ahilyanagar",
@@ -102,7 +126,9 @@
     "lng": 74.74804718041068,
     "area": "Ahilyanagar City",
     "city": "Ahilyanagar",
-    "date": "14-Dec-25"
+    "date": "14-Dec-25",
+    "address" : "GV74+VM6, Abhay Khadilkar Rd, Mandai, Shukrawar Peth, Pune, Maharashtra 414003",
+    "location" : "https://maps.app.goo.gl/3iJ8gS6B81ump5yj7"
   },
 
   {
@@ -111,6 +137,8 @@
     "lng": 73.85124700908749,
     "area": "Deccan",
     "city": "Pune",
-    "date": "12-Dec-25"
+    "date": "12-Dec-25",
+    "address" : "106, Mayfair Tower I, Sphurti Society, Wakadewadi, Shivajinagar, Pune, Maharashtra 411005",
+    "location" : "https://maps.app.goo.gl/3Y54wQ3i9EiV5n4n6"
   }
 ]
