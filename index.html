@@ -58,6 +58,16 @@
     border-radius:6px; text-decoration:none; font-weight:bold;
     display:inline-block;
   }
+
+  .center-label {
+    background: white;
+    border: 1px solid #999;
+    padding: 3px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
 </style>
 </head>
 <body>
@@ -86,6 +96,7 @@ let filteredCenters = [];
 let map, userMarker = null, nearestMarker = null;
 let watchID = null;
 let centerMarkers = []; // Store all center markers
+let isTracking = false; // Track if user is tracking location
 
 // Load centres JSON
 fetch("centres.json")
@@ -147,9 +158,23 @@ function refreshMarkers() {
       .addTo(map)
       .bindPopup(`<b>${c.name}</b><br>${c.area}, ${c.city}<br>${c.date}`);
     
-    // FEATURE 3: Show popup on hover
+    // Add permanent tooltip (label) that shows center name
+    const tooltip = marker.bindTooltip(c.name, {
+      permanent: true,
+      direction: 'top',
+      className: 'center-label'
+    });
+    
+    // Hide tooltip if tracking is active
+    if (isTracking) {
+      marker.closeTooltip();
+    }
+    
+    // FEATURE 3: Show detailed popup on hover
     marker.on("mouseover", function () {
-      this.openPopup();
+      if (!isTracking) {
+        this.openPopup();
+      }
     });
     marker.on("mouseout", function () {
       this.closePopup();
@@ -170,6 +195,8 @@ function initMap() {
   filterCenters();
 
   map.on("click", async e => {
+    isTracking = true; // Set tracking mode
+    hideAllLabels(); // Hide all center labels
     const place = await reverseGeo(e.latlng.lat, e.latlng.lng);
     showNearest(e.latlng.lat, e.latlng.lng, place);
   });
@@ -195,10 +222,14 @@ document.getElementById("locBtn").onclick = function () {
     watchID = null;
     this.textContent = "Live Track";
     alert("Live tracking stopped");
+    isTracking = false; // Stop tracking mode
+    showAllLabels(); // Show all labels again
     return;
   }
 
   this.textContent = "Stop Track";
+  isTracking = true; // Set tracking mode
+  hideAllLabels(); // Hide all center labels
 
   watchID = navigator.geolocation.watchPosition(
     async pos => {
@@ -339,6 +370,20 @@ function distance(a, b, c, d) {
     Math.cos(c * Math.PI / 180) *
     Math.sin(dLon / 2) ** 2;
   return R * 2 * Math.atan2(Math.sqrt(s), Math.sqrt(1 - s));
+}
+
+// Hide all center labels
+function hideAllLabels() {
+  centerMarkers.forEach(marker => {
+    marker.closeTooltip();
+  });
+}
+
+// Show all center labels
+function showAllLabels() {
+  centerMarkers.forEach(marker => {
+    marker.openTooltip();
+  });
 }
 </script>
 
