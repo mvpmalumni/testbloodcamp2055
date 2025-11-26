@@ -281,7 +281,36 @@ function showNearest(lat, lng, place) {
     this.closePopup();
   });
 
-  map.setView([nearest.lat, nearest.lng], 13);
+  // Smart zoom based on distance to avoid overlap
+  let zoomLevel;
+  if (minD < 0.5) {
+    zoomLevel = 16; // Very close - zoom in more
+  } else if (minD < 2) {
+    zoomLevel = 14; // Close - medium zoom
+  } else if (minD < 5) {
+    zoomLevel = 13; // Moderate distance
+  } else if (minD < 10) {
+    zoomLevel = 12; // Far
+  } else if (minD < 20) {
+    zoomLevel = 11; // Very far
+  } else {
+    zoomLevel = 10; // Extremely far
+  }
+
+  // Calculate center point between user and nearest location
+  const centerLat = (lat + nearest.lat) / 2;
+  const centerLng = (lng + nearest.lng) / 2;
+
+  // Fit both markers in view
+  const bounds = L.latLngBounds([
+    [lat, lng],
+    [nearest.lat, nearest.lng]
+  ]);
+  
+  map.fitBounds(bounds, {
+    padding: [80, 80], // Add padding so popups don't get cut off
+    maxZoom: zoomLevel
+  });
 
   showPanel(nearest, minD, place);
 }
