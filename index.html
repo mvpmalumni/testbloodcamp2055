@@ -86,6 +86,14 @@ function loadDates() {
   const dates = [...new Set(allCenters.map(c => c.date))];
   const select = document.getElementById("dateSelect");
 
+  // Add default "Select Date" option
+  const defaultOpt = document.createElement("option");
+  defaultOpt.value = "";
+  defaultOpt.textContent = "Select Date";
+  defaultOpt.disabled = true;
+  defaultOpt.selected = true;
+  select.appendChild(defaultOpt);
+
   dates.forEach(d => {
     const opt = document.createElement("option");
     opt.value = d;
