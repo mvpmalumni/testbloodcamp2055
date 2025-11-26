@@ -63,13 +63,64 @@
     background: white;
     border: 1px solid #999;
     padding: 3px 6px;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     border-radius: 3px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    white-space: nowrap;
+    pointer-events: none;
   }
 
-  /* Nearby list styling (keeps minimal) */
+  .user-label {
+    background: #2196F3;
+    color: white;
+    border: 2px solid #1565C0;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    white-space: nowrap;
+    pointer-events: none;
+  }
+
+  .nearest-label {
+    background: #f44336;
+    color: white;
+    border: 2px solid #c62828;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    white-space: nowrap;
+    pointer-events: none;
+  }
+
+  .nearby-label {
+    background: #4CAF50;
+    color: white;
+    border: 1px solid #388E3C;
+    padding: 3px 6px;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    white-space: nowrap;
+    pointer-events: none;
+  }
+
+  @media (max-width: 600px) {
+    .center-label, .nearby-label, .nearest-label {
+      font-size: 9px;
+      padding: 2px 4px;
+    }
+    .user-label {
+      font-size: 10px;
+      padding: 3px 6px;
+    }
+  }
+
   #nearbyList {
     margin-top: 10px;
   }
@@ -104,40 +155,32 @@
 <select id="dateSelect"></select>
 <div id="map"></div>
 
-<!-- Panel: shows nearest center + address + distance -->
 <div id="panel">
   <div class="title" id="cName">Select a date and enable location</div>
   <div class="meta" id="cAddr"></div>
   <div class="dist" id="cDist"></div>
   <a id="navBtn" href="#" target="_blank">Navigate</a>
-
-  <!-- Nearby centers list -->
   <div id="nearbyList"></div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
-/*
-  Updated behavior:
-  - Filter centers by date array (center.date includes selected date)
-  - Calculate distance from user / clicked point to all centers
-  - nearestMarker: RED circle
-  - nearbyMarkers: GREEN markers (<= 10 km)
-  - clicking any marker draws a straight polyline route from user -> center (if user location known).
-  - bottom panel shows nearest and a list of nearby centers with navigation buttons.
-  - uses center.address field from centres.json for display.
-*/
-
 let allCenters = [];
 let filteredCenters = [];
 let map, userMarker = null, nearestMarker = null;
 let watchID = null;
-let centerMarkers = []; // all L.Marker for centers
-let routeLine = null;   // polyline for current route
-const NEARBY_KM = 10;   // 10 km radius
+let centerMarkers = [];
+let routeLine = null;
+const NEARBY_KM = 10;
+const MAX_ZOOM = 17;
 
-// Load centres JSON
+// Label position directions for collision avoidance
+const LABEL_DIRECTIONS = [
+  'top', 'bottom', 'right', 'left', 
+  'topright', 'topleft', 'bottomright', 'bottomleft'
+];
+
 fetch("centres.json")
   .then(r => {
     if(!r.ok) throw new Error("Failed to load centres.json: " + r.status);
@@ -153,7 +196,6 @@ fetch("centres.json")
     alert("Unable to load centres.json. Check file and run via HTTP server.");
   });
 
-// Populate date dropdown (center.date is array)
 function loadDates() {
   const dateSet = new Set();
   allCenters.forEach(c => {
@@ -163,7 +205,6 @@ function loadDates() {
   const dates = Array.from(dateSet).sort();
   const select = document.getElementById("dateSelect");
 
-  // default option
   const defaultOpt = document.createElement("option");
   defaultOpt.value = "";
   defaultOpt.textContent = "Select Date";
@@ -180,14 +221,12 @@ function loadDates() {
 
   select.onchange = () => {
     filterCenters();
-    // Clear any previous route/nearest when date changes
     clearRoute();
     clearNearest();
     hidePanelInfo();
   };
 }
 
-// Filter centers by selected date (use includes)
 function filterCenters() {
   const selected = document.getElementById("dateSelect").value;
   filteredCenters = allCenters.filter(c => {
@@ -197,58 +236,49 @@ function filterCenters() {
   refreshMarkers();
 }
 
-// Remove old markers & add new ones (colored by distance after user location known)
 function refreshMarkers() {
   if (!map) return;
 
-  // remove previously added center markers
   centerMarkers.forEach(m => map.removeLayer(m));
   centerMarkers = [];
-  // remove nearest highlight if any
   if (nearestMarker) { map.removeLayer(nearestMarker); nearestMarker = null; }
-  // remove route line
   clearRoute();
-  // clear nearby list
   renderNearbyList([]);
 
-  // Add markers (initially default icon). Distances will be computed later when user location exists or map clicked.
   filteredCenters.forEach(c => {
     const marker = L.marker([c.lat, c.lng]);
-    marker.bindPopup(renderPopupHtml(c, null)); // will update later with actual distance
+    marker.bindPopup(renderPopupHtml(c, null));
     marker.on('click', () => onCenterClick(c, marker));
-    // show tooltip label
-    marker.bindTooltip(c.name, { permanent: true, direction: 'top', className: 'center-label' });
+    marker.bindTooltip(c.name, { 
+      permanent: true, 
+      direction: 'top', 
+      className: 'center-label',
+      offset: [0, -10]
+    });
     centerMarkers.push(marker);
     marker.addTo(map);
   });
 
-  // if no filtered centers, show message
   if(filteredCenters.length === 0){
     document.getElementById('cName').textContent = "No centers for selected date";
   }
 }
 
-// Initialize the map
 function initMap() {
   map = L.map('map').setView([19.75, 75.71], 6);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "© OpenStreetMap"
   }).addTo(map);
 
-  // if user clicks on map, treat clicked point as origin (and compute nearest/nearby)
   map.on("click", async e => {
     const lat = e.latlng.lat, lng = e.latlng.lng;
-    // set user marker to clicked location (temporary origin)
     setUserMarker(lat, lng);
-    // compute nearest / nearby and update UI
     computeAndShowNearby(lat, lng);
   });
 
-  // initial markers (pending date selection)
   refreshMarkers();
 }
 
-// Reverse geocoding for display in panel (for user location) - optional
 async function reverseGeo(lat, lng){
   try {
     const r = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}`);
@@ -260,19 +290,16 @@ async function reverseGeo(lat, lng){
   }
 }
 
-// Live Track button behavior
 document.getElementById("locBtn").onclick = function () {
   if (watchID) {
     navigator.geolocation.clearWatch(watchID);
     watchID = null;
     this.textContent = "Live Track";
     alert("Live tracking stopped");
-    // show labels again
     showAllLabels();
     return;
   }
 
-  // start tracking
   this.textContent = "Stop Track";
   hideAllLabels();
 
@@ -290,7 +317,6 @@ document.getElementById("locBtn").onclick = function () {
   }, { enableHighAccuracy: true, maximumAge: 0, timeout: 5000 });
 };
 
-// Helper: set or update user marker
 function setUserMarker(lat, lng) {
   if (!map) return;
   if (!userMarker) {
@@ -304,41 +330,50 @@ function setUserMarker(lat, lng) {
         shadowSize: [41, 41]
       })
     }).addTo(map);
-    userMarker.bindPopup("<b>📍 You are here</b>", { closeButton: false, autoClose: false, closeOnClick: false }).openPopup();
+    
+    userMarker.bindTooltip("📍 You are here", {
+      permanent: true,
+      direction: 'top',
+      className: 'user-label',
+      offset: [0, -15]
+    }).openTooltip();
   } else {
     userMarker.setLatLng([lat, lng]);
-    userMarker.getPopup().setContent("<b>📍 You are here</b>");
   }
 }
 
-// Compute distances, identify nearest and nearby centers,
-// update markers colors/popups and populate nearby list
+// SMART ZOOM & COLLISION DETECTION
 function computeAndShowNearby(userLat, userLng) {
-  if (!filteredCenters || filteredCenters.length === 0) {
-    return;
-  }
+  if (!filteredCenters || filteredCenters.length === 0) return;
 
-  // compute distances and attach to centers
   filteredCenters.forEach(c => {
     c._distance_km = haversine(userLat, userLng, c.lat, c.lng);
   });
 
-  // find nearest
   let nearest = filteredCenters[0];
-  filteredCenters.forEach(c => { if (c._distance_km < nearest._distance_km) nearest = c; });
+  filteredCenters.forEach(c => { 
+    if (c._distance_km < nearest._distance_km) nearest = c; 
+  });
 
-  // find all within NEARBY_KM
-  const nearby = filteredCenters.filter(c => c._distance_km <= NEARBY_KM).sort((a,b)=>a._distance_km - b._distance_km);
+  const nearby = filteredCenters.filter(c => c._distance_km <= NEARBY_KM)
+    .sort((a,b) => a._distance_km - b._distance_km);
 
-  // update markers: colorization
-  // remove and re-add markers to ensure tooltip behavior consistent
   centerMarkers.forEach(m => { try{ map.removeLayer(m); }catch{} });
   centerMarkers = [];
 
-  filteredCenters.forEach(c => {
+  // Calculate spread for smart zoom
+  const allMarkers = [{ lat: userLat, lng: userLng }, ...nearby];
+  const spread = calculateSpread(allMarkers);
+  
+  // Determine label positions to avoid overlap
+  const labelPositions = [];
+  
+  filteredCenters.forEach((c, idx) => {
     let marker;
+    let labelClass = 'center-label';
+    let labelDirection = 'top';
+    
     if (c === nearest) {
-      // nearest will be displayed as red circle marker (use circleMarker)
       marker = L.circleMarker([c.lat, c.lng], {
         radius: 12,
         color: "red",
@@ -346,56 +381,194 @@ function computeAndShowNearby(userLat, userLng) {
         fillColor: "red",
         fillOpacity: 0.9
       });
+      labelClass = 'nearest-label';
+      labelDirection = findBestLabelPosition(c, labelPositions, 1); // Priority 1
     } else if (c._distance_km <= NEARBY_KM) {
-      // nearby -> green marker icon (use standard marker with green icon)
       marker = L.marker([c.lat, c.lng], { icon: greenIcon() });
+      labelClass = 'nearby-label';
+      labelDirection = findBestLabelPosition(c, labelPositions, 2); // Priority 2
     } else {
-      // default marker (gray)
       marker = L.marker([c.lat, c.lng]);
+      labelDirection = findBestLabelPosition(c, labelPositions, 3); // Priority 3
     }
 
-    // popup contains name, address (from JSON), date(s), distance
+    labelPositions.push({ lat: c.lat, lng: c.lng, direction: labelDirection });
+
     marker.bindPopup(renderPopupHtml(c, c._distance_km));
-
-    // tooltip label always present (but can be hidden with hideAllLabels())
-    marker.bindTooltip(c.name, { permanent: true, direction: 'top', className: 'center-label' });
-
-    // click handler: draw route from user to this center
-    marker.on('click', () => {
-      onCenterClick(c, marker);
+    marker.bindTooltip(c.name, { 
+      permanent: true, 
+      direction: labelDirection, 
+      className: labelClass,
+      offset: getOffsetForDirection(labelDirection)
     });
 
+    marker.on('click', () => onCenterClick(c, marker));
     marker.addTo(map);
     centerMarkers.push(marker);
 
-    // if marker is circleMarker (nearest) add hover open/close
     if (marker instanceof L.CircleMarker) {
       marker.on("mouseover", function(){ this.openPopup(); });
       marker.on("mouseout", function(){ this.closePopup(); });
     }
   });
 
-  // highlight nearest variable
-  // remove old nearestMarker if different (we already added one as circleMarker but keep a ref)
   if (nearestMarker) { try{ map.removeLayer(nearestMarker); }catch{} }
-  // find the marker in centerMarkers that corresponds to nearest and store as nearestMarker for removal later
-  nearestMarker = centerMarkers.find(m => m.getLatLng && m.getLatLng().lat === nearest.lat && m.getLatLng().lng === nearest.lng) || null;
+  nearestMarker = centerMarkers.find(m => 
+    m.getLatLng && m.getLatLng().lat === nearest.lat && m.getLatLng().lng === nearest.lng
+  ) || null;
 
-  // Fit map bounds to include user and nearest (and nearby) markers
-  const boundsArr = [[userLat, userLng]];
-  filteredCenters.forEach(c => boundsArr.push([c.lat, c.lng]));
-  try {
-    map.fitBounds(boundsArr, { padding: [80,80] });
-  } catch(e){ /* ignore */ }
+  // SMART ZOOM IMPLEMENTATION
+  applySmartZoom(userLat, userLng, nearby, spread);
 
-  // update bottom panel with nearest info (use center.address)
   showPanel(nearest, nearest._distance_km, nearest.address || (nearest.area + ", " + nearest.city));
-
-  // populate nearby list, ensure nearest is first
   renderNearbyList([nearest, ...nearby.filter(x => x !== nearest)]);
 }
 
-// Render HTML for popup (center data + optional distance)
+// Calculate spread of markers (max distance between any two)
+function calculateSpread(markers) {
+  if (markers.length < 2) return 0;
+  
+  let maxDist = 0;
+  for (let i = 0; i < markers.length; i++) {
+    for (let j = i + 1; j < markers.length; j++) {
+      const dist = haversine(markers[i].lat, markers[i].lng, markers[j].lat, markers[j].lng);
+      if (dist > maxDist) maxDist = dist;
+    }
+  }
+  return maxDist;
+}
+
+// Smart zoom based on spread and number of markers
+function applySmartZoom(userLat, userLng, nearby, spread) {
+  const boundsArr = [[userLat, userLng]];
+  nearby.forEach(c => boundsArr.push([c.lat, c.lng]));
+  
+  // Determine zoom level based on spread
+  let targetZoom;
+  if (spread < 1) {
+    targetZoom = 16; // Very tight cluster
+  } else if (spread < 3) {
+    targetZoom = 14; // Tight cluster
+  } else if (spread < 7) {
+    targetZoom = 13; // Medium spread
+  } else if (spread < 15) {
+    targetZoom = 12; // Wide spread
+  } else if (spread < 30) {
+    targetZoom = 11; // Very wide
+  } else {
+    targetZoom = 10; // Extremely wide
+  }
+  
+  // Cap at MAX_ZOOM
+  targetZoom = Math.min(targetZoom, MAX_ZOOM);
+  
+  // Dynamic padding based on number of markers
+  const numMarkers = nearby.length + 1; // +1 for user
+  let padding = [50, 50];
+  
+  if (numMarkers > 5) {
+    padding = [100, 100];
+  } else if (numMarkers > 3) {
+    padding = [80, 80];
+  }
+  
+  // Mobile adjustment
+  if (window.innerWidth < 600) {
+    padding = padding.map(p => p * 1.3);
+  }
+  
+  try {
+    map.fitBounds(boundsArr, { 
+      padding: padding,
+      maxZoom: targetZoom
+    });
+  } catch(e) {
+    console.error('Fit bounds error:', e);
+  }
+}
+
+// Find best label position to avoid overlap
+function findBestLabelPosition(center, existingPositions, priority) {
+  const COLLISION_THRESHOLD = 0.002; // ~200 meters in degrees
+  
+  // Priority 0 (user) always gets top
+  // Priority 1 (nearest) tries top, then others
+  // Priority 2+ (nearby/others) tries all directions
+  
+  let directionsToTry = [...LABEL_DIRECTIONS];
+  if (priority === 1) {
+    directionsToTry = ['top', 'bottom', 'topright', 'topleft', 'right', 'left', 'bottomright', 'bottomleft'];
+  }
+  
+  for (const dir of directionsToTry) {
+    let hasCollision = false;
+    
+    for (const existing of existingPositions) {
+      const latDiff = Math.abs(center.lat - existing.lat);
+      const lngDiff = Math.abs(center.lng - existing.lng);
+      
+      // Check if positions are too close
+      if (latDiff < COLLISION_THRESHOLD && lngDiff < COLLISION_THRESHOLD) {
+        // Same position, check if directions would overlap
+        if (directionsOverlap(dir, existing.direction)) {
+          hasCollision = true;
+          break;
+        }
+      }
+    }
+    
+    if (!hasCollision) {
+      return dir;
+    }
+  }
+  
+  // Fallback if all positions have collision
+  return directionsToTry[0];
+}
+
+// Check if two label directions would visually overlap
+function directionsOverlap(dir1, dir2) {
+  const opposites = {
+    'top': 'bottom',
+    'bottom': 'top',
+    'left': 'right',
+    'right': 'left'
+  };
+  
+  if (dir1 === dir2) return true;
+  if (opposites[dir1] === dir2) return false;
+  
+  // Adjacent directions might overlap
+  const adjacent = {
+    'top': ['topright', 'topleft'],
+    'bottom': ['bottomright', 'bottomleft'],
+    'right': ['topright', 'bottomright'],
+    'left': ['topleft', 'bottomleft']
+  };
+  
+  for (const key in adjacent) {
+    if (dir1 === key && adjacent[key].includes(dir2)) return true;
+    if (dir2 === key && adjacent[key].includes(dir1)) return true;
+  }
+  
+  return false;
+}
+
+// Get pixel offset for label direction
+function getOffsetForDirection(direction) {
+  const offsets = {
+    'top': [0, -15],
+    'bottom': [0, 15],
+    'left': [-15, 0],
+    'right': [15, 0],
+    'topleft': [-12, -12],
+    'topright': [12, -12],
+    'bottomleft': [-12, 12],
+    'bottomright': [12, 12]
+  };
+  return offsets[direction] || [0, -15];
+}
+
 function renderPopupHtml(center, distKm) {
   const dates = Array.isArray(center.date) ? center.date.join(", ") : (center.date || "");
   const address = center.address || (center.area ? (center.area + ", " + center.city) : "");
@@ -403,46 +576,34 @@ function renderPopupHtml(center, distKm) {
   return `<div><b>${escapeHtml(center.name)}</b><br><div style="font-size:13px">${escapeHtml(address)}</div><div style="font-size:12px;color:#333;margin-top:4px">Date(s): ${escapeHtml(dates)}</div>${distText}</div>`;
 }
 
-// Handle click on a center marker or list item
 function onCenterClick(center, markerInstance) {
-  // if user location not known, ask them to enable Live Track or click on map to set origin
   let originLatLng = null;
   if (userMarker) originLatLng = userMarker.getLatLng();
   if (!originLatLng) {
     alert("Please enable Live Track or click on the map to set your location as the origin for directions.");
-    // still open popup for selection
     if (markerInstance && markerInstance.openPopup) markerInstance.openPopup();
     return;
   }
 
-  // draw straight polyline route user -> center (remove old if present)
   drawRoute(originLatLng.lat, originLatLng.lng, center.lat, center.lng);
-
-  // open popup for the clicked marker
   if (markerInstance && markerInstance.openPopup) markerInstance.openPopup();
-
-  // update bottom panel to show selected center and navigation button to that center
   showPanel(center, center._distance_km, center.address || (center.area + ", " + center.city));
-
-  // update nearby list to mark this as selected (re-render with selected highlight)
   markSelectedInNearbyList(center);
 }
 
-// Draw and show polyline route (straight line) between origin and destination
 function drawRoute(origLat, origLng, destLat, destLng) {
-  // remove old route
   clearRoute();
+  routeLine = L.polyline([[origLat, origLng], [destLat, destLng]], { 
+    color: '#2d6cdf', 
+    weight: 4, 
+    opacity: 0.9 
+  }).addTo(map);
 
-  // create new polyline
-  routeLine = L.polyline([[origLat, origLng], [destLat, destLng]], { color: '#2d6cdf', weight: 4, opacity: 0.9 }).addTo(map);
-
-  // fit view so both are visible
   try {
     map.fitBounds(L.latLngBounds([[origLat, origLng], [destLat, destLng]]), { padding: [80,80] });
   } catch(e){}
 }
 
-// Clear route polyline
 function clearRoute() {
   if (routeLine) {
     try { map.removeLayer(routeLine); } catch(e){}
@@ -450,7 +611,6 @@ function clearRoute() {
   }
 }
 
-// Remove nearest highlight
 function clearNearest() {
   if (nearestMarker) {
     try { map.removeLayer(nearestMarker); } catch(e){}
@@ -458,13 +618,11 @@ function clearNearest() {
   }
 }
 
-// Show bottom panel content (nearest or selected)
 function showPanel(center, dist, addrText) {
   document.getElementById("cName").textContent = center.name;
   document.getElementById("cAddr").textContent = addrText || "";
   document.getElementById("cDist").textContent = "Distance: " + (dist ? dist.toFixed(2) : "0.00") + " km";
 
-  // Navigation button opens Google Maps directions from current user location (if known) or only destination
   let navBtn = document.getElementById("navBtn");
   if (userMarker) {
     const u = userMarker.getLatLng();
@@ -476,10 +634,9 @@ function showPanel(center, dist, addrText) {
   document.getElementById("panel").style.display = "block";
 }
 
-// Render nearby centers list (nearest first if present)
 function renderNearbyList(listCenters) {
   const container = document.getElementById('nearbyList');
-  container.innerHTML = ""; // clear
+  container.innerHTML = "";
 
   if (!listCenters || listCenters.length === 0) {
     container.innerHTML = "<div style='color:#666;margin-top:10px'>No nearby centers (within " + NEARBY_KM + " km).</div>";
@@ -489,20 +646,22 @@ function renderNearbyList(listCenters) {
   listCenters.forEach((c, idx) => {
     const item = document.createElement('div');
     item.className = 'nearby-item';
-    const left = document.createElement('div'); left.className = 'nearby-left';
-    const name = document.createElement('div'); name.className = 'nearby-name';
+    const left = document.createElement('div'); 
+    left.className = 'nearby-left';
+    const name = document.createElement('div'); 
+    name.className = 'nearby-name';
     name.textContent = (idx === 0 ? "🎯 " : "") + c.name;
-    const meta = document.createElement('div'); meta.className = 'nearby-meta';
+    const meta = document.createElement('div'); 
+    meta.className = 'nearby-meta';
     const dateText = Array.isArray(c.date) ? c.date.join(", ") : c.date;
     meta.innerHTML = `${c.address || (c.area + ', ' + c.city)}<br><small>${dateText} • ${c._distance_km.toFixed(2)} km</small>`;
-    left.appendChild(name); left.appendChild(meta);
+    left.appendChild(name); 
+    left.appendChild(meta);
 
     const right = document.createElement('div');
-    // Navigation button
     const nav = document.createElement('a');
     nav.className = 'nav-btn-small';
     nav.textContent = 'Navigate';
-    // link: if user known, include origin param, else only destination
     if (userMarker) {
       const u = userMarker.getLatLng();
       nav.href = `https://www.google.com/maps/dir/?api=1&origin=${u.lat},${u.lng}&destination=${c.lat},${c.lng}`;
@@ -510,9 +669,7 @@ function renderNearbyList(listCenters) {
       nav.href = `https://www.google.com/maps/dir/?api=1&destination=${c.lat},${c.lng}`;
     }
     nav.target = "_blank";
-    // clicking the name will draw the route as well
     nav.addEventListener('click', (ev) => {
-      // allow link to open; also draw route if user origin exists
       if (userMarker) {
         drawRoute(userMarker.getLatLng().lat, userMarker.getLatLng().lng, c.lat, c.lng);
         showPanel(c, c._distance_km, c.address || (c.area + ', ' + c.city));
@@ -522,14 +679,11 @@ function renderNearbyList(listCenters) {
     });
 
     right.appendChild(nav);
-
     item.appendChild(left);
     item.appendChild(right);
     container.appendChild(item);
 
-    // clicking anywhere on the left should also draw route and open popup
     item.querySelector('.nearby-left').addEventListener('click', () => {
-      // find marker for this center and simulate click
       const marker = centerMarkers.find(m => {
         const latlng = m.getLatLng ? m.getLatLng() : null;
         return latlng && Math.abs(latlng.lat - c.lat) < 1e-6 && Math.abs(latlng.lng - c.lng) < 1e-6;
@@ -539,12 +693,9 @@ function renderNearbyList(listCenters) {
   });
 }
 
-// Mark selected in nearby list visually (optional highlight)
 function markSelectedInNearbyList(selectedCenter) {
-  // simple approach: rebuild list with selected first
   const nearby = filteredCenters.filter(c => c._distance_km <= NEARBY_KM).sort((a,b)=>a._distance_km - b._distance_km);
   if (nearestMarker && nearby.length && nearby[0]) {
-    // ensure nearest is first
     const combined = [ ...new Set([selectedCenter, nearby[0], ...nearby.filter(x=>x!==nearby[0] && x!==selectedCenter)]) ];
     renderNearbyList(combined);
   } else {
@@ -552,15 +703,14 @@ function markSelectedInNearbyList(selectedCenter) {
   }
 }
 
-// Utility: hide/show tooltips (labels)
 function hideAllLabels() {
   centerMarkers.forEach(m => { try { m.closeTooltip(); } catch(e){} });
 }
+
 function showAllLabels() {
   centerMarkers.forEach(m => { try { m.openTooltip(); } catch(e){} });
 }
 
-// Utility: distance (Haversine)
 function haversine(lat1, lon1, lat2, lon2) {
   const R = 6371;
   const dLat = (lat2 - lat1) * Math.PI / 180;
@@ -569,10 +719,11 @@ function haversine(lat1, lon1, lat2, lon2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 }
 
-// Escape for HTML
-function escapeHtml(s){ if(!s && s!==0) return ''; return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function escapeHtml(s){ 
+  if(!s && s!==0) return ''; 
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); 
+}
 
-// Clear panel info
 function hidePanelInfo() {
   document.getElementById("cName").textContent = "Select a date and enable location";
   document.getElementById("cAddr").textContent = "";
@@ -581,7 +732,6 @@ function hidePanelInfo() {
   document.getElementById("navBtn").href = "#";
 }
 
-// create green icon
 function greenIcon() {
   return L.icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
