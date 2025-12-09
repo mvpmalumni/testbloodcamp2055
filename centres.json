@@ -100,26 +100,6 @@
     "location": "https://maps.app.goo.gl/sbPLvuuF3M9w3J9j8"
   },
   {
-    "name": "Beed",
-    "lat": 19.02829477085709,
-    "lng": 75.74300169762824,
-    "area": "Beed City",
-    "city": "Beed",
-    "date": ["14-Dec-25"],
-    "address": "Beed, Maharashtra 413522",
-    "location": "https://maps.app.goo.gl/KgB8gDSahC1k4rv38"
-  },
-  {
-    "name": "Ahilyanagar",
-    "lat": 19.09513601813925,
-    "lng": 74.74804718041068,
-    "area": "Ahilyanagar City",
-    "city": "Ahilyanagar",
-    "date": ["14-Dec-25"],
-    "address": "Ahilyanagar, Maharashtra 414003",
-    "location": "https://maps.app.goo.gl/3iJ8gS6B81ump5yj7"
-  },
-  {
     "name": "Greenvissage",
     "lat": 18.53694145469324,
     "lng": 73.85124700908749,
@@ -128,5 +108,75 @@
     "date": ["16-Dec-25"],
     "address": "106, Mayfair Tower I, Sphurti Society, Wakadewadi, Shivajinagar, Pune, Maharashtra 411005",
     "location": "https://maps.app.goo.gl/3Y54wQ3i9EiV5n4n6"
+  },
+  {
+    "name": "Precision Engineering Works Bhosari",
+    "lat": 18.62958054958372,
+    "lng": 73.83943669581356,
+    "area": "Bhosari",
+    "city": "Pune",
+    "date": ["14-Dec-25"],
+    "address": "S-134 MIDC, Bhosari, Pimpri-Chinchwad, Maharashtra 411026",
+    "location": "https://maps.app.goo.gl/EYekzkwuHo6wTLd38"
+  },
+  {
+    "name": "Geminus Tech Pvt. Ltd",
+    "lat": 18.56043819890514,
+    "lng": 73.81093676676,
+    "area": "Aundh",
+    "city": "Pune",
+    "date": ["12-Dec-25"],
+    "address": "Sanghvi Kesari Rd, Sindh Society, Ward No. 8, Sadhu Vasvani Nagar, Aundh, Pune, Maharashtra 411067",
+    "location": "https://maps.app.goo.gl/UhGQJpbfeJPEfTUF7"
+  },
+  {
+    "name": "GK Energy Limited",
+    "lat": 18.499765724567677,
+    "lng": 73.82084023792245,
+    "area": "Kothrud",
+    "city": "Pune",
+    "date": ["19-Dec-25"],
+    "address": "19th Floor, Tower A, Gokhale Business Bay, opp. City Pride, Paschimanagri, Kothrud, Pune, Maharashtra 411038",
+    "location": "https://maps.app.goo.gl/vvmhghtTKpms7UAY7"
+  },
+  {
+    "name": "Industrial Trading Company",
+    "lat": 18.625711078110886,
+    "lng": 73.83796587673248,
+    "area": "Bhosari",
+    "city": "Pune",
+    "date": ["15-Dec-25"],
+    "address": "PESH INDUSTRIAL PREMISES Plot no. 79/1/A, First Floor, Gala No. 45 & 46, 'S' Block M.I.D.C, Near Century, Telco Road, Bhosari, Pune, 411026",
+    "location": "https://maps.app.goo.gl/31mp4qEayqqfTHBeA"
+  },
+  {
+    "name": "Size Master Gauge & Tool",
+    "lat": 18.490283937564158,
+    "lng": 73.92105651452583,
+    "area": "Hadapsar",
+    "city": "Pune",
+    "date": [],
+    "address": "SIZE MASTERS GAUGES AND TOOLS, Ramtekdi Industrial Area, Hadapsar, Pune, Maharashtra 411013",
+    "location": "https://maps.app.goo.gl/A5aFpscgfmuzis6UA"
+  },
+  {
+    "name": "Maheshwari Bhavan, Akola",
+    "lat": 20.704745199224543,
+    "lng": 77.00025084962293,
+    "area": "Akola",
+    "city": "Akola",
+    "date": ["14-Dec-25"],
+    "address": "P232+R56, New Radhakisan Plots, Akola, Maharashtra 444001",
+    "location": "https://maps.app.goo.gl/mjZd6BFHi4sYLqXT9"
+  },
+  {
+    "name": "Aditya Dental College, Beed",
+    "lat": 18.994812090222865,
+    "lng": 75.77984343018701,
+    "area": "Sarda Estate",
+    "city": "Beed",
+    "date": ["13-Dec-25"],
+    "address": "XQVH+PWX, Vipra Nagar, Beed, Maharashtra 431122",
+    "location": "https://maps.app.goo.gl/PiwRphPsJBSHJjLj6"
   }
 ]
