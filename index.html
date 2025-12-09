@@ -37,19 +37,19 @@
     }
   }
 
-  /* Highlighted Select Date dropdown */
-  #dateSelect {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    font-size: 16px;
-    border-radius: 5px;
+/* UPDATED dropdown style */
+#dateSelect {
+  width:100%;
+  padding:10px;
+  margin:5px 0;
+  font-size:16px;
+  border-radius:5px;
+  background-color: #fff700 !important;  /* Bright yellow */
+  border: 2px solid #1565c0 !important; /* Blue border */
+  font-weight: bold !important;          /* Bold text */
+  color: #000 !important;                /* Black text */
+}
 
-    background-color: #fff700 !important;  /* bright yellow */
-    border: 2px solid #1565c0 !important; /* blue border */
-    font-weight: bold !important;          /* bold text */
-    color: #000 !important;                /* black text */
-  }
 
   #map { height:65vh; width:100%; }
 
@@ -175,7 +175,6 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
-// JS remains the same as your original
 let allCenters = [];
 let filteredCenters = [];
 let map, userMarker = null, nearestMarker = null;
@@ -185,7 +184,11 @@ let routeLine = null;
 const NEARBY_KM = 10;
 const MAX_ZOOM = 17;
 
-const LABEL_DIRECTIONS = ['top', 'bottom', 'right', 'left', 'topright', 'topleft', 'bottomright', 'bottomleft'];
+// Label position directions for collision avoidance
+const LABEL_DIRECTIONS = [
+  'top', 'bottom', 'right', 'left', 
+  'topright', 'topleft', 'bottomright', 'bottomleft'
+];
 
 fetch("centres.json")
   .then(r => {
@@ -233,7 +236,522 @@ function loadDates() {
   };
 }
 
-// All other JS functions remain exactly the same...
+function filterCenters() {
+  const selected = document.getElementById("dateSelect").value;
+  filteredCenters = allCenters.filter(c => {
+    if(Array.isArray(c.date)) return c.date.includes(selected);
+    return c.date === selected;
+  });
+  refreshMarkers();
+}
+
+function refreshMarkers() {
+  if (!map) return;
+
+  centerMarkers.forEach(m => map.removeLayer(m));
+  centerMarkers = [];
+  if (nearestMarker) { map.removeLayer(nearestMarker); nearestMarker = null; }
+  clearRoute();
+  renderNearbyList([]);
+
+  filteredCenters.forEach(c => {
+    const marker = L.marker([c.lat, c.lng]);
+    marker.bindPopup(renderPopupHtml(c, null));
+    marker.on('click', () => onCenterClick(c, marker));
+    marker.bindTooltip(c.name, { 
+      permanent: true, 
+      direction: 'top', 
+      className: 'center-label',
+      offset: [0, -10]
+    });
+    centerMarkers.push(marker);
+    marker.addTo(map);
+  });
+
+  if(filteredCenters.length === 0){
+    document.getElementById('cName').textContent = "No centers for selected date";
+  }
+}
+
+function initMap() {
+  map = L.map('map').setView([19.75, 75.71], 6);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "© OpenStreetMap"
+  }).addTo(map);
+
+  map.on("click", async e => {
+    const lat = e.latlng.lat, lng = e.latlng.lng;
+    setUserMarker(lat, lng);
+    computeAndShowNearby(lat, lng);
+  });
+
+  refreshMarkers();
+}
+
+async function reverseGeo(lat, lng){
+  try {
+    const r = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}`);
+    if(!r.ok) return "";
+    const j = await r.json();
+    return j.display_name || "";
+  } catch(e) {
+    return "";
+  }
+}
+
+document.getElementById("locBtn").onclick = function () {
+  if (watchID) {
+    navigator.geolocation.clearWatch(watchID);
+    watchID = null;
+    this.textContent = "Live Track";
+    alert("Live tracking stopped");
+    showAllLabels();
+    return;
+  }
+
+  this.textContent = "Stop Track";
+  hideAllLabels();
+
+  if (!navigator.geolocation) {
+    alert("Geolocation not supported");
+    return;
+  }
+
+  watchID = navigator.geolocation.watchPosition(async pos => {
+    const lat = pos.coords.latitude, lng = pos.coords.longitude;
+    setUserMarker(lat, lng);
+    computeAndShowNearby(lat, lng);
+  }, err => {
+    alert("GPS Error: " + (err.message || err.code));
+  }, { enableHighAccuracy: true, maximumAge: 0, timeout: 5000 });
+};
+
+function setUserMarker(lat, lng) {
+  if (!map) return;
+  if (!userMarker) {
+    userMarker = L.marker([lat, lng], {
+      icon: L.icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      })
+    }).addTo(map);
+    
+    userMarker.bindTooltip("📍 You are here", {
+      permanent: true,
+      direction: 'top',
+      className: 'user-label',
+      offset: [0, -15]
+    }).openTooltip();
+  } else {
+    userMarker.setLatLng([lat, lng]);
+  }
+}
+
+// SMART ZOOM & COLLISION DETECTION
+function computeAndShowNearby(userLat, userLng) {
+  if (!filteredCenters || filteredCenters.length === 0) return;
+
+  filteredCenters.forEach(c => {
+    c._distance_km = haversine(userLat, userLng, c.lat, c.lng);
+  });
+
+  let nearest = filteredCenters[0];
+  filteredCenters.forEach(c => { 
+    if (c._distance_km < nearest._distance_km) nearest = c; 
+  });
+
+  const nearby = filteredCenters.filter(c => c._distance_km <= NEARBY_KM)
+    .sort((a,b) => a._distance_km - b._distance_km);
+
+  centerMarkers.forEach(m => { try{ map.removeLayer(m); }catch{} });
+  centerMarkers = [];
+
+  // Calculate spread for smart zoom
+  const allMarkers = [{ lat: userLat, lng: userLng }, ...nearby];
+  const spread = calculateSpread(allMarkers);
+  
+  // Determine label positions to avoid overlap
+  const labelPositions = [];
+  
+  filteredCenters.forEach((c, idx) => {
+    let marker;
+    let labelClass = 'center-label';
+    let labelDirection = 'top';
+    
+    if (c === nearest) {
+      marker = L.circleMarker([c.lat, c.lng], {
+        radius: 12,
+        color: "red",
+        weight: 3,
+        fillColor: "red",
+        fillOpacity: 0.9
+      });
+      labelClass = 'nearest-label';
+      labelDirection = findBestLabelPosition(c, labelPositions, 1); // Priority 1
+    } else if (c._distance_km <= NEARBY_KM) {
+      marker = L.marker([c.lat, c.lng], { icon: greenIcon() });
+      labelClass = 'nearby-label';
+      labelDirection = findBestLabelPosition(c, labelPositions, 2); // Priority 2
+    } else {
+      marker = L.marker([c.lat, c.lng]);
+      labelDirection = findBestLabelPosition(c, labelPositions, 3); // Priority 3
+    }
+
+    labelPositions.push({ lat: c.lat, lng: c.lng, direction: labelDirection });
+
+    marker.bindPopup(renderPopupHtml(c, c._distance_km));
+    marker.bindTooltip(c.name, { 
+      permanent: true, 
+      direction: labelDirection, 
+      className: labelClass,
+      offset: getOffsetForDirection(labelDirection)
+    });
+
+    marker.on('click', () => onCenterClick(c, marker));
+    marker.addTo(map);
+    centerMarkers.push(marker);
+
+    if (marker instanceof L.CircleMarker) {
+      marker.on("mouseover", function(){ this.openPopup(); });
+      marker.on("mouseout", function(){ this.closePopup(); });
+    }
+  });
+
+  if (nearestMarker) { try{ map.removeLayer(nearestMarker); }catch{} }
+  nearestMarker = centerMarkers.find(m => 
+    m.getLatLng && m.getLatLng().lat === nearest.lat && m.getLatLng().lng === nearest.lng
+  ) || null;
+
+  // SMART ZOOM IMPLEMENTATION
+  applySmartZoom(userLat, userLng, nearby, spread);
+
+  showPanel(nearest, nearest._distance_km, nearest.address || (nearest.area + ", " + nearest.city));
+  renderNearbyList([nearest, ...nearby.filter(x => x !== nearest)]);
+}
+
+// Calculate spread of markers (max distance between any two)
+function calculateSpread(markers) {
+  if (markers.length < 2) return 0;
+  
+  let maxDist = 0;
+  for (let i = 0; i < markers.length; i++) {
+    for (let j = i + 1; j < markers.length; j++) {
+      const dist = haversine(markers[i].lat, markers[i].lng, markers[j].lat, markers[j].lng);
+      if (dist > maxDist) maxDist = dist;
+    }
+  }
+  return maxDist;
+}
+
+// Smart zoom based on spread and number of markers
+function applySmartZoom(userLat, userLng, nearby, spread) {
+  const boundsArr = [[userLat, userLng]];
+  nearby.forEach(c => boundsArr.push([c.lat, c.lng]));
+  
+  // Determine zoom level based on spread
+  let targetZoom;
+  if (spread < 1) {
+    targetZoom = 16; // Very tight cluster
+  } else if (spread < 3) {
+    targetZoom = 14; // Tight cluster
+  } else if (spread < 7) {
+    targetZoom = 13; // Medium spread
+  } else if (spread < 15) {
+    targetZoom = 12; // Wide spread
+  } else if (spread < 30) {
+    targetZoom = 11; // Very wide
+  } else {
+    targetZoom = 10; // Extremely wide
+  }
+  
+  // Cap at MAX_ZOOM
+  targetZoom = Math.min(targetZoom, MAX_ZOOM);
+  
+  // Dynamic padding based on number of markers
+  const numMarkers = nearby.length + 1; // +1 for user
+  let padding = [50, 50];
+  
+  if (numMarkers > 5) {
+    padding = [100, 100];
+  } else if (numMarkers > 3) {
+    padding = [80, 80];
+  }
+  
+  // Mobile adjustment
+  if (window.innerWidth < 600) {
+    padding = padding.map(p => p * 1.3);
+  }
+  
+  try {
+    map.fitBounds(boundsArr, { 
+      padding: padding,
+      maxZoom: targetZoom
+    });
+  } catch(e) {
+    console.error('Fit bounds error:', e);
+  }
+}
+
+// Find best label position to avoid overlap
+function findBestLabelPosition(center, existingPositions, priority) {
+  const COLLISION_THRESHOLD = 0.002; // ~200 meters in degrees
+  
+  // Priority 0 (user) always gets top
+  // Priority 1 (nearest) tries top, then others
+  // Priority 2+ (nearby/others) tries all directions
+  
+  let directionsToTry = [...LABEL_DIRECTIONS];
+  if (priority === 1) {
+    directionsToTry = ['top', 'bottom', 'topright', 'topleft', 'right', 'left', 'bottomright', 'bottomleft'];
+  }
+  
+  for (const dir of directionsToTry) {
+    let hasCollision = false;
+    
+    for (const existing of existingPositions) {
+      const latDiff = Math.abs(center.lat - existing.lat);
+      const lngDiff = Math.abs(center.lng - existing.lng);
+      
+      // Check if positions are too close
+      if (latDiff < COLLISION_THRESHOLD && lngDiff < COLLISION_THRESHOLD) {
+        // Same position, check if directions would overlap
+        if (directionsOverlap(dir, existing.direction)) {
+          hasCollision = true;
+          break;
+        }
+      }
+    }
+    
+    if (!hasCollision) {
+      return dir;
+    }
+  }
+  
+  // Fallback if all positions have collision
+  return directionsToTry[0];
+}
+
+// Check if two label directions would visually overlap
+function directionsOverlap(dir1, dir2) {
+  const opposites = {
+    'top': 'bottom',
+    'bottom': 'top',
+    'left': 'right',
+    'right': 'left'
+  };
+  
+  if (dir1 === dir2) return true;
+  if (opposites[dir1] === dir2) return false;
+  
+  // Adjacent directions might overlap
+  const adjacent = {
+    'top': ['topright', 'topleft'],
+    'bottom': ['bottomright', 'bottomleft'],
+    'right': ['topright', 'bottomright'],
+    'left': ['topleft', 'bottomleft']
+  };
+  
+  for (const key in adjacent) {
+    if (dir1 === key && adjacent[key].includes(dir2)) return true;
+    if (dir2 === key && adjacent[key].includes(dir1)) return true;
+  }
+  
+  return false;
+}
+
+// Get pixel offset for label direction
+function getOffsetForDirection(direction) {
+  const offsets = {
+    'top': [0, -15],
+    'bottom': [0, 15],
+    'left': [-15, 0],
+    'right': [15, 0],
+    'topleft': [-12, -12],
+    'topright': [12, -12],
+    'bottomleft': [-12, 12],
+    'bottomright': [12, 12]
+  };
+  return offsets[direction] || [0, -15];
+}
+
+function renderPopupHtml(center, distKm) {
+  const dates = Array.isArray(center.date) ? center.date.join(", ") : (center.date || "");
+  const address = center.address || (center.area ? (center.area + ", " + center.city) : "");
+  const distText = (typeof distKm === "number") ? (`<div style="margin-top:6px;font-weight:600">Distance: ${distKm.toFixed(2)} km</div>`) : "";
+  return `<div><b>${escapeHtml(center.name)}</b><br><div style="font-size:13px">${escapeHtml(address)}</div><div style="font-size:12px;color:#333;margin-top:4px">Date(s): ${escapeHtml(dates)}</div>${distText}</div>`;
+}
+
+function onCenterClick(center, markerInstance) {
+  let originLatLng = null;
+  if (userMarker) originLatLng = userMarker.getLatLng();
+  if (!originLatLng) {
+    alert("Please enable Live Track or click on the map to set your location as the origin for directions.");
+    if (markerInstance && markerInstance.openPopup) markerInstance.openPopup();
+    return;
+  }
+
+  drawRoute(originLatLng.lat, originLatLng.lng, center.lat, center.lng);
+  if (markerInstance && markerInstance.openPopup) markerInstance.openPopup();
+  showPanel(center, center._distance_km, center.address || (center.area + ", " + center.city));
+  markSelectedInNearbyList(center);
+}
+
+function drawRoute(origLat, origLng, destLat, destLng) {
+  clearRoute();
+  routeLine = L.polyline([[origLat, origLng], [destLat, destLng]], { 
+    color: '#2d6cdf', 
+    weight: 4, 
+    opacity: 0.9 
+  }).addTo(map);
+
+  try {
+    map.fitBounds(L.latLngBounds([[origLat, origLng], [destLat, destLng]]), { padding: [80,80] });
+  } catch(e){}
+}
+
+function clearRoute() {
+  if (routeLine) {
+    try { map.removeLayer(routeLine); } catch(e){}
+    routeLine = null;
+  }
+}
+
+function clearNearest() {
+  if (nearestMarker) {
+    try { map.removeLayer(nearestMarker); } catch(e){}
+    nearestMarker = null;
+  }
+}
+
+function showPanel(center, dist, addrText) {
+  document.getElementById("cName").textContent = center.name;
+  document.getElementById("cAddr").textContent = addrText || "";
+  document.getElementById("cDist").textContent = "Distance: " + (dist ? dist.toFixed(2) : "0.00") + " km";
+
+  let navBtn = document.getElementById("navBtn");
+  if (userMarker) {
+    const u = userMarker.getLatLng();
+    navBtn.href = `https://www.google.com/maps/dir/?api=1&origin=${u.lat},${u.lng}&destination=${center.lat},${center.lng}`;
+  } else {
+    navBtn.href = `https://www.google.com/maps/dir/?api=1&destination=${center.lat},${center.lng}`;
+  }
+
+  document.getElementById("panel").style.display = "block";
+}
+
+function renderNearbyList(listCenters) {
+  const container = document.getElementById('nearbyList');
+  container.innerHTML = "";
+
+  if (!listCenters || listCenters.length === 0) {
+    container.innerHTML = "<div style='color:#666;margin-top:10px'>No nearby centers (within " + NEARBY_KM + " km).</div>";
+    return;
+  }
+
+  listCenters.forEach((c, idx) => {
+    const item = document.createElement('div');
+    item.className = 'nearby-item';
+    const left = document.createElement('div'); 
+    left.className = 'nearby-left';
+    const name = document.createElement('div'); 
+    name.className = 'nearby-name';
+    name.textContent = (idx === 0 ? "🎯 " : "") + c.name;
+    const meta = document.createElement('div'); 
+    meta.className = 'nearby-meta';
+    const dateText = Array.isArray(c.date) ? c.date.join(", ") : c.date;
+    meta.innerHTML = `${c.address || (c.area + ', ' + c.city)}<br><small>${dateText} • ${c._distance_km.toFixed(2)} km</small>`;
+    left.appendChild(name); 
+    left.appendChild(meta);
+
+    const right = document.createElement('div');
+    const nav = document.createElement('a');
+    nav.className = 'nav-btn-small';
+    nav.textContent = 'Navigate';
+    if (userMarker) {
+      const u = userMarker.getLatLng();
+      nav.href = `https://www.google.com/maps/dir/?api=1&origin=${u.lat},${u.lng}&destination=${c.lat},${c.lng}`;
+    } else {
+      nav.href = `https://www.google.com/maps/dir/?api=1&destination=${c.lat},${c.lng}`;
+    }
+    nav.target = "_blank";
+    nav.addEventListener('click', (ev) => {
+      if (userMarker) {
+        drawRoute(userMarker.getLatLng().lat, userMarker.getLatLng().lng, c.lat, c.lng);
+        showPanel(c, c._distance_km, c.address || (c.area + ', ' + c.city));
+      } else {
+        alert('Enable Live Track or click on map to set your origin for route preview.');
+      }
+    });
+
+    right.appendChild(nav);
+    item.appendChild(left);
+    item.appendChild(right);
+    container.appendChild(item);
+
+    item.querySelector('.nearby-left').addEventListener('click', () => {
+      const marker = centerMarkers.find(m => {
+        const latlng = m.getLatLng ? m.getLatLng() : null;
+        return latlng && Math.abs(latlng.lat - c.lat) < 1e-6 && Math.abs(latlng.lng - c.lng) < 1e-6;
+      });
+      if (marker && marker.fire) marker.fire('click');
+    });
+  });
+}
+
+function markSelectedInNearbyList(selectedCenter) {
+  const nearby = filteredCenters.filter(c => c._distance_km <= NEARBY_KM).sort((a,b)=>a._distance_km - b._distance_km);
+  if (nearestMarker && nearby.length && nearby[0]) {
+    const combined = [ ...new Set([selectedCenter, nearby[0], ...nearby.filter(x=>x!==nearby[0] && x!==selectedCenter)]) ];
+    renderNearbyList(combined);
+  } else {
+    renderNearbyList([selectedCenter, ...nearby.filter(x=>x !== selectedCenter)]);
+  }
+}
+
+function hideAllLabels() {
+  centerMarkers.forEach(m => { try { m.closeTooltip(); } catch(e){} });
+}
+
+function showAllLabels() {
+  centerMarkers.forEach(m => { try { m.openTooltip(); } catch(e){} });
+}
+
+function haversine(lat1, lon1, lat2, lon2) {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180) * Math.cos(lat2*Math.PI/180) * Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+function escapeHtml(s){ 
+  if(!s && s!==0) return ''; 
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); 
+}
+
+function hidePanelInfo() {
+  document.getElementById("cName").textContent = "Select a date and enable location";
+  document.getElementById("cAddr").textContent = "";
+  document.getElementById("cDist").textContent = "";
+  document.getElementById("nearbyList").innerHTML = "";
+  document.getElementById("navBtn").href = "#";
+}
+
+function greenIcon() {
+  return L.icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+  });
+}
+
 </script>
 
 </body>
