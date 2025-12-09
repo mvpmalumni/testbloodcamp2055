@@ -61,8 +61,8 @@
   },
   {
     "name": "Prestige Point CA, CS, CMA",
-    "lat": 18.5085812128712,
-    "lng": 73.85491200963588,
+    "lat": 18.50801, 
+    "lng": 73.855093,
     "area": "Sadashiv Peth",
     "city": "Pune",
     "date": ["13-Dec-25"],
@@ -71,8 +71,8 @@
   },
   {
     "name": "Rathi Rathi and Co",
-    "lat": 18.498030163129254,
-    "lng": 73.8350446883134,
+    "lat": 18.49350,
+    "lng": 73.83506,
     "area": "Erandwane",
     "city": "Pune",
     "date": ["13-Dec-25"],
@@ -101,8 +101,8 @@
   },
   {
     "name": "Greenvissage",
-    "lat": 18.53694145469324,
-    "lng": 73.85124700908749,
+    "lat": 18.53681, 
+    "lng": 73.85129,
     "area": "Deccan",
     "city": "Pune",
     "date": ["16-Dec-25"],
@@ -111,8 +111,8 @@
   },
   {
     "name": "Precision Engineering Works Bhosari",
-    "lat": 18.62958054958372,
-    "lng": 73.83943669581356,
+    "lat": 18.62941, 
+    "lng": 73.83943,
     "area": "Bhosari",
     "city": "Pune",
     "date": ["14-Dec-25"],
