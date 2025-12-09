@@ -37,14 +37,18 @@
     }
   }
 
-  /* Highlight the date select dropdown */
+  /* Highlighted Select Date dropdown */
   #dateSelect {
-    width:100%; padding:10px; margin:5px 0;
-    font-size:16px; border-radius:5px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border-radius: 5px;
 
-    /* Highlight styles */
-    background-color: #fff3b0;  /* light yellow */
-    border: 2px solid #f57c00;  /* orange border */
+    background-color: #fff700 !important;  /* bright yellow */
+    border: 2px solid #1565c0 !important; /* blue border */
+    font-weight: bold !important;          /* bold text */
+    color: #000 !important;                /* black text */
   }
 
   #map { height:65vh; width:100%; }
@@ -171,7 +175,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
-// Entire original JS remains unchanged
+// JS remains the same as your original
 let allCenters = [];
 let filteredCenters = [];
 let map, userMarker = null, nearestMarker = null;
@@ -181,11 +185,7 @@ let routeLine = null;
 const NEARBY_KM = 10;
 const MAX_ZOOM = 17;
 
-// Label position directions for collision avoidance
-const LABEL_DIRECTIONS = [
-  'top', 'bottom', 'right', 'left', 
-  'topright', 'topleft', 'bottomright', 'bottomleft'
-];
+const LABEL_DIRECTIONS = ['top', 'bottom', 'right', 'left', 'topright', 'topleft', 'bottomright', 'bottomleft'];
 
 fetch("centres.json")
   .then(r => {
@@ -233,7 +233,7 @@ function loadDates() {
   };
 }
 
-// All other JS functions remain exactly as in your original code...
+// All other JS functions remain exactly the same...
 </script>
 
 </body>
